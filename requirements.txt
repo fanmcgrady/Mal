@@ -1,0 +1,7 @@
+chainer
+chainerrl
+gym
+numpy
+visdom
+lief
+joblib
