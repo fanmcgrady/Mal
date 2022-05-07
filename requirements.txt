@@ -1,7 +1,5 @@
-chainer
-chainerrl
 gym
 numpy
-visdom
 lief
-joblib
+torch
+matplotlib
