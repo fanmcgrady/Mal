@@ -1,4 +1,4 @@
-gym
+gym[classic_control]
 numpy
 lief
 torch
