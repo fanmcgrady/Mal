@@ -3,3 +3,4 @@ numpy
 lief
 torch
 matplotlib
+torchvision
