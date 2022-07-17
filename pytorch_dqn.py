@@ -15,7 +15,7 @@ MEMORY_CAPACITY = 2000
 Q_NETWORK_ITERATION = 100
 
 env = gym.make("CartPole-v0")
-env = env.unwrapped
+# env = env.unwrapped
 NUM_ACTIONS = env.action_space.n
 NUM_STATES = env.observation_space.shape[0]
 ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample.shape
@@ -131,18 +131,18 @@ def main():
         while True:
             env.render()
             action = dqn.choose_action(state)
-            next_state, _, done, info = env.step(action)
-            x, x_dot, theta, theta_dot = next_state
-            reward = reward_func(env, x, x_dot, theta, theta_dot)
+            next_state, reward, done, info = env.step(action)
+            # x, x_dot, theta, theta_dot = next_state
+            # reward = reward_func(env, x, x_dot, theta, theta_dot)
 
             dqn.store_transition(state, action, reward, next_state)
             ep_reward += reward
 
             if dqn.memory_counter >= MEMORY_CAPACITY:
                 dqn.learn()
-                if done:
-                    print("episode: {} , the episode reward is {}".format(i, round(ep_reward, 3)))
+
             if done:
+                print("episode: {} , the episode reward is {}".format(i, round(ep_reward, 3)))
                 break
             state = next_state
         r = copy.copy(reward)
