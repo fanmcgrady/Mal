@@ -15,7 +15,7 @@ MEMORY_CAPACITY = 2000
 Q_NETWORK_ITERATION = 100
 
 env = gym.make("CartPole-v0")
-env = env.unwrapped
+# env = env.unwrapped
 NUM_ACTIONS = env.action_space.n
 NUM_STATES = env.observation_space.shape[0]
 ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample.shape
@@ -132,6 +132,7 @@ def test_agent(dqn, test_episodes):
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
+    print("Using {}".format(device))
     dqn = DQN(device)
     episodes = 220
     print("Collecting Experience....")

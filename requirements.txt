@@ -1,9 +1,7 @@
-gym==0.21.0
+gym
 numpy
 lief
-#torch
-#torchvision
-torch==1.8.2+cu102
-torchvision==0.9.2+cu102
+torch
+torchvision
 matplotlib
 chainerrl
