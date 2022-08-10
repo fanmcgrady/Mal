@@ -5,14 +5,7 @@ import linecache
 import os
 import sys
 
-import chainer
-import chainer.functions as F
-import chainer.links as L
-import chainerrl
-import gym
-import numpy as np
-from chainer import optimizers
-from chainerrl import experiments, explorers, replay_buffer, misc
+
 
 from gym_malware import sha256_holdout
 from gym_malware.envs.controls import action as manipulate
