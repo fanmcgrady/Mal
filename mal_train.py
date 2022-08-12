@@ -2,11 +2,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-import gym
 import matplotlib.pyplot as plt
-import copy
-
+from gym_malware.envs.malware_env import MalwareEnv
+import gym_malware.envs.utils.interface as interface
 # hyper-parameters
+
 BATCH_SIZE = 128
 LR = 0.01
 GAMMA = 0.90
@@ -14,8 +14,7 @@ EPISILO = 0.9
 MEMORY_CAPACITY = 2000
 Q_NETWORK_ITERATION = 100
 
-env = gym.make("CartPole-v0")
-# env = env.unwrapped
+env = MalwareEnv(sha256list=interface.get_samples())
 NUM_ACTIONS = env.action_space.n
 NUM_STATES = env.observation_space.shape[0]
 ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample.shape
@@ -63,7 +62,6 @@ class DQN():
         if not is_eval and np.random.randn() > EPISILO:
             action = np.random.randint(0, NUM_ACTIONS)
             action = action if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
-
         return action
 
     def store_transition(self, state, action, reward, next_state):
@@ -73,8 +71,6 @@ class DQN():
         self.memory_counter += 1
 
     def learn(self):
-
-        # update the parameters(directly from eval_net)
         if self.learn_step_counter % Q_NETWORK_ITERATION == 0:
             self.target_net.load_state_dict(self.eval_net.state_dict())
         self.learn_step_counter += 1
@@ -132,18 +128,17 @@ def test_agent(dqn, test_episodes):
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print("Using {}".format(device))
     dqn = DQN(device)
     episodes = 220
     print("Collecting Experience....")
     reward_list = []
     for i in range(episodes):
-        state = env.reset()
+        state = env._reset()
         ep_reward = 0
         while True:
-            env.render()
+            # env.render()
             action = dqn.choose_action(state)
-            next_state, _, done, info = env.step(action)
+            next_state, _, done, info = env._step(action)
             x, x_dot, theta, theta_dot = next_state
             reward = reward_func(env, x, x_dot, theta, theta_dot)
 

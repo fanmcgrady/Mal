@@ -4,7 +4,6 @@ import torch.nn.functional as F
 import numpy as np
 import gym
 import matplotlib.pyplot as plt
-import copy
 
 # hyper-parameters
 BATCH_SIZE = 128
@@ -19,7 +18,6 @@ env = gym.make("CartPole-v0")
 NUM_ACTIONS = env.action_space.n
 NUM_STATES = env.observation_space.shape[0]
 ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample.shape
-
 
 class Net(nn.Module):
     """docstring for Net"""
@@ -53,21 +51,18 @@ class DQN():
         self.learn_step_counter = 0
         self.memory_counter = 0
         self.memory = np.zeros((MEMORY_CAPACITY, NUM_STATES * 2 + 2))
-        # why the NUM_STATE*2 +2
-        # When we store the memory, we put the state, action, reward and next_state in the memory
-        # here reward and action is a number, state is a ndarray
         self.optimizer = torch.optim.Adam(self.eval_net.parameters(), lr=LR)
         self.loss_func = nn.MSELoss()
 
-    def choose_action(self, state):
+    def choose_action(self, state, is_eval=False):
         state = torch.unsqueeze(torch.FloatTensor(state).to(self.device), 0)  # get a 1D array
-        if np.random.randn() <= EPISILO:  # greedy policy
-            action_value = self.eval_net.forward(state)
-            action = torch.max(action_value, 1)[1].cpu().data.numpy()
-            action = action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
-        else:  # random policy
+        action_value = self.eval_net.forward(state)
+        action = torch.max(action_value, 1)[1].cpu().data.numpy()
+        action = action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
+        if not is_eval and np.random.randn() > EPISILO:
             action = np.random.randint(0, NUM_ACTIONS)
             action = action if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
+
         return action
 
     def store_transition(self, state, action, reward, next_state):
@@ -116,42 +111,57 @@ def reward_func(env, x, x_dot, theta, theta_dot):
     reward = r1 + r2
     return reward
 
+def test_agent(dqn, test_episodes):
+    test_reward_list=[]
+    for i in range(test_episodes):
+        state = env.reset()
+        ep_reward = 0
+        while True:
+            env.render()
+            action = dqn.choose_action(state, is_eval=True)
+            next_state, _, done, info = env.step(action)
+            ep_reward += 1
+            if done:
+                break
+            state = next_state
+        print("test_episode: {} , the episode reward is {}".format(i, round(ep_reward, 3)))
+        test_reward_list.append(ep_reward)
+    plt.plot(range(test_episodes), test_reward_list)
+    plt.show()
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
+    print("Using {}".format(device))
     dqn = DQN(device)
-    episodes = 300
+    episodes = 220
     print("Collecting Experience....")
     reward_list = []
-    plt.ion()
-    fig, ax = plt.subplots()
     for i in range(episodes):
         state = env.reset()
         ep_reward = 0
         while True:
             env.render()
             action = dqn.choose_action(state)
-            next_state, reward, done, info = env.step(action)
-            # x, x_dot, theta, theta_dot = next_state
-            # reward = reward_func(env, x, x_dot, theta, theta_dot)
+            next_state, _, done, info = env.step(action)
+            x, x_dot, theta, theta_dot = next_state
+            reward = reward_func(env, x, x_dot, theta, theta_dot)
 
             dqn.store_transition(state, action, reward, next_state)
-            ep_reward += reward
+            ep_reward += 1
 
             if dqn.memory_counter >= MEMORY_CAPACITY:
                 dqn.learn()
-
+                if done:
+                    print("episode: {} , the episode reward is {}".format(i, round(ep_reward, 3)))
             if done:
-                print("episode: {} , the episode reward is {}".format(i, round(ep_reward, 3)))
                 break
             state = next_state
-        r = copy.copy(reward)
+        r = ep_reward
         reward_list.append(r)
-        ax.set_xlim(0, 300)
-        # ax.cla()
-        ax.plot(reward_list, 'g-', label='total_loss')
-        plt.pause(0.001)
-
+    plt.plot(range(episodes), reward_list)
+    plt.show()
+    plt.close()
+    test_agent(dqn, 30)
 
 if __name__ == '__main__':
     main()
