@@ -1,7 +1,7 @@
 gym==0.21.0
 numpy
 lief
-torch
-torchvision
+# pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+# torch
+# torchvision
 matplotlib
-chainerrl

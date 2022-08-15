@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from gym_malware.envs.malware_env import MalwareEnv
 import gym_malware.envs.utils.interface as interface
+
 # hyper-parameters
 
 BATCH_SIZE = 128
@@ -18,6 +19,7 @@ env = MalwareEnv(sha256list=interface.get_samples())
 NUM_ACTIONS = env.action_space.n
 NUM_STATES = env.observation_space.shape[0]
 ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample.shape
+
 
 class Net(nn.Module):
     """docstring for Net"""
@@ -43,9 +45,9 @@ class Net(nn.Module):
 class DQN():
     """docstring for DQN"""
 
-    def __init__(self,device):
+    def __init__(self, device):
         super(DQN, self).__init__()
-        self.device=device
+        self.device = device
         self.eval_net, self.target_net = Net().to(device), Net().to(device)
 
         self.learn_step_counter = 0
@@ -108,8 +110,9 @@ def reward_func(env, x, x_dot, theta, theta_dot):
     reward = r1 + r2
     return reward
 
+
 def test_agent(dqn, test_episodes):
-    test_reward_list=[]
+    test_reward_list = []
     for i in range(test_episodes):
         state = env.reset()
         ep_reward = 0
@@ -125,6 +128,7 @@ def test_agent(dqn, test_episodes):
         test_reward_list.append(ep_reward)
     plt.plot(range(test_episodes), test_reward_list)
     plt.show()
+
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -158,6 +162,7 @@ def main():
     plt.show()
     plt.close()
     test_agent(dqn, 30)
+
 
 if __name__ == '__main__':
     main()
