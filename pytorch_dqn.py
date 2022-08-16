@@ -1,3 +1,4 @@
+import math
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -9,7 +10,9 @@ import matplotlib.pyplot as plt
 BATCH_SIZE = 128
 LR = 0.01
 GAMMA = 0.90
-EPISILO = 0.9
+EPS_START = 0.9
+EPS_END = 0.05
+EPS_DECAY = 200
 MEMORY_CAPACITY = 2000
 Q_NETWORK_ITERATION = 100
 
@@ -55,11 +58,12 @@ class DQN():
         self.loss_func = nn.MSELoss()
 
     def choose_action(self, state, is_eval=False):
+        epsilon = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * self.learn_step_counter / EPS_DECAY)
         state = torch.unsqueeze(torch.FloatTensor(state).to(self.device), 0)  # get a 1D array
         action_value = self.eval_net.forward(state)
         action = torch.max(action_value, 1)[1].cpu().data.numpy()
         action = action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
-        if not is_eval and np.random.randn() > EPISILO:
+        if not is_eval and np.random.randn() < epsilon:
             action = np.random.randint(0, NUM_ACTIONS)
             action = action if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
 
