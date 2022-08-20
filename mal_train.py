@@ -111,12 +111,12 @@ class DQN():
 def test_agent(dqn, test_episodes):
     test_reward_list = []
     for i in range(test_episodes):
-        state = env.reset()
+        state = env._reset()
         ep_reward = 0
         while True:
             env.render()
             action = dqn.choose_action(state, is_eval=True)
-            next_state, _, done, info = env.step(action)
+            next_state, _, done, info = env._step(action)
             ep_reward += 1
             if done:
                 break
