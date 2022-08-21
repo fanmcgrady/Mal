@@ -1,0 +1,62 @@
+D:\code\Mal\0.7603102353725074.exe is mal
+D:\code\Mal\0.2644256196721587.exe is mal
+ episode 1 select training sample: DoS.Win32.PortTerminator
+D:\code\Mal\0.17256038777788618.exe is mal
+D:\code\Mal\0.3867420551452482.exe is mal
+D:\code\Mal\0.6124910881550522.exe is mal
+D:\code\Mal\0.4678853270470622.exe is mal
+D:\code\Mal\0.9278915707620682.exe is mal
+D:\code\Mal\0.00916968081920111.exe is mal
+D:\code\Mal\0.3342620855976799.exe is mal
+D:\code\Mal\0.94010148092862.exe is mal
+D:\code\Mal\0.11678923607206759.exe is mal
+D:\code\Mal\0.26208342094028636.exe is mal
+D:\code\Mal\0.5872988287558205.exe is mal
+ episode 2 select training sample: DoS.Win32.Delf.b
+D:\code\Mal\0.8839968650557045.exe is mal
+D:\code\Mal\0.10373703998921402.exe is mal
+D:\code\Mal\0.393670418457189.exe is mal
+D:\code\Mal\0.19596256462315387.exe is mal
+D:\code\Mal\0.43920524209755885.exe is mal
+D:\code\Mal\0.18135820093706612.exe is mal
+D:\code\Mal\0.07023024352926821.exe is mal
+D:\code\Mal\0.6399628923351406.exe is mal
+D:\code\Mal\0.98414108357159.exe is mal
+D:\code\Mal\0.6864087917752724.exe is mal
+ episode 1 select training sample: DoS.Win32.Adonai.01
+D:\code\Mal\0.7578380313556171.exe is mal
+D:\code\Mal\0.20436881198356704.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.5640650435096242.exe is mal
+ episode 2 select training sample: DoS.Win32.GhostDog
+D:\code\Mal\0.04102879776526225.exe is mal
+D:\code\Mal\0.5349810680659275.exe is mal
+D:\code\Mal\0.7603550426886454.exe is mal
+D:\code\Mal\0.2274161594009121.exe is mal
+D:\code\Mal\0.9649520703624797.exe is mal
+D:\code\Mal\0.9847869252812839.exe is mal
+D:\code\Mal\0.9722661114863933.exe is mal
+D:\code\Mal\0.6040135479853604.exe is mal
+D:\code\Mal\0.9591775407436494.exe is mal
+D:\code\Mal\0.13692949937305543.exe is mal
+D:\code\Mal\0.9057002898648905.exe is mal
+ episode 3 select training sample: DoS.Win32.Nemesy
+D:\code\Mal\0.886066950598544.exe is mal
+D:\code\Mal\0.5565238293488722.exe is mal
+D:\code\Mal\0.6196512073182158.exe is mal
+D:\code\Mal\0.24409398498833668.exe is mal
+D:\code\Mal\0.8615675176508611.exe is mal
+D:\code\Mal\0.7741569260503561.exe is mal
+D:\code\Mal\0.7338045408023983.exe is mal
+D:\code\Mal\0.27699027364077944.exe is mal
+D:\code\Mal\0.4111111241689517.exe is mal
+D:\code\Mal\0.6764937534472346.exe is mal
+D:\code\Mal\0.39326986643540973.exe is mal
+ episode 4 select training sample: DoS.Win32.Lanxue.200
+D:\code\Mal\0.3601441482559199.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.35262183872302044.exe is mal
+ episode 5 select training sample: DoS.Win32.Kod.b
+D:\code\Mal\0.010954007635770813.exe is mal
+D:\code\Mal\0.06135456811055351.exe is mal
+D:\code\Mal\0.5444279690868113.exe is mal

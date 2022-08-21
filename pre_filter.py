@@ -1,5 +1,6 @@
 import os
 import sys
+from config import *
 from gym_malware.envs.utils.reward import ClamAV
 module_path = os.path.split(os.path.abspath(sys.modules[__name__].__file__))[0]
 sample_dir_path = module_path + r"\gym_malware\envs\utils\samples"
@@ -10,4 +11,6 @@ for sample in os.listdir(sample_dir_path):
     if ca.scan(sample_path) == 0:
         benign += 1
         os.remove(sample_path)
+        with open(LOG_PATH+r"\preprocess_log.txt", "a+") as f:
+            f.write("{}: delete {}\n".format(benign, sample_path))
 print(benign)

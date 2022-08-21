@@ -8,6 +8,7 @@ import torch.nn.functional as F
 
 import gym_malware.envs.utils.interface as interface
 from gym_malware.envs.malware_env import MalwareEnv
+from config import *
 # hyper-parameters
 
 BATCH_SIZE = 128
@@ -112,16 +113,14 @@ def test_agent(dqn, test_episodes):
     test_reward_list = []
     for i in range(test_episodes):
         state = env._reset()
-        ep_reward = 0
         while True:
             action = dqn.choose_action(state, is_eval=True)
-            next_state, _, done, info = env._step(action)
-            ep_reward += 1
+            next_state, reward, done, info = env._step(action)
             if done:
                 break
             state = next_state
-        print("test_episode: {} , the episode reward is {}".format(i, round(ep_reward, 3)))
-        test_reward_list.append(ep_reward)
+        print("test_episode: {} , the episode reward is {}".format(i, round(reward, 3)))
+        test_reward_list.append(reward)
     plt.plot(range(test_episodes), test_reward_list)
     plt.show()
 
@@ -140,12 +139,12 @@ def main():
             action = dqn.choose_action(state)
             next_state, reward, done, info = env._step(action)
             dqn.store_transition(state, action, reward, next_state)
-            ep_reward += 1
-
             if dqn.memory_counter >= MEMORY_CAPACITY:
                 dqn.learn()
                 if done:
-                    print("episode: {} , the episode reward is {}".format(i, round(ep_reward, 3)))
+                    print("episode: {} , the episode reward is {}".format(i, reward))
+                    with open(LOG_PATH + r"\log.txt", "a+") as f:
+                        f.write("episode: {} , the episode reward is {}\n".format(i, reward))
             if done:
                 break
             state = next_state
