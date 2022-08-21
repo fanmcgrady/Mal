@@ -114,7 +114,6 @@ def test_agent(dqn, test_episodes):
         state = env._reset()
         ep_reward = 0
         while True:
-            env.render()
             action = dqn.choose_action(state, is_eval=True)
             next_state, _, done, info = env._step(action)
             ep_reward += 1
