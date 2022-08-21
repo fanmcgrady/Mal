@@ -1,17 +1,21 @@
+import math
+
+import matplotlib.pyplot as plt
+import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import numpy as np
-import matplotlib.pyplot as plt
-from gym_malware.envs.malware_env import MalwareEnv
-import gym_malware.envs.utils.interface as interface
 
+import gym_malware.envs.utils.interface as interface
+from gym_malware.envs.malware_env import MalwareEnv
 # hyper-parameters
 
 BATCH_SIZE = 128
 LR = 0.01
 GAMMA = 0.90
-EPISILO = 0.9
+EPS_START = 0.9
+EPS_END = 0.05
+EPS_DECAY = 200
 MEMORY_CAPACITY = 2000
 Q_NETWORK_ITERATION = 100
 
@@ -49,7 +53,6 @@ class DQN():
         super(DQN, self).__init__()
         self.device = device
         self.eval_net, self.target_net = Net().to(device), Net().to(device)
-
         self.learn_step_counter = 0
         self.memory_counter = 0
         self.memory = np.zeros((MEMORY_CAPACITY, NUM_STATES * 2 + 2))
@@ -57,11 +60,12 @@ class DQN():
         self.loss_func = nn.MSELoss()
 
     def choose_action(self, state, is_eval=False):
+        epsilon = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * self.learn_step_counter / EPS_DECAY)
         state = torch.unsqueeze(torch.FloatTensor(state).to(self.device), 0)  # get a 1D array
         action_value = self.eval_net.forward(state)
         action = torch.max(action_value, 1)[1].cpu().data.numpy()
         action = action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
-        if not is_eval and np.random.randn() > EPISILO:
+        if not is_eval and np.random.randn() < epsilon:
             action = np.random.randint(0, NUM_ACTIONS)
             action = action if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
         return action
@@ -104,22 +108,15 @@ class DQN():
         self.optimizer.step()
 
 
-def reward_func(env, x, x_dot, theta, theta_dot):
-    r1 = (env.x_threshold - abs(x)) / env.x_threshold - 0.5
-    r2 = (env.theta_threshold_radians - abs(theta)) / env.theta_threshold_radians - 0.5
-    reward = r1 + r2
-    return reward
-
-
 def test_agent(dqn, test_episodes):
     test_reward_list = []
     for i in range(test_episodes):
-        state = env.reset()
+        state = env._reset()
         ep_reward = 0
         while True:
             env.render()
             action = dqn.choose_action(state, is_eval=True)
-            next_state, _, done, info = env.step(action)
+            next_state, _, done, info = env._step(action)
             ep_reward += 1
             if done:
                 break
@@ -142,10 +139,7 @@ def main():
         while True:
             # env.render()
             action = dqn.choose_action(state)
-            next_state, _, done, info = env._step(action)
-            x, x_dot, theta, theta_dot = next_state
-            reward = reward_func(env, x, x_dot, theta, theta_dot)
-
+            next_state, reward, done, info = env._step(action)
             dqn.store_transition(state, action, reward, next_state)
             ep_reward += 1
 
