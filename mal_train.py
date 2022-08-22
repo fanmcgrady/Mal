@@ -17,7 +17,7 @@ GAMMA = 0.90
 EPS_START = 0.9
 EPS_END = 0.05
 EPS_DECAY = 200
-MEMORY_CAPACITY = 2000
+MEMORY_CAPACITY = 1000
 Q_NETWORK_ITERATION = 100
 
 env = MalwareEnv(sha256list=interface.get_samples())
@@ -59,14 +59,15 @@ class DQN():
         self.memory = np.zeros((MEMORY_CAPACITY, NUM_STATES * 2 + 2))
         self.optimizer = torch.optim.Adam(self.eval_net.parameters(), lr=LR)
         self.loss_func = nn.MSELoss()
+        self.epsilon = EPS_START
 
     def choose_action(self, state, is_eval=False):
-        epsilon = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * self.learn_step_counter / EPS_DECAY)
+        self.epsilon = EPS_END + (EPS_START - EPS_END) * math.exp(-1. * self.learn_step_counter / EPS_DECAY)
         state = torch.unsqueeze(torch.FloatTensor(state).to(self.device), 0)  # get a 1D array
         action_value = self.eval_net.forward(state)
         action = torch.max(action_value, 1)[1].cpu().data.numpy()
         action = action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
-        if not is_eval and np.random.randn() < epsilon:
+        if not is_eval and np.random.randn() < self.epsilon:
             action = np.random.randint(0, NUM_ACTIONS)
             action = action if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
         return action
@@ -119,7 +120,9 @@ def test_agent(dqn, test_episodes):
             if done:
                 break
             state = next_state
-        print("test_episode: {} , the episode reward is {}".format(i, round(reward, 3)))
+        print("test_episode: {} , the episode reward is {}".format(i, reward))
+        with open(LOG_PATH + r"\log.txt", "a+") as f:
+            f.write("test episode: {} , the episode reward is {}\n".format(i, reward))
         test_reward_list.append(reward)
     plt.plot(range(test_episodes), test_reward_list)
     plt.show()
@@ -128,7 +131,7 @@ def test_agent(dqn, test_episodes):
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     dqn = DQN(device)
-    episodes = 220
+    episodes = 400
     print("Collecting Experience....")
     reward_list = []
     for i in range(episodes):
@@ -144,7 +147,7 @@ def main():
                 if done:
                     print("episode: {} , the episode reward is {}".format(i, reward))
                     with open(LOG_PATH + r"\log.txt", "a+") as f:
-                        f.write("episode: {} , the episode reward is {}\n".format(i, reward))
+                        f.write("episode: {} , the episode reward is {}, epsilon is {}\n".format(i, reward, dqn.epsilon))
             if done:
                 break
             state = next_state

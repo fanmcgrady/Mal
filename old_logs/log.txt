@@ -1,0 +1,2237 @@
+D:\code\Mal\0.7603102353725074.exe is mal
+D:\code\Mal\0.2644256196721587.exe is mal
+ episode 1 select training sample: DoS.Win32.PortTerminator
+D:\code\Mal\0.17256038777788618.exe is mal
+D:\code\Mal\0.3867420551452482.exe is mal
+D:\code\Mal\0.6124910881550522.exe is mal
+D:\code\Mal\0.4678853270470622.exe is mal
+D:\code\Mal\0.9278915707620682.exe is mal
+D:\code\Mal\0.00916968081920111.exe is mal
+D:\code\Mal\0.3342620855976799.exe is mal
+D:\code\Mal\0.94010148092862.exe is mal
+D:\code\Mal\0.11678923607206759.exe is mal
+D:\code\Mal\0.26208342094028636.exe is mal
+D:\code\Mal\0.5872988287558205.exe is mal
+ episode 2 select training sample: DoS.Win32.Delf.b
+D:\code\Mal\0.8839968650557045.exe is mal
+D:\code\Mal\0.10373703998921402.exe is mal
+D:\code\Mal\0.393670418457189.exe is mal
+D:\code\Mal\0.19596256462315387.exe is mal
+D:\code\Mal\0.43920524209755885.exe is mal
+D:\code\Mal\0.18135820093706612.exe is mal
+D:\code\Mal\0.07023024352926821.exe is mal
+D:\code\Mal\0.6399628923351406.exe is mal
+D:\code\Mal\0.98414108357159.exe is mal
+D:\code\Mal\0.6864087917752724.exe is mal
+ episode 1 select training sample: DoS.Win32.Adonai.01
+D:\code\Mal\0.7578380313556171.exe is mal
+D:\code\Mal\0.20436881198356704.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.5640650435096242.exe is mal
+ episode 2 select training sample: DoS.Win32.GhostDog
+D:\code\Mal\0.04102879776526225.exe is mal
+D:\code\Mal\0.5349810680659275.exe is mal
+D:\code\Mal\0.7603550426886454.exe is mal
+D:\code\Mal\0.2274161594009121.exe is mal
+D:\code\Mal\0.9649520703624797.exe is mal
+D:\code\Mal\0.9847869252812839.exe is mal
+D:\code\Mal\0.9722661114863933.exe is mal
+D:\code\Mal\0.6040135479853604.exe is mal
+D:\code\Mal\0.9591775407436494.exe is mal
+D:\code\Mal\0.13692949937305543.exe is mal
+D:\code\Mal\0.9057002898648905.exe is mal
+ episode 3 select training sample: DoS.Win32.Nemesy
+D:\code\Mal\0.886066950598544.exe is mal
+D:\code\Mal\0.5565238293488722.exe is mal
+D:\code\Mal\0.6196512073182158.exe is mal
+D:\code\Mal\0.24409398498833668.exe is mal
+D:\code\Mal\0.8615675176508611.exe is mal
+D:\code\Mal\0.7741569260503561.exe is mal
+D:\code\Mal\0.7338045408023983.exe is mal
+D:\code\Mal\0.27699027364077944.exe is mal
+D:\code\Mal\0.4111111241689517.exe is mal
+D:\code\Mal\0.6764937534472346.exe is mal
+D:\code\Mal\0.39326986643540973.exe is mal
+ episode 4 select training sample: DoS.Win32.Lanxue.200
+D:\code\Mal\0.3601441482559199.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.35262183872302044.exe is mal
+ episode 5 select training sample: DoS.Win32.Kod.b
+D:\code\Mal\0.010954007635770813.exe is mal
+D:\code\Mal\0.06135456811055351.exe is mal
+D:\code\Mal\0.5444279690868113.exe is mal
+D:\code\Mal\0.7623821592174861.exe is mal
+D:\code\Mal\0.33631952592008874.exe is mal
+D:\code\Mal\0.7118868219510838.exe is mal
+D:\code\Mal\0.34176386615401233.exe is mal
+D:\code\Mal\0.0496813774952275.exe is mal
+D:\code\Mal\0.6274863775285542.exe is mal
+D:\code\Mal\0.7791382199552275.exe is mal
+D:\code\Mal\0.7114384345445918.exe is mal
+ episode 6 select training sample: DoS.Win32.Awak.10
+D:\code\Mal\0.1769995884012473.exe is mal
+D:\code\Mal\0.5746327142451757.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.42236101985727503.exe is mal
+ episode 7 select training sample: DoS.Win32.Frozen
+D:\code\Mal\0.3169084259000353.exe is mal
+D:\code\Mal\0.9640031905434083.exe is mal
+D:\code\Mal\0.7092231118918931.exe is mal
+D:\code\Mal\0.8422957353369018.exe is mal
+D:\code\Mal\0.38065607379433064.exe is mal
+D:\code\Mal\0.4466643570732074.exe is mal
+D:\code\Mal\0.12061501349351444.exe is mal
+D:\code\Mal\0.9047329595321078.exe is mal
+D:\code\Mal\0.7511073454116045.exe is mal
+D:\code\Mal\0.6466906400888797.exe is mal
+D:\code\Mal\0.5258707231039592.exe is mal
+ episode 8 select training sample: DoS.Win32.Misoska.c
+D:\code\Mal\0.2224310599448891.exe is mal
+D:\code\Mal\0.1260224125072682.exe is mal
+D:\code\Mal\0.2589911146376769.exe is mal
+D:\code\Mal\0.32885006032584485.exe is mal
+D:\code\Mal\0.8753973981537829.exe is mal
+D:\code\Mal\0.3105155325936072.exe is mal
+D:\code\Mal\0.023676026409061746.exe is mal
+D:\code\Mal\0.511029196039746.exe is mal
+D:\code\Mal\0.2763276824347607.exe is mal
+D:\code\Mal\0.4080712938418639.exe is mal
+D:\code\Mal\0.7310191024176318.exe is mal
+ episode 9 select training sample: DoS.Win32.Lanxue.200
+D:\code\Mal\0.5654090334174476.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.6985492872097475.exe is mal
+ episode 10 select training sample: DoS.Win32.Kod.b
+D:\code\Mal\0.26771846144641354.exe is mal
+D:\code\Mal\0.8811765657064022.exe is mal
+D:\code\Mal\0.7311419511848427.exe is mal
+D:\code\Mal\0.1705615855726096.exe is mal
+D:\code\Mal\0.9250322110021992.exe is mal
+D:\code\Mal\0.0889585839767637.exe is mal
+D:\code\Mal\0.3927868115295787.exe is mal
+D:\code\Mal\0.2611199313632758.exe is mal
+D:\code\Mal\0.8672480315108618.exe is mal
+D:\code\Mal\0.40213076082350396.exe is mal
+D:\code\Mal\0.33009121562066446.exe is mal
+ episode 11 select training sample: DoS.Win32.Opdos
+D:\code\Mal\0.9489191961463688.exe is mal
+D:\code\Mal\0.13069070913717706.exe is mal
+D:\code\Mal\0.812503724722448.exe is mal
+D:\code\Mal\0.704642420172488.exe is mal
+D:\code\Mal\0.15196502168375103.exe is mal
+D:\code\Mal\0.7657306662389116.exe is mal
+D:\code\Mal\0.013021819165807025.exe is mal
+D:\code\Mal\0.8658084216316363.exe is mal
+D:\code\Mal\0.6612687187541743.exe is mal
+D:\code\Mal\0.9051411305403853.exe is mal
+D:\code\Mal\0.48185138195309773.exe is mal
+ episode 12 select training sample: DoS.Win32.Nemesy
+D:\code\Mal\0.6574223384198113.exe is mal
+D:\code\Mal\0.5408156365095133.exe is mal
+D:\code\Mal\0.11018791997904909.exe is mal
+D:\code\Mal\0.5270486860603749.exe is mal
+D:\code\Mal\0.7294956343327856.exe is mal
+D:\code\Mal\0.5040120122211361.exe is mal
+D:\code\Mal\0.4764896473715332.exe is mal
+D:\code\Mal\0.5281269851104409.exe is mal
+D:\code\Mal\0.8257733861781645.exe is mal
+D:\code\Mal\0.0320845145746812.exe is mal
+D:\code\Mal\0.8635384824956664.exe is mal
+ episode 13 select training sample: DoS.Win32.Daily
+D:\code\Mal\0.9602717877411745.exe is mal
+D:\code\Mal\0.7131954153202221.exe is mal
+D:\code\Mal\0.595991431625912.exe is mal
+D:\code\Mal\0.968767512672666.exe is mal
+D:\code\Mal\0.8872061571593529.exe is mal
+D:\code\Mal\0.22659588190374313.exe is mal
+D:\code\Mal\0.3898342386455741.exe is mal
+D:\code\Mal\0.43588416736904545.exe is mal
+D:\code\Mal\0.328692275217901.exe is mal
+D:\code\Mal\0.17199962201469676.exe is mal
+D:\code\Mal\0.6210279944720427.exe is mal
+ episode 14 select training sample: DoS.Win32.SkyfireNuker
+D:\code\Mal\0.2378655780632427.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.9776326940474513.exe is mal
+ episode 15 select training sample: DoS.Win32.Jolt2
+D:\code\Mal\0.32303200423687717.exe is mal
+D:\code\Mal\0.7197666279869877.exe is mal
+D:\code\Mal\0.004559067394815597.exe is mal
+D:\code\Mal\0.12491253471542507.exe is mal
+D:\code\Mal\0.34001328821409027.exe is mal
+D:\code\Mal\0.21820281561201127.exe is mal
+D:\code\Mal\0.3187003467222166.exe is mal
+D:\code\Mal\0.28092855692484553.exe is mal
+D:\code\Mal\0.01692979066218281.exe is mal
+D:\code\Mal\0.9050489084963741.exe is mal
+D:\code\Mal\0.6574119666766771.exe is mal
+ episode 16 select training sample: DoS.Win32.RandomSpoof
+D:\code\Mal\0.6894032949251404.exe is mal
+D:\code\Mal\0.6713375651654467.exe is mal
+D:\code\Mal\0.03927454856125834.exe is mal
+D:\code\Mal\0.42465878853795036.exe is mal
+D:\code\Mal\0.622461743544752.exe is mal
+D:\code\Mal\0.7548761889258525.exe is mal
+D:\code\Mal\0.11770845681110476.exe is mal
+D:\code\Mal\0.8623336280937548.exe is mal
+D:\code\Mal\0.5943076344601206.exe is mal
+D:\code\Mal\0.1860648813441742.exe is mal
+D:\code\Mal\0.8872739884990257.exe is mal
+ episode 17 select training sample: DoS.Win32.Lanxue.101
+D:\code\Mal\0.39879765290390257.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.5908701042153869.exe is mal
+ episode 18 select training sample: DoS.Win32.Nemesy
+D:\code\Mal\0.1449117293953337.exe is mal
+D:\code\Mal\0.5251896136883583.exe is mal
+D:\code\Mal\0.5756337098534179.exe is mal
+D:\code\Mal\0.6670348901343908.exe is mal
+D:\code\Mal\0.11300258383715323.exe is mal
+D:\code\Mal\0.983129220028066.exe is mal
+D:\code\Mal\0.6163698948610262.exe is mal
+D:\code\Mal\0.7431432563787586.exe is mal
+D:\code\Mal\0.49312829883872267.exe is mal
+D:\code\Mal\0.2564946878968646.exe is mal
+D:\code\Mal\0.9649923304905553.exe is mal
+ episode 19 select training sample: DoS.Win32.Awak.10
+D:\code\Mal\0.023152627307035045.exe is mal
+D:\code\Mal\0.2725415247905334.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.5180823267663824.exe is mal
+ episode 20 select training sample: DoS.Win32.Nenet
+D:\code\Mal\0.41989576568447984.exe is mal
+D:\code\Mal\0.44896323028800666.exe is mal
+D:\code\Mal\0.4476849294824736.exe is mal
+D:\code\Mal\0.25638022738185995.exe is mal
+D:\code\Mal\0.6895623028492651.exe is mal
+D:\code\Mal\0.8188589727524815.exe is mal
+D:\code\Mal\0.18727208954782004.exe is mal
+D:\code\Mal\0.7702816591494254.exe is mal
+D:\code\Mal\0.23897260150859223.exe is mal
+D:\code\Mal\0.5417230348482142.exe is mal
+D:\code\Mal\0.4816729396508571.exe is mal
+ episode 21 select training sample: DoS.Win32.Lanxue.b
+D:\code\Mal\0.7585534728797211.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.2515609183376918.exe is mal
+ episode 22 select training sample: DoS.Win32.Opdos
+D:\code\Mal\0.18587202541189152.exe is mal
+D:\code\Mal\0.6811833329167529.exe is mal
+D:\code\Mal\0.01788678375422903.exe is mal
+D:\code\Mal\0.046035065893494265.exe is mal
+D:\code\Mal\0.8095996663017679.exe is mal
+D:\code\Mal\0.8401616641152002.exe is mal
+D:\code\Mal\0.9850101385785616.exe is mal
+D:\code\Mal\0.7240434983533304.exe is mal
+D:\code\Mal\0.5832959682517759.exe is mal
+D:\code\Mal\0.7433029521677533.exe is mal
+D:\code\Mal\0.8293328992266051.exe is mal
+ episode 23 select training sample: DoS.Win32.Lanxue.a
+D:\code\Mal\0.9373329026787529.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.7816983045102562.exe is mal
+ episode 24 select training sample: DoS.Win32.RandomSpoof
+D:\code\Mal\0.9215527745211385.exe is mal
+D:\code\Mal\0.7160159924507393.exe is mal
+D:\code\Mal\0.5219355820318481.exe is mal
+D:\code\Mal\0.8771267501274983.exe is mal
+D:\code\Mal\0.5371135106005877.exe is mal
+D:\code\Mal\0.030657489338741795.exe is mal
+D:\code\Mal\0.373677582839821.exe is mal
+D:\code\Mal\0.6141522127179898.exe is mal
+D:\code\Mal\0.3374238010871333.exe is mal
+D:\code\Mal\0.915418399473872.exe is mal
+D:\code\Mal\0.321718212716503.exe is mal
+ episode 25 select training sample: DoS.Win32.Killwin
+D:\code\Mal\0.01825980984703457.exe is mal
+D:\code\Mal\0.6902196096409807.exe is mal
+D:\code\Mal\0.301263265928037.exe is mal
+D:\code\Mal\0.8468196921169419.exe is mal
+D:\code\Mal\0.6921007958211169.exe is mal
+D:\code\Mal\0.34772985608440865.exe is mal
+D:\code\Mal\0.24563566329061104.exe is mal
+D:\code\Mal\0.773392612026145.exe is mal
+D:\code\Mal\0.0017516160556643179.exe is mal
+D:\code\Mal\0.7221867101940744.exe is mal
+D:\code\Mal\0.17802335694772198.exe is mal
+ episode 26 select training sample: DoS.Win32.Pnbug
+D:\code\Mal\0.1855318232442471.exe is mal
+D:\code\Mal\0.43808596825318813.exe is mal
+D:\code\Mal\0.1439594608933703.exe is mal
+D:\code\Mal\0.9072063915027134.exe is mal
+D:\code\Mal\0.605703396421989.exe is mal
+D:\code\Mal\0.2847352775244937.exe is mal
+D:\code\Mal\0.6324189601859233.exe is mal
+D:\code\Mal\0.8957816863796542.exe is mal
+D:\code\Mal\0.6159068734275509.exe is mal
+D:\code\Mal\0.8706255212812093.exe is mal
+D:\code\Mal\0.7378888119779682.exe is mal
+ episode 27 select training sample: DoS.Win32.Bonk.a
+D:\code\Mal\0.498223727597055.exe is mal
+D:\code\Mal\0.22717598622444024.exe is mal
+D:\code\Mal\0.8354194507301202.exe is mal
+D:\code\Mal\0.40403692605768315.exe is mal
+D:\code\Mal\0.787485608546266.exe is mal
+D:\code\Mal\0.4425773022965277.exe is mal
+D:\code\Mal\0.8559909446923786.exe is mal
+D:\code\Mal\0.8864857061870234.exe is mal
+D:\code\Mal\0.22573725909433706.exe is mal
+D:\code\Mal\0.033476514341088115.exe is mal
+D:\code\Mal\0.7463553808405403.exe is mal
+ episode 28 select training sample: DoS.Win32.Nemesy
+D:\code\Mal\0.849390950320658.exe is mal
+D:\code\Mal\0.3232194056414822.exe is mal
+D:\code\Mal\0.5632389920706016.exe is mal
+D:\code\Mal\0.9293454367919722.exe is mal
+D:\code\Mal\0.6853693529662211.exe is mal
+D:\code\Mal\0.35177295284905075.exe is mal
+D:\code\Mal\0.6622580983021021.exe is mal
+D:\code\Mal\0.18575961927749507.exe is mal
+D:\code\Mal\0.0028905771562177662.exe is mal
+D:\code\Mal\0.264949783380662.exe is mal
+D:\code\Mal\0.8702090225646206.exe is mal
+ episode 29 select training sample: DoS.Win32.ARPKiller.12
+D:\code\Mal\0.42966956863520767.exe is mal
+D:\code\Mal\0.0842081038930278.exe is mal
+D:\code\Mal\0.09141021625326795.exe is benign
+successfully evaded after 3 actions!
+D:\code\Mal\0.1574513447414586.exe is mal
+ episode 30 select training sample: DoS.Win32.Hucsyn.04
+D:\code\Mal\0.7658246450145457.exe is mal
+D:\code\Mal\0.9577870073115776.exe is mal
+D:\code\Mal\0.9709015089714975.exe is mal
+D:\code\Mal\0.6796444202313996.exe is mal
+D:\code\Mal\0.632554766210591.exe is mal
+D:\code\Mal\0.19697727891051875.exe is mal
+D:\code\Mal\0.5233270710676368.exe is mal
+D:\code\Mal\0.13969077979146527.exe is mal
+D:\code\Mal\0.4521833807318876.exe is mal
+D:\code\Mal\0.8299791264288132.exe is mal
+D:\code\Mal\0.9330333935612728.exe is mal
+ episode 31 select training sample: DoS.Win32.Delf.h
+D:\code\Mal\0.3084790912084596.exe is mal
+D:\code\Mal\0.9687333599413464.exe is mal
+D:\code\Mal\0.27328159950014475.exe is mal
+D:\code\Mal\0.642406750972545.exe is mal
+D:\code\Mal\0.9913316548549342.exe is mal
+D:\code\Mal\0.5514794902882026.exe is mal
+D:\code\Mal\0.6449679922153435.exe is mal
+D:\code\Mal\0.9093967763016052.exe is mal
+D:\code\Mal\0.4814086944245273.exe is mal
+D:\code\Mal\0.7308419050208459.exe is mal
+D:\code\Mal\0.5043399694139002.exe is mal
+ episode 32 select training sample: DoS.Win32.Lanxue.101
+D:\code\Mal\0.12504027080495395.exe is mal
+D:\code\Mal\0.8601107507880378.exe is mal
+D:\code\Mal\0.4782519846612274.exe is mal
+D:\code\Mal\0.3538528233989241.exe is mal
+D:\code\Mal\0.9378511261788861.exe is benign
+successfully evaded after 5 actions!
+D:\code\Mal\0.9088421803997079.exe is mal
+ episode 33 select training sample: DoS.Win32.Hucsyn.02
+D:\code\Mal\0.3718398493590267.exe is mal
+D:\code\Mal\0.76934874976829.exe is mal
+D:\code\Mal\0.3776656067726327.exe is mal
+D:\code\Mal\0.0860996773515017.exe is mal
+D:\code\Mal\0.09417947675242644.exe is mal
+D:\code\Mal\0.3422447264897903.exe is mal
+D:\code\Mal\0.7658501532505982.exe is mal
+D:\code\Mal\0.9325473887377668.exe is mal
+D:\code\Mal\0.593779973213245.exe is mal
+D:\code\Mal\0.6868694654653932.exe is mal
+D:\code\Mal\0.7803657507742526.exe is mal
+ episode 34 select training sample: DoS.Win32.Fedup.20
+D:\code\Mal\0.8813500900411462.exe is mal
+D:\code\Mal\0.39132401632168323.exe is mal
+D:\code\Mal\0.012370878549274322.exe is mal
+D:\code\Mal\0.27060209738804464.exe is mal
+D:\code\Mal\0.19202942734853867.exe is mal
+D:\code\Mal\0.8420285862020551.exe is mal
+D:\code\Mal\0.35175481789231333.exe is mal
+D:\code\Mal\0.5545865751182224.exe is mal
+D:\code\Mal\0.7233455482337978.exe is mal
+D:\code\Mal\0.9259744630175502.exe is mal
+D:\code\Mal\0.39540135635749996.exe is mal
+ episode 35 select training sample: DoS.Win32.DBomb.21
+D:\code\Mal\0.8626863428684931.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.10214592349820273.exe is mal
+ episode 36 select training sample: DoS.Win32.LamerToy.008
+D:\code\Mal\0.3578163491225299.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.5795099237120808.exe is mal
+ episode 37 select training sample: DoS.Win32.Pnbug
+D:\code\Mal\0.5522053291264081.exe is mal
+D:\code\Mal\0.9200509490511728.exe is mal
+D:\code\Mal\0.39118023748495945.exe is mal
+D:\code\Mal\0.49325270786432796.exe is mal
+D:\code\Mal\0.39695939286429816.exe is mal
+D:\code\Mal\0.7675621426817517.exe is mal
+D:\code\Mal\0.7758992377459492.exe is mal
+D:\code\Mal\0.9666443615562956.exe is mal
+D:\code\Mal\0.3832120196835628.exe is mal
+D:\code\Mal\0.6662208549785904.exe is mal
+D:\code\Mal\0.9326250663945519.exe is mal
+ episode 38 select training sample: DoS.Win32.Flash
+D:\code\Mal\0.8922073073178369.exe is mal
+D:\code\Mal\0.3211059686579606.exe is mal
+D:\code\Mal\0.3082270293466448.exe is mal
+D:\code\Mal\0.9089932606814518.exe is mal
+D:\code\Mal\0.05557736054072293.exe is mal
+D:\code\Mal\0.9318566374565878.exe is mal
+D:\code\Mal\0.9540145974571258.exe is mal
+D:\code\Mal\0.16984788654392036.exe is mal
+D:\code\Mal\0.57842498073646.exe is mal
+D:\code\Mal\0.6582192038512586.exe is mal
+D:\code\Mal\0.0877480381897151.exe is mal
+ episode 39 select training sample: DoS.Win32.HTTP.Bombarder
+D:\code\Mal\0.967087230459795.exe is mal
+D:\code\Mal\0.8674511173804188.exe is mal
+D:\code\Mal\0.24750550342763544.exe is mal
+D:\code\Mal\0.22846244453041387.exe is mal
+D:\code\Mal\0.7307321794504134.exe is mal
+D:\code\Mal\0.21180949117261716.exe is mal
+D:\code\Mal\0.6494962085360853.exe is mal
+D:\code\Mal\0.7574391252313077.exe is mal
+D:\code\Mal\0.8929180424785584.exe is mal
+D:\code\Mal\0.8692645628391391.exe is mal
+D:\code\Mal\0.6889047490586968.exe is mal
+ episode 40 select training sample: DoS.Win32.Adonai.01
+D:\code\Mal\0.82643260270793.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.8182592195599561.exe is mal
+ episode 41 select training sample: DoS.Win32.Bind
+D:\code\Mal\0.6927958786378071.exe is mal
+D:\code\Mal\0.0545866028060763.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.637385271763574.exe is mal
+ episode 42 select training sample: DoS.Win32.ARPKiller.12
+D:\code\Mal\0.4305093377770004.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.9443165905096551.exe is mal
+ episode 43 select training sample: DoS.Win32.Lanxue.201
+D:\code\Mal\0.33610776526952946.exe is mal
+D:\code\Mal\0.7910306082471666.exe is mal
+D:\code\Mal\0.8927055319261751.exe is mal
+D:\code\Mal\0.5311379401541605.exe is mal
+D:\code\Mal\0.8559823812433451.exe is mal
+D:\code\Mal\0.11972817748559128.exe is benign
+successfully evaded after 6 actions!
+D:\code\Mal\0.8413279743365529.exe is mal
+ episode 44 select training sample: DoS.Win32.Daily
+D:\code\Mal\0.6548727025471742.exe is mal
+D:\code\Mal\0.2989154821122959.exe is mal
+D:\code\Mal\0.475847345927937.exe is mal
+D:\code\Mal\0.12171725137598277.exe is mal
+D:\code\Mal\0.3722737399318341.exe is mal
+D:\code\Mal\0.23807745538133973.exe is mal
+D:\code\Mal\0.2897549682462457.exe is mal
+D:\code\Mal\0.9771616377796754.exe is mal
+D:\code\Mal\0.07016599848108251.exe is mal
+D:\code\Mal\0.6580267647488335.exe is mal
+D:\code\Mal\0.17316697209067944.exe is mal
+ episode 45 select training sample: DoS.Win32.LamerToy.008
+D:\code\Mal\0.17252894679305486.exe is mal
+D:\code\Mal\0.15520427113071145.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.4763765763450645.exe is mal
+ episode 46 select training sample: DoS.Win32.Jolt2
+D:\code\Mal\0.17461428697725068.exe is mal
+D:\code\Mal\0.3102721121142713.exe is mal
+D:\code\Mal\0.48329251140755913.exe is mal
+D:\code\Mal\0.576417017714871.exe is mal
+D:\code\Mal\0.49934042815977675.exe is mal
+D:\code\Mal\0.294209929329332.exe is mal
+D:\code\Mal\0.6287345024547805.exe is mal
+D:\code\Mal\0.0016150225101672078.exe is mal
+D:\code\Mal\0.6468791638869428.exe is mal
+D:\code\Mal\0.9690647354992217.exe is mal
+D:\code\Mal\0.534946612983067.exe is mal
+ episode 47 select training sample: DoS.Win32.Lanxue.a
+D:\code\Mal\0.9434101914101826.exe is mal
+D:\code\Mal\0.4660655654009753.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.6218144739534806.exe is mal
+ episode 48 select training sample: DoS.Win32.PortTerminator
+D:\code\Mal\0.838617112468651.exe is mal
+D:\code\Mal\0.4097260941596399.exe is mal
+D:\code\Mal\0.6031693960005213.exe is mal
+D:\code\Mal\0.8792757924496802.exe is mal
+D:\code\Mal\0.36063132544239984.exe is mal
+D:\code\Mal\0.8648434626304278.exe is mal
+D:\code\Mal\0.9007159089472242.exe is mal
+D:\code\Mal\0.5265546023356807.exe is mal
+D:\code\Mal\0.10331085264840345.exe is mal
+D:\code\Mal\0.5236216421428138.exe is mal
+D:\code\Mal\0.44146065479432295.exe is mal
+ episode 49 select training sample: DoS.Win32.Agent.m
+D:\code\Mal\0.25188887672544813.exe is mal
+D:\code\Mal\0.876148604121275.exe is mal
+D:\code\Mal\0.9705099168070761.exe is mal
+D:\code\Mal\0.845475567135139.exe is mal
+D:\code\Mal\0.012167079774000888.exe is mal
+D:\code\Mal\0.6053984279494187.exe is mal
+D:\code\Mal\0.5353155861504335.exe is mal
+D:\code\Mal\0.19311707033690084.exe is mal
+D:\code\Mal\0.8310818932727699.exe is mal
+D:\code\Mal\0.6625659043045299.exe is mal
+D:\code\Mal\0.05189293647851989.exe is mal
+ episode 50 select training sample: DoS.Win32.Angeldos
+D:\code\Mal\0.6083316911421246.exe is mal
+D:\code\Mal\0.8610970860587611.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.03556233169716505.exe is mal
+ episode 51 select training sample: DoS.Win32.Hucsyn.02
+D:\code\Mal\0.3269083473154031.exe is mal
+D:\code\Mal\0.9188912710957945.exe is mal
+D:\code\Mal\0.860573669458533.exe is mal
+D:\code\Mal\0.3617557497696916.exe is mal
+D:\code\Mal\0.6279140535132028.exe is mal
+D:\code\Mal\0.9297428788883354.exe is mal
+D:\code\Mal\0.7770876582461604.exe is mal
+D:\code\Mal\0.43445980049447597.exe is mal
+D:\code\Mal\0.04612300245620382.exe is mal
+D:\code\Mal\0.5725843869112555.exe is mal
+D:\code\Mal\0.06742124989467724.exe is mal
+ episode 52 select training sample: DoS.Win32.Lanxue.101
+D:\code\Mal\0.3957440340531059.exe is mal
+D:\code\Mal\0.2680788747448736.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.9338713444838592.exe is mal
+ episode 53 select training sample: DoS.Win32.Ataker.a
+D:\code\Mal\0.20711118350991153.exe is mal
+D:\code\Mal\0.7082599907367728.exe is mal
+D:\code\Mal\0.5154928452606048.exe is mal
+D:\code\Mal\0.41942011398616186.exe is mal
+D:\code\Mal\0.4494879010427185.exe is mal
+D:\code\Mal\0.600377184000863.exe is mal
+D:\code\Mal\0.03957141760876359.exe is mal
+D:\code\Mal\0.8080775183085873.exe is mal
+D:\code\Mal\0.5047039972286504.exe is mal
+D:\code\Mal\0.6173818134894474.exe is mal
+D:\code\Mal\0.12042015797326189.exe is mal
+ episode 54 select training sample: DoS.Win32.Ataker.a
+D:\code\Mal\0.7398011798657907.exe is mal
+D:\code\Mal\0.21823249918772358.exe is mal
+D:\code\Mal\0.8880359834648314.exe is mal
+D:\code\Mal\0.5282099162076787.exe is mal
+D:\code\Mal\0.5237879451216052.exe is mal
+D:\code\Mal\0.43238464499049434.exe is mal
+D:\code\Mal\0.5329504693330748.exe is mal
+D:\code\Mal\0.5828912089056106.exe is mal
+D:\code\Mal\0.11356881505480365.exe is mal
+D:\code\Mal\0.05789731505121265.exe is mal
+D:\code\Mal\0.7960278104925013.exe is mal
+ episode 55 select training sample: DoS.Win32.Misoska.a
+D:\code\Mal\0.3077323014551453.exe is mal
+D:\code\Mal\0.09287205880605875.exe is mal
+D:\code\Mal\0.9787967443852065.exe is mal
+D:\code\Mal\0.1455562173279944.exe is mal
+D:\code\Mal\0.9800356228024599.exe is mal
+D:\code\Mal\0.7831221417767069.exe is mal
+D:\code\Mal\0.12160490612240393.exe is mal
+D:\code\Mal\0.8454725516702447.exe is mal
+D:\code\Mal\0.7529459609394641.exe is mal
+D:\code\Mal\0.9072649097941777.exe is mal
+D:\code\Mal\0.7359146534534978.exe is mal
+ episode 56 select training sample: DoS.Win32.DBomb.21
+D:\code\Mal\0.5562951938864399.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.3867850526233374.exe is mal
+ episode 57 select training sample: DoS.Win32.Mk3.10
+D:\code\Mal\0.13181527621522393.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.1895049419420195.exe is mal
+ episode 58 select training sample: DoS.Win32.Jolt2
+D:\code\Mal\0.9310978510442778.exe is mal
+D:\code\Mal\0.6481919574085039.exe is mal
+D:\code\Mal\0.24745876588173832.exe is mal
+D:\code\Mal\0.38574073865871383.exe is mal
+D:\code\Mal\0.5062562076404393.exe is mal
+D:\code\Mal\0.10592821184089851.exe is mal
+D:\code\Mal\0.39268242443729684.exe is mal
+D:\code\Mal\0.16854080422315987.exe is mal
+D:\code\Mal\0.9387917262798942.exe is mal
+D:\code\Mal\0.44329437421953866.exe is mal
+D:\code\Mal\0.37791231444784257.exe is mal
+ episode 59 select training sample: DoS.Win32.Awak.10
+D:\code\Mal\0.5416545178956207.exe is mal
+D:\code\Mal\0.6347793877053892.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.802750498994865.exe is mal
+ episode 60 select training sample: DoS.Win32.Delf.g
+D:\code\Mal\0.5135183237908812.exe is mal
+D:\code\Mal\0.5649158584273675.exe is mal
+D:\code\Mal\0.2828446706721257.exe is mal
+D:\code\Mal\0.28693811524718227.exe is mal
+D:\code\Mal\0.3295885674270532.exe is mal
+D:\code\Mal\0.07764124657370863.exe is mal
+D:\code\Mal\0.19643112427082954.exe is mal
+D:\code\Mal\0.6041837814121832.exe is mal
+D:\code\Mal\0.5233249054338763.exe is mal
+D:\code\Mal\0.769335701797279.exe is mal
+D:\code\Mal\0.302621640304893.exe is mal
+ episode 61 select training sample: DoS.Win32.ARPKiller.12
+D:\code\Mal\0.45568720023513953.exe is mal
+D:\code\Mal\0.3343489862425625.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.2647621883391449.exe is mal
+ episode 62 select training sample: DoS.Win32.Lanxue.b
+D:\code\Mal\0.5634353690642729.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.8316026666192576.exe is mal
+ episode 63 select training sample: DoS.Win32.Panther.m1
+D:\code\Mal\0.998755509761065.exe is mal
+D:\code\Mal\0.476580692484443.exe is mal
+D:\code\Mal\0.9197974650804652.exe is mal
+D:\code\Mal\0.7805838772013545.exe is mal
+D:\code\Mal\0.8159016180964321.exe is mal
+D:\code\Mal\0.6269826195233188.exe is mal
+D:\code\Mal\0.7445512143551744.exe is mal
+D:\code\Mal\0.6090076955443409.exe is mal
+D:\code\Mal\0.7138897409614076.exe is mal
+D:\code\Mal\0.8125129930084019.exe is mal
+D:\code\Mal\0.8699230743788529.exe is mal
+ episode 64 select training sample: DoS.Win32.Jolt2
+D:\code\Mal\0.9552598671461958.exe is mal
+D:\code\Mal\0.41855708072915443.exe is mal
+D:\code\Mal\0.007031808649652471.exe is mal
+D:\code\Mal\0.08699365486487742.exe is mal
+D:\code\Mal\0.5133243936859024.exe is mal
+D:\code\Mal\0.5386113471848575.exe is mal
+D:\code\Mal\0.18804665583184688.exe is mal
+D:\code\Mal\0.44409152218390957.exe is mal
+D:\code\Mal\0.39892058713521084.exe is mal
+D:\code\Mal\0.1616414037252366.exe is mal
+D:\code\Mal\0.10216299291436126.exe is mal
+ episode 65 select training sample: DoS.Win32.Lanxue.200
+D:\code\Mal\0.23991387052960067.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.5453439176179287.exe is mal
+ episode 66 select training sample: DoS.Win32.Delf.g
+D:\code\Mal\0.28699038232110463.exe is mal
+D:\code\Mal\0.7106751146073658.exe is mal
+D:\code\Mal\0.6540492263933779.exe is mal
+D:\code\Mal\0.6422145219304416.exe is mal
+D:\code\Mal\0.17229458610417236.exe is mal
+D:\code\Mal\0.519886523014653.exe is mal
+D:\code\Mal\0.9880594640949417.exe is mal
+D:\code\Mal\0.9949233273655573.exe is mal
+D:\code\Mal\0.045015509483487315.exe is mal
+D:\code\Mal\0.3611232843988411.exe is mal
+D:\code\Mal\0.8131121749580001.exe is mal
+ episode 67 select training sample: DoS.Win32.GhostDog
+D:\code\Mal\0.8227492237624062.exe is mal
+D:\code\Mal\0.8572615274446727.exe is mal
+D:\code\Mal\0.4243669403322763.exe is mal
+D:\code\Mal\0.04234935903393733.exe is mal
+D:\code\Mal\0.8485855350129418.exe is mal
+D:\code\Mal\0.4811389485308415.exe is mal
+D:\code\Mal\0.6107592842354824.exe is mal
+D:\code\Mal\0.19618434262677653.exe is mal
+D:\code\Mal\0.8154198340618379.exe is mal
+D:\code\Mal\0.10300779559361006.exe is mal
+D:\code\Mal\0.2050853461409966.exe is mal
+ episode 68 select training sample: DoS.Win32.Frozen
+D:\code\Mal\0.8254489958074805.exe is mal
+D:\code\Mal\0.5476625216924187.exe is mal
+D:\code\Mal\0.20333348288156528.exe is mal
+D:\code\Mal\0.7565497135755497.exe is mal
+D:\code\Mal\0.24593270652488697.exe is mal
+D:\code\Mal\0.5039210890624044.exe is mal
+D:\code\Mal\0.935094803314874.exe is mal
+D:\code\Mal\0.9211464903256114.exe is mal
+D:\code\Mal\0.1630159257593623.exe is mal
+D:\code\Mal\0.8536127731263914.exe is mal
+D:\code\Mal\0.14222434223528901.exe is mal
+ episode 69 select training sample: DoS.Win32.Lanxue.101
+D:\code\Mal\0.9613743758041458.exe is mal
+D:\code\Mal\0.7397617805705738.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.12834295531680273.exe is mal
+ episode 70 select training sample: DoS.Win32.GhostDog
+D:\code\Mal\0.5199419294799618.exe is mal
+D:\code\Mal\0.11700001021348883.exe is mal
+D:\code\Mal\0.4489516221681309.exe is mal
+D:\code\Mal\0.6928022217668267.exe is mal
+D:\code\Mal\0.15824225371585798.exe is mal
+D:\code\Mal\0.4423461325555582.exe is mal
+D:\code\Mal\0.7485679110270155.exe is mal
+D:\code\Mal\0.4989639848487264.exe is mal
+D:\code\Mal\0.7370393069820177.exe is mal
+D:\code\Mal\0.9052646975127215.exe is mal
+D:\code\Mal\0.11879412245298249.exe is mal
+ episode 71 select training sample: DoS.Win32.Delf.b
+D:\code\Mal\0.01598665845238978.exe is mal
+D:\code\Mal\0.44921880700667827.exe is mal
+D:\code\Mal\0.1576978567642201.exe is mal
+D:\code\Mal\0.43703075801220936.exe is mal
+D:\code\Mal\0.7392582772603493.exe is mal
+D:\code\Mal\0.24913349800805273.exe is mal
+D:\code\Mal\0.46494449008275784.exe is mal
+D:\code\Mal\0.855720856833078.exe is mal
+D:\code\Mal\0.8513407091603138.exe is mal
+D:\code\Mal\0.5783299113863747.exe is mal
+D:\code\Mal\0.6387952490030284.exe is mal
+ episode 72 select training sample: DoS.Win32.Awak.10
+D:\code\Mal\0.01936593152023347.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.5500020189332624.exe is mal
+ episode 73 select training sample: DoS.Win32.Daily
+D:\code\Mal\0.9974328585638766.exe is mal
+D:\code\Mal\0.06056898106613495.exe is mal
+D:\code\Mal\0.10883431401630239.exe is mal
+D:\code\Mal\0.7284533276897924.exe is mal
+D:\code\Mal\0.7957097088402135.exe is mal
+D:\code\Mal\0.8179122415025104.exe is mal
+D:\code\Mal\0.06481899851155581.exe is mal
+D:\code\Mal\0.42831160827983605.exe is mal
+D:\code\Mal\0.7565084776568931.exe is mal
+D:\code\Mal\0.6786178982237167.exe is mal
+D:\code\Mal\0.705906114920131.exe is mal
+ episode 74 select training sample: DoS.Win32.Awak.10
+D:\code\Mal\0.6209956816991539.exe is mal
+D:\code\Mal\0.9598867473900722.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.8525816828295117.exe is mal
+ episode 75 select training sample: DoS.Win32.Angeldos
+D:\code\Mal\0.4610614811469942.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.4510053016694727.exe is mal
+ episode 76 select training sample: DoS.Win32.Bind
+D:\code\Mal\0.43790699515692244.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.6485589460004066.exe is mal
+ episode 77 select training sample: DoS.Win32.Lanxue.b
+D:\code\Mal\0.6548327294275588.exe is mal
+D:\code\Mal\0.8573799090721793.exe is mal
+D:\code\Mal\0.25579846137674855.exe is benign
+successfully evaded after 3 actions!
+D:\code\Mal\0.9321232421869049.exe is mal
+ episode 78 select training sample: DoS.Win32.Awak.10
+D:\code\Mal\0.4203750735696993.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.03912958886395146.exe is mal
+ episode 79 select training sample: DoS.Win32.Misoska.a
+D:\code\Mal\0.8119248878385199.exe is mal
+D:\code\Mal\0.6841063710843333.exe is mal
+D:\code\Mal\0.564807019384393.exe is mal
+D:\code\Mal\0.5481162549176114.exe is mal
+D:\code\Mal\0.22544696112680807.exe is mal
+D:\code\Mal\0.7896972593423857.exe is mal
+D:\code\Mal\0.25950675988774097.exe is mal
+D:\code\Mal\0.36183350628536026.exe is mal
+D:\code\Mal\0.28463717899344365.exe is mal
+D:\code\Mal\0.23471758427983325.exe is mal
+D:\code\Mal\0.1390080747197281.exe is mal
+ episode 80 select training sample: DoS.Win32.Mk3.10
+D:\code\Mal\0.3467611965979196.exe is mal
+D:\code\Mal\0.2516623566933701.exe is mal
+D:\code\Mal\0.8053718008186194.exe is benign
+successfully evaded after 3 actions!
+D:\code\Mal\0.9318756827314112.exe is mal
+ episode 81 select training sample: DoS.Win32.Agent.m
+D:\code\Mal\0.4467253265558496.exe is mal
+D:\code\Mal\0.7343493102894146.exe is mal
+D:\code\Mal\0.671389680284248.exe is mal
+D:\code\Mal\0.9462741688340535.exe is mal
+D:\code\Mal\0.9720138535981016.exe is mal
+D:\code\Mal\0.05390679782317176.exe is mal
+D:\code\Mal\0.5048931360542899.exe is mal
+D:\code\Mal\0.8611953845543711.exe is mal
+D:\code\Mal\0.4566349463692515.exe is mal
+D:\code\Mal\0.5954272750238049.exe is mal
+D:\code\Mal\0.11424944522352876.exe is mal
+ episode 82 select training sample: DoS.Win32.Awak.10
+D:\code\Mal\0.9261390870014944.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.17609113886822636.exe is mal
+ episode 83 select training sample: DoS.Win32.Delf.g
+D:\code\Mal\0.3663843376658181.exe is mal
+D:\code\Mal\0.5652104733752077.exe is mal
+D:\code\Mal\0.4968954781052649.exe is mal
+D:\code\Mal\0.31430761474703883.exe is mal
+D:\code\Mal\0.21283583182502108.exe is mal
+D:\code\Mal\0.5040436791171607.exe is mal
+D:\code\Mal\0.9300013750531736.exe is mal
+D:\code\Mal\0.7286014074956623.exe is mal
+D:\code\Mal\0.9630805183067296.exe is mal
+D:\code\Mal\0.12013351074336642.exe is mal
+D:\code\Mal\0.8379650299725588.exe is mal
+ episode 84 select training sample: DoS.Win32.LamerToy.008
+D:\code\Mal\0.16262034277369009.exe is mal
+D:\code\Mal\0.34007252162323187.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.6898973648010961.exe is mal
+ episode 85 select training sample: DoS.Win32.Jolt2
+D:\code\Mal\0.544165886983544.exe is mal
+D:\code\Mal\0.5275782706388217.exe is mal
+D:\code\Mal\0.5562018946132472.exe is mal
+D:\code\Mal\0.7381282511663958.exe is mal
+D:\code\Mal\0.7853084359237.exe is mal
+D:\code\Mal\0.9764285954256978.exe is mal
+D:\code\Mal\0.2942051817319824.exe is mal
+D:\code\Mal\0.7756915684350991.exe is mal
+D:\code\Mal\0.5816795202406896.exe is mal
+D:\code\Mal\0.6977168076563824.exe is mal
+D:\code\Mal\0.019069372998299694.exe is mal
+ episode 86 select training sample: DoS.Win32.Mk3.10
+D:\code\Mal\0.843040983902398.exe is mal
+D:\code\Mal\0.9216967506275264.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.22672950984616058.exe is mal
+ episode 87 select training sample: DoS.Win32.DeepThroat
+D:\code\Mal\0.20711593861443067.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.427345621320085.exe is mal
+ episode 88 select training sample: DoS.Win32.Lanxue.200
+D:\code\Mal\0.4174599494035047.exe is mal
+D:\code\Mal\0.8171493161447432.exe is mal
+D:\code\Mal\0.8103834571723597.exe is benign
+successfully evaded after 3 actions!
+D:\code\Mal\0.41553191980020676.exe is mal
+ episode 89 select training sample: DoS.Win32.DBomb.11
+D:\code\Mal\0.5645545156275039.exe is mal
+D:\code\Mal\0.6974899376849869.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.36916677752566307.exe is mal
+ episode 90 select training sample: DoS.Win32.Lanxue.100.b
+D:\code\Mal\0.5565371221121346.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.637281016068997.exe is mal
+ episode 91 select training sample: DoS.Win32.Killwin
+D:\code\Mal\0.5656254998046023.exe is mal
+D:\code\Mal\0.511795755291506.exe is mal
+D:\code\Mal\0.03795800624072143.exe is mal
+D:\code\Mal\0.3464309080154826.exe is mal
+D:\code\Mal\0.8740924229768746.exe is mal
+D:\code\Mal\0.8367993582367019.exe is mal
+D:\code\Mal\0.7501677284678259.exe is mal
+D:\code\Mal\0.049271349598335235.exe is mal
+D:\code\Mal\0.43490371206882306.exe is mal
+D:\code\Mal\0.5791370588008103.exe is mal
+D:\code\Mal\0.2065864503480629.exe is mal
+ episode 92 select training sample: DoS.Win32.ARPKiller.12
+D:\code\Mal\0.5197283122209864.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.4830648140575464.exe is mal
+ episode 93 select training sample: DoS.Win32.Kod.b
+D:\code\Mal\0.07729555621896633.exe is mal
+D:\code\Mal\0.684871617894229.exe is mal
+D:\code\Mal\0.8687673664078258.exe is mal
+D:\code\Mal\0.21594157555072735.exe is mal
+D:\code\Mal\0.08577764012922307.exe is mal
+D:\code\Mal\0.26485114284078426.exe is mal
+D:\code\Mal\0.5583222794547434.exe is mal
+D:\code\Mal\0.09756590107471463.exe is mal
+D:\code\Mal\0.8732835576963747.exe is mal
+D:\code\Mal\0.5329237778232405.exe is mal
+D:\code\Mal\0.5579997519258989.exe is mal
+ episode 94 select training sample: DoS.Win32.Hucsyn.02
+D:\code\Mal\0.6708256417496344.exe is mal
+D:\code\Mal\0.1074609309849498.exe is mal
+D:\code\Mal\0.7607175130261783.exe is mal
+D:\code\Mal\0.15887499463707466.exe is mal
+D:\code\Mal\0.08932433574598342.exe is mal
+D:\code\Mal\0.7234358668549817.exe is mal
+D:\code\Mal\0.6937806175946944.exe is mal
+D:\code\Mal\0.1171326819974523.exe is mal
+D:\code\Mal\0.8654798806185818.exe is mal
+D:\code\Mal\0.13179161028426212.exe is mal
+D:\code\Mal\0.7850162358080506.exe is mal
+ episode 95 select training sample: DoS.Win32.SkyfireNuker
+D:\code\Mal\0.01554165320969536.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.6161251444720793.exe is mal
+ episode 96 select training sample: DoS.Win32.RandomSpoof
+D:\code\Mal\0.5114379016357854.exe is mal
+D:\code\Mal\0.06805968618911651.exe is mal
+D:\code\Mal\0.8662641664714646.exe is mal
+D:\code\Mal\0.44704762149860233.exe is mal
+D:\code\Mal\0.19739041965904625.exe is mal
+D:\code\Mal\0.15794566178690905.exe is mal
+D:\code\Mal\0.720130516848728.exe is mal
+D:\code\Mal\0.8744546845391159.exe is mal
+D:\code\Mal\0.7843027340681598.exe is mal
+D:\code\Mal\0.22143531465361888.exe is mal
+D:\code\Mal\0.9932271054231072.exe is mal
+ episode 97 select training sample: DoS.Win32.Beer
+D:\code\Mal\0.76164701585411.exe is mal
+D:\code\Mal\0.4763640532592288.exe is mal
+D:\code\Mal\0.5849220198534753.exe is mal
+D:\code\Mal\0.9838280673549182.exe is mal
+D:\code\Mal\0.37844157385851607.exe is mal
+D:\code\Mal\0.551088066485668.exe is mal
+D:\code\Mal\0.8024147849883244.exe is mal
+D:\code\Mal\0.30693302170082426.exe is mal
+D:\code\Mal\0.5249483199124806.exe is mal
+D:\code\Mal\0.4480065630046951.exe is mal
+D:\code\Mal\0.8411037327609459.exe is mal
+ episode 98 select training sample: DoS.Win32.DBomb.21
+D:\code\Mal\0.938054739572788.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.7583937170120643.exe is mal
+ episode 99 select training sample: DoS.Win32.Agent.m
+D:\code\Mal\0.4108492573722764.exe is mal
+D:\code\Mal\0.6750667778860266.exe is mal
+D:\code\Mal\0.9524323885959177.exe is mal
+D:\code\Mal\0.7719774558680423.exe is mal
+D:\code\Mal\0.5323784468208712.exe is mal
+D:\code\Mal\0.7819779017823001.exe is mal
+D:\code\Mal\0.7001683623042795.exe is mal
+D:\code\Mal\0.780265580400753.exe is mal
+D:\code\Mal\0.16288571161423837.exe is mal
+D:\code\Mal\0.21485849907025578.exe is mal
+D:\code\Mal\0.05497812106960054.exe is mal
+ episode 100 select training sample: DoS.Win32.Kaliber
+D:\code\Mal\0.7812006795656594.exe is mal
+D:\code\Mal\0.7860181127751681.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.14513941444418121.exe is mal
+ episode 101 select training sample: DoS.Win32.DeepThroat
+D:\code\Mal\0.7660182785674805.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.4746182682601774.exe is mal
+ episode 102 select training sample: DoS.Win32.Nenet
+D:\code\Mal\0.29069128531429.exe is mal
+D:\code\Mal\0.4069130532606845.exe is mal
+D:\code\Mal\0.15916922064167383.exe is mal
+D:\code\Mal\0.4416118427372475.exe is mal
+D:\code\Mal\0.5624886205293805.exe is mal
+D:\code\Mal\0.49645665172577014.exe is mal
+D:\code\Mal\0.8486556945439897.exe is mal
+D:\code\Mal\0.4762787154335728.exe is mal
+D:\code\Mal\0.8237288508015249.exe is mal
+D:\code\Mal\0.4740898821280817.exe is mal
+D:\code\Mal\0.8720465043903843.exe is mal
+ episode 103 select training sample: DoS.Win32.DBomb.21
+D:\code\Mal\0.7808800709258289.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.32368913142220423.exe is mal
+ episode 104 select training sample: DoS.Win32.Kaliber
+D:\code\Mal\0.01876532891363203.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.525072440724516.exe is mal
+ episode 105 select training sample: DoS.Win32.Lanxue.100.a
+D:\code\Mal\0.6699404780644916.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.3597615287779402.exe is mal
+ episode 106 select training sample: DoS.Win32.Hucsyn.02
+D:\code\Mal\0.47189061806480226.exe is mal
+D:\code\Mal\0.7761640308277399.exe is mal
+D:\code\Mal\0.9860879595171996.exe is mal
+D:\code\Mal\0.19888431813165364.exe is mal
+D:\code\Mal\0.8688628927190932.exe is mal
+D:\code\Mal\0.9656685049208791.exe is mal
+D:\code\Mal\0.8445901158100473.exe is mal
+D:\code\Mal\0.6662050906275049.exe is mal
+D:\code\Mal\0.5248877069235901.exe is mal
+D:\code\Mal\0.19559881528701684.exe is mal
+D:\code\Mal\0.8802908134853193.exe is mal
+ episode 107 select training sample: DoS.Win32.Mk3.10
+D:\code\Mal\0.9828650947665052.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.715281681520961.exe is mal
+ episode 108 select training sample: DoS.Win32.Agent.m
+D:\code\Mal\0.5042761721177798.exe is mal
+D:\code\Mal\0.7909706886960491.exe is mal
+D:\code\Mal\0.26761324059447367.exe is mal
+D:\code\Mal\0.05320128303381155.exe is mal
+D:\code\Mal\0.639817241950119.exe is mal
+D:\code\Mal\0.8643164651513843.exe is mal
+D:\code\Mal\0.03566101334163163.exe is mal
+D:\code\Mal\0.7285920842531648.exe is mal
+D:\code\Mal\0.7428655393168807.exe is mal
+D:\code\Mal\0.0977573349339309.exe is mal
+D:\code\Mal\0.2939440714946776.exe is mal
+ episode 109 select training sample: DoS.Win32.Lanxue.201
+D:\code\Mal\0.07134020114316775.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.14124144538478578.exe is mal
+ episode 110 select training sample: DoS.Win32.Panther.m1
+D:\code\Mal\0.9266733612889414.exe is mal
+D:\code\Mal\0.7451595211972889.exe is mal
+D:\code\Mal\0.8541658449818064.exe is mal
+D:\code\Mal\0.06366800465979472.exe is mal
+D:\code\Mal\0.1983552669806552.exe is mal
+D:\code\Mal\0.07833330672407501.exe is mal
+D:\code\Mal\0.8429420200787079.exe is mal
+D:\code\Mal\0.38655339994344773.exe is mal
+D:\code\Mal\0.29526173377130294.exe is mal
+D:\code\Mal\0.5232660111030459.exe is mal
+D:\code\Mal\0.41270817625846645.exe is mal
+ episode 111 select training sample: DoS.Win32.Lanxue.200
+D:\code\Mal\0.32261497690445484.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.3785429683854157.exe is mal
+ episode 112 select training sample: DoS.Win32.Fedup.20
+D:\code\Mal\0.5022595653118566.exe is mal
+D:\code\Mal\0.873232071073722.exe is mal
+D:\code\Mal\0.7895507084717854.exe is mal
+D:\code\Mal\0.8680656380201512.exe is mal
+D:\code\Mal\0.3634388984838276.exe is mal
+D:\code\Mal\0.42787574017868313.exe is mal
+D:\code\Mal\0.5237757612834372.exe is mal
+D:\code\Mal\0.4109990040781476.exe is mal
+D:\code\Mal\0.8002512129765832.exe is mal
+D:\code\Mal\0.46752814565747214.exe is mal
+D:\code\Mal\0.8334306664874004.exe is mal
+ episode 113 select training sample: DoS.Win32.Opdos
+D:\code\Mal\0.4952326669312679.exe is mal
+D:\code\Mal\0.2135974979950036.exe is mal
+D:\code\Mal\0.5829264551372604.exe is mal
+D:\code\Mal\0.9266893478525352.exe is mal
+D:\code\Mal\0.09289733787174481.exe is mal
+D:\code\Mal\0.3105835649737536.exe is mal
+D:\code\Mal\0.06629795515107928.exe is mal
+D:\code\Mal\0.993344432688282.exe is mal
+D:\code\Mal\0.2684990601331404.exe is mal
+D:\code\Mal\0.0012742418944641232.exe is mal
+D:\code\Mal\0.6147177264890467.exe is mal
+ episode 114 select training sample: DoS.Win32.Lanxue.100.a
+D:\code\Mal\0.7828989437881145.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.43532205951177805.exe is mal
+ episode 115 select training sample: DoS.Win32.Lanxue.100.a
+D:\code\Mal\0.26019813194908925.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.26386734388920163.exe is mal
+ episode 116 select training sample: DoS.Win32.DeepThroat
+D:\code\Mal\0.2580017816363155.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.48055527372278917.exe is mal
+ episode 117 select training sample: DoS.Win32.HTTP.Bombarder
+D:\code\Mal\0.007286761247674356.exe is mal
+D:\code\Mal\0.1109705164015724.exe is mal
+D:\code\Mal\0.9695571819003928.exe is mal
+D:\code\Mal\0.03531007213276938.exe is mal
+D:\code\Mal\0.8691324090271254.exe is mal
+D:\code\Mal\0.7660370761142073.exe is mal
+D:\code\Mal\0.7730768721888823.exe is mal
+D:\code\Mal\0.5909141770235574.exe is mal
+D:\code\Mal\0.7092317972685791.exe is mal
+D:\code\Mal\0.6020617336422293.exe is mal
+D:\code\Mal\0.680352283187193.exe is mal
+ episode 118 select training sample: DoS.Win32.Kaliber
+D:\code\Mal\0.8993615812246017.exe is mal
+D:\code\Mal\0.9840510272019664.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.7563910887554084.exe is mal
+ episode 119 select training sample: DoS.Win32.Lanxue.100.a
+D:\code\Mal\0.462646579145352.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.16476462267844938.exe is mal
+ episode 120 select training sample: DoS.Win32.Lanxue.100.b
+D:\code\Mal\0.40424041712280134.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.5909679699863234.exe is mal
+ episode 121 select training sample: DoS.Win32.Delf.h
+D:\code\Mal\0.6325763391444513.exe is mal
+D:\code\Mal\0.11995021582533283.exe is mal
+D:\code\Mal\0.19016610982404136.exe is mal
+D:\code\Mal\0.14785035074927066.exe is mal
+D:\code\Mal\0.00608504041176805.exe is mal
+D:\code\Mal\0.04473402946061067.exe is mal
+D:\code\Mal\0.5539769457838161.exe is mal
+D:\code\Mal\0.6917854567329763.exe is mal
+D:\code\Mal\0.8697843187717227.exe is mal
+D:\code\Mal\0.6358040273002388.exe is mal
+D:\code\Mal\0.3542570888886811.exe is mal
+ episode 122 select training sample: DoS.Win32.Angeldos
+D:\code\Mal\0.24997010861836988.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.20523148433462768.exe is mal
+ episode 123 select training sample: DoS.Win32.KillCerb
+D:\code\Mal\0.9414687118242695.exe is mal
+D:\code\Mal\0.3048607053554193.exe is mal
+D:\code\Mal\0.47927177557871725.exe is mal
+D:\code\Mal\0.09728527003460086.exe is mal
+D:\code\Mal\0.7784053164356545.exe is mal
+D:\code\Mal\0.7324936449774858.exe is mal
+D:\code\Mal\0.6477376675417588.exe is mal
+D:\code\Mal\0.09899658523299171.exe is mal
+D:\code\Mal\0.7690990624038107.exe is mal
+D:\code\Mal\0.6048410261774972.exe is mal
+D:\code\Mal\0.5911581450229797.exe is mal
+ episode 124 select training sample: DoS.Win32.DBomb.31
+D:\code\Mal\0.12644852503753912.exe is mal
+D:\code\Mal\0.8310323060037853.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.7244467938509429.exe is mal
+ episode 125 select training sample: DoS.Win32.Kod.b
+D:\code\Mal\0.29836627173935726.exe is mal
+D:\code\Mal\0.39373399430719447.exe is mal
+D:\code\Mal\0.9728405044992954.exe is mal
+D:\code\Mal\0.5758857147810733.exe is mal
+D:\code\Mal\0.2775347618366616.exe is mal
+D:\code\Mal\0.9636044538411933.exe is mal
+D:\code\Mal\0.6681381778461183.exe is mal
+D:\code\Mal\0.23972513295625075.exe is mal
+D:\code\Mal\0.39939322621952367.exe is mal
+D:\code\Mal\0.7144709928838512.exe is mal
+D:\code\Mal\0.16312138580642255.exe is mal
+ episode 126 select training sample: DoS.Win32.DeepThroat
+D:\code\Mal\0.13086115694805034.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.43220338125355817.exe is mal
+ episode 127 select training sample: DoS.Win32.Opdos
+D:\code\Mal\0.1568351129797928.exe is mal
+D:\code\Mal\0.9196166492052193.exe is mal
+D:\code\Mal\0.08687446206319105.exe is mal
+D:\code\Mal\0.3139546552769976.exe is mal
+D:\code\Mal\0.3989461147191794.exe is mal
+D:\code\Mal\0.3234122796007032.exe is mal
+D:\code\Mal\0.4399756071387102.exe is mal
+D:\code\Mal\0.41538842425716493.exe is mal
+D:\code\Mal\0.4183036998933013.exe is mal
+D:\code\Mal\0.8571350086764733.exe is mal
+D:\code\Mal\0.11043233629261073.exe is mal
+ episode 128 select training sample: DoS.Win32.PortTerminator
+D:\code\Mal\0.09160999997991126.exe is mal
+D:\code\Mal\0.19963675062191932.exe is mal
+D:\code\Mal\0.6235856695195742.exe is mal
+D:\code\Mal\0.5579254396934717.exe is mal
+D:\code\Mal\0.8600171611016593.exe is mal
+D:\code\Mal\0.5635116747898768.exe is mal
+D:\code\Mal\0.07671551577695623.exe is mal
+D:\code\Mal\0.5367289085739517.exe is mal
+D:\code\Mal\0.7550511338952246.exe is mal
+D:\code\Mal\0.05893733370469023.exe is mal
+D:\code\Mal\0.1361023460451185.exe is mal
+ episode 129 select training sample: DoS.Win32.Bonk.a
+D:\code\Mal\0.6214211256234838.exe is mal
+D:\code\Mal\0.7745947343680806.exe is mal
+D:\code\Mal\0.6794164473512482.exe is mal
+D:\code\Mal\0.8269150922028835.exe is mal
+D:\code\Mal\0.9129487408125239.exe is mal
+D:\code\Mal\0.6085303824893703.exe is mal
+D:\code\Mal\0.2908498652192405.exe is mal
+D:\code\Mal\0.9170354617729471.exe is mal
+D:\code\Mal\0.6069054907714504.exe is mal
+D:\code\Mal\0.9126527216960196.exe is mal
+D:\code\Mal\0.4706535907246113.exe is mal
+ episode 130 select training sample: DoS.Win32.DBomb.31
+D:\code\Mal\0.47877499319075023.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.319378958450071.exe is mal
+ episode 131 select training sample: DoS.Win32.Frozen
+D:\code\Mal\0.6692537005220535.exe is mal
+D:\code\Mal\0.9603644453794661.exe is mal
+D:\code\Mal\0.5939131403070387.exe is mal
+D:\code\Mal\0.5709508913824205.exe is mal
+D:\code\Mal\0.772647798339072.exe is mal
+D:\code\Mal\0.40001916137084603.exe is mal
+D:\code\Mal\0.9569685833753833.exe is mal
+D:\code\Mal\0.39336443337382176.exe is mal
+D:\code\Mal\0.37509096174081535.exe is mal
+D:\code\Mal\0.4887337583158171.exe is mal
+D:\code\Mal\0.4862534825200885.exe is mal
+ episode 132 select training sample: DoS.Win32.Lanxie.100
+D:\code\Mal\0.3048202266010601.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.7405637451887471.exe is mal
+ episode 133 select training sample: DoS.Win32.Misoska.c
+D:\code\Mal\0.7252830005750667.exe is mal
+D:\code\Mal\0.18190565551821347.exe is mal
+D:\code\Mal\0.016965004929983762.exe is mal
+D:\code\Mal\0.24506053029964137.exe is mal
+D:\code\Mal\0.9428989164377558.exe is mal
+D:\code\Mal\0.7640142388723458.exe is mal
+D:\code\Mal\0.846279864860563.exe is mal
+D:\code\Mal\0.18583117908760682.exe is mal
+D:\code\Mal\0.8300406797172936.exe is mal
+D:\code\Mal\0.7064590174894563.exe is mal
+D:\code\Mal\0.7452511463420324.exe is mal
+ episode 134 select training sample: DoS.Win32.Beer
+D:\code\Mal\0.6073709790855619.exe is mal
+D:\code\Mal\0.9958233679498669.exe is mal
+D:\code\Mal\0.1596339207162022.exe is mal
+D:\code\Mal\0.2247574424343053.exe is mal
+D:\code\Mal\0.5250364817615183.exe is mal
+D:\code\Mal\0.1277394084053871.exe is mal
+D:\code\Mal\0.06501882377788126.exe is mal
+D:\code\Mal\0.4636880666271387.exe is mal
+D:\code\Mal\0.2628252654270268.exe is mal
+D:\code\Mal\0.8201109778012051.exe is mal
+D:\code\Mal\0.9506058925156643.exe is mal
+ episode 135 select training sample: DoS.Win32.DBomb.21
+D:\code\Mal\0.4853936644253851.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.9574652393583925.exe is mal
+ episode 136 select training sample: DoS.Win32.Beer
+D:\code\Mal\0.5411369132064471.exe is mal
+D:\code\Mal\0.0732689845387896.exe is mal
+D:\code\Mal\0.9867801498227627.exe is mal
+D:\code\Mal\0.46588583077318124.exe is mal
+D:\code\Mal\0.47297274922915955.exe is mal
+D:\code\Mal\0.4576932021967779.exe is mal
+D:\code\Mal\0.19347763015776864.exe is mal
+D:\code\Mal\0.5917381333969404.exe is mal
+D:\code\Mal\0.7933683669483504.exe is mal
+D:\code\Mal\0.647536127869473.exe is mal
+D:\code\Mal\0.12927402132163635.exe is mal
+ episode 137 select training sample: DoS.Win32.Frozen
+D:\code\Mal\0.4811296498843115.exe is mal
+D:\code\Mal\0.6005849511726629.exe is mal
+D:\code\Mal\0.08208693026589686.exe is mal
+D:\code\Mal\0.5030064690082658.exe is mal
+D:\code\Mal\0.07829272170779089.exe is mal
+D:\code\Mal\0.23230742389323245.exe is mal
+D:\code\Mal\0.9175028821578273.exe is mal
+D:\code\Mal\0.4828519478582657.exe is mal
+D:\code\Mal\0.9938435580980086.exe is mal
+D:\code\Mal\0.1208479668041188.exe is mal
+D:\code\Mal\0.05338913402833356.exe is mal
+ episode 138 select training sample: DoS.Win32.ScrAwaked
+D:\code\Mal\0.7616431766882712.exe is mal
+D:\code\Mal\0.7884710493124613.exe is mal
+D:\code\Mal\0.2456844023790622.exe is mal
+D:\code\Mal\0.9274588831201661.exe is mal
+D:\code\Mal\0.5277905246770316.exe is mal
+D:\code\Mal\0.3729671582907148.exe is mal
+D:\code\Mal\0.3504491262248497.exe is mal
+D:\code\Mal\0.5725015305697129.exe is mal
+D:\code\Mal\0.8121802648351785.exe is mal
+D:\code\Mal\0.44058499420037833.exe is mal
+D:\code\Mal\0.27871499509318887.exe is mal
+ episode 139 select training sample: DoS.Win32.Lanxue.101
+D:\code\Mal\0.6079922242910254.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.8335109920403562.exe is mal
+ episode 140 select training sample: DoS.Win32.Kaliber
+D:\code\Mal\0.8281304482688616.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.8025495965777606.exe is mal
+ episode 141 select training sample: DoS.Win32.Beer
+D:\code\Mal\0.3511970946313142.exe is mal
+D:\code\Mal\0.3956998479679221.exe is mal
+D:\code\Mal\0.8639177675289764.exe is mal
+D:\code\Mal\0.9013618550965111.exe is mal
+D:\code\Mal\0.7683471230645358.exe is mal
+D:\code\Mal\0.846809538560411.exe is mal
+D:\code\Mal\0.6791294522775537.exe is mal
+D:\code\Mal\0.7348433680935375.exe is mal
+D:\code\Mal\0.7869033441384697.exe is mal
+D:\code\Mal\0.2005906148366371.exe is mal
+D:\code\Mal\0.005151310243210694.exe is mal
+ episode 142 select training sample: DoS.Win32.Panther.m1
+D:\code\Mal\0.13264781831037264.exe is mal
+D:\code\Mal\0.6608179426877658.exe is mal
+D:\code\Mal\0.5773655379526282.exe is mal
+D:\code\Mal\0.9731570345485615.exe is mal
+D:\code\Mal\0.3067047820553458.exe is mal
+D:\code\Mal\0.03251113502343106.exe is mal
+D:\code\Mal\0.770754465131383.exe is mal
+D:\code\Mal\0.9845499503537054.exe is mal
+D:\code\Mal\0.40994747322443326.exe is mal
+D:\code\Mal\0.32090994710130194.exe is mal
+D:\code\Mal\0.7899099053921285.exe is mal
+ episode 143 select training sample: DoS.Win32.Kaliber
+D:\code\Mal\0.030729754975772683.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.9000178742739311.exe is mal
+ episode 144 select training sample: DoS.Win32.Daily
+D:\code\Mal\0.1505774348008193.exe is mal
+D:\code\Mal\0.47104097913513254.exe is mal
+D:\code\Mal\0.45861461613154475.exe is mal
+D:\code\Mal\0.654088341749677.exe is mal
+D:\code\Mal\0.2246839748009375.exe is mal
+D:\code\Mal\0.03674900118292046.exe is mal
+D:\code\Mal\0.2995397838543702.exe is mal
+D:\code\Mal\0.25964376633140085.exe is mal
+D:\code\Mal\0.7673677484614325.exe is mal
+D:\code\Mal\0.4400000481423606.exe is mal
+D:\code\Mal\0.6924702626343147.exe is mal
+ episode 145 select training sample: DoS.Win32.Kaliber
+D:\code\Mal\0.6601016626215225.exe is mal
+D:\code\Mal\0.33443303502121646.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.4238862678198083.exe is mal
+ episode 146 select training sample: DoS.Win32.HTTP.Bombarder
+D:\code\Mal\0.5226134765942996.exe is mal
+D:\code\Mal\0.5990912000544444.exe is mal
+D:\code\Mal\0.9510716006127659.exe is mal
+D:\code\Mal\0.24769718856142253.exe is mal
+D:\code\Mal\0.8102022583335323.exe is mal
+D:\code\Mal\0.031093485516547448.exe is mal
+D:\code\Mal\0.09677857817460678.exe is mal
+D:\code\Mal\0.5220946609100031.exe is mal
+D:\code\Mal\0.41091923584039336.exe is mal
+D:\code\Mal\0.7316795140153297.exe is mal
+D:\code\Mal\0.3690156641954374.exe is mal
+ episode 147 select training sample: DoS.Win32.Bonk.a
+D:\code\Mal\0.6145623757537653.exe is mal
+D:\code\Mal\0.5339966481622879.exe is mal
+D:\code\Mal\0.34231391167693004.exe is mal
+D:\code\Mal\0.5491788255433069.exe is mal
+D:\code\Mal\0.5458499412823571.exe is mal
+D:\code\Mal\0.5619497037364425.exe is mal
+D:\code\Mal\0.9287694933729119.exe is mal
+D:\code\Mal\0.21347450365248266.exe is mal
+D:\code\Mal\0.8766646188466292.exe is mal
+D:\code\Mal\0.8908576079393623.exe is mal
+D:\code\Mal\0.5331002197212057.exe is mal
+ episode 148 select training sample: DoS.Win32.Drdos
+D:\code\Mal\0.7786975814822993.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.5379454903109903.exe is mal
+ episode 149 select training sample: DoS.Win32.GhostDog
+D:\code\Mal\0.7931087255918068.exe is mal
+D:\code\Mal\0.133407018898966.exe is mal
+D:\code\Mal\0.7792295539772491.exe is mal
+D:\code\Mal\0.3790796496777311.exe is mal
+D:\code\Mal\0.533348683323134.exe is mal
+D:\code\Mal\0.4242662693008973.exe is mal
+D:\code\Mal\0.23035720561767525.exe is mal
+D:\code\Mal\0.8999330741788638.exe is mal
+D:\code\Mal\0.5096502250192292.exe is mal
+D:\code\Mal\0.5115393789012818.exe is mal
+D:\code\Mal\0.8832537770346719.exe is mal
+ episode 150 select training sample: DoS.Win32.Lanxue.201
+D:\code\Mal\0.30593037988011396.exe is mal
+D:\code\Mal\0.7781685491024679.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.4231073596818191.exe is mal
+ episode 151 select training sample: DoS.Win32.Panther.m2
+D:\code\Mal\0.21531234874499927.exe is mal
+D:\code\Mal\0.923662186297352.exe is mal
+D:\code\Mal\0.8500676410375947.exe is mal
+D:\code\Mal\0.38275721554330944.exe is mal
+D:\code\Mal\0.17366316698066775.exe is mal
+D:\code\Mal\0.6089472583079365.exe is mal
+D:\code\Mal\0.27898698890398466.exe is mal
+D:\code\Mal\0.18997913084791096.exe is mal
+D:\code\Mal\0.9677225711895622.exe is mal
+D:\code\Mal\0.7305025924023986.exe is mal
+D:\code\Mal\0.8929506919566708.exe is mal
+ episode 152 select training sample: DoS.Win32.Opdos
+D:\code\Mal\0.2343254928464149.exe is mal
+D:\code\Mal\0.1215525870950529.exe is mal
+D:\code\Mal\0.6915042697757501.exe is mal
+D:\code\Mal\0.6258008656033149.exe is mal
+D:\code\Mal\0.723720128641784.exe is mal
+D:\code\Mal\0.5056496366371998.exe is mal
+D:\code\Mal\0.9807082225330995.exe is mal
+D:\code\Mal\0.8943176807119647.exe is mal
+D:\code\Mal\0.5168791249011611.exe is mal
+D:\code\Mal\0.4307194143694921.exe is mal
+D:\code\Mal\0.18118846382303644.exe is mal
+ episode 153 select training sample: DoS.Win32.Misoska.PackBuild.06b
+D:\code\Mal\0.3847379511605039.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.43878440526366413.exe is mal
+ episode 154 select training sample: DoS.Win32.DK-ToyBox.21.b
+D:\code\Mal\0.518954747549862.exe is mal
+D:\code\Mal\0.4243837127123612.exe is mal
+D:\code\Mal\0.8446585158168265.exe is mal
+D:\code\Mal\0.14537890225638783.exe is benign
+successfully evaded after 4 actions!
+D:\code\Mal\0.8616357278637947.exe is mal
+ episode 155 select training sample: DoS.Win32.ARPKiller.13
+D:\code\Mal\0.6342327589351007.exe is mal
+D:\code\Mal\0.6697095604309514.exe is mal
+D:\code\Mal\0.9750305467012083.exe is benign
+successfully evaded after 3 actions!
+D:\code\Mal\0.8810945728934286.exe is mal
+ episode 156 select training sample: DoS.Win32.Bonk.a
+D:\code\Mal\0.45032469193853986.exe is mal
+D:\code\Mal\0.19321233696858864.exe is mal
+D:\code\Mal\0.9872242517510267.exe is mal
+D:\code\Mal\0.9362074034499626.exe is mal
+D:\code\Mal\0.2961698024592998.exe is mal
+D:\code\Mal\0.6087108879536279.exe is mal
+D:\code\Mal\0.0807004576527186.exe is mal
+D:\code\Mal\0.35388426235531056.exe is mal
+D:\code\Mal\0.8096526747792604.exe is mal
+D:\code\Mal\0.7530407750458284.exe is mal
+D:\code\Mal\0.4289093040366635.exe is mal
+ episode 157 select training sample: DoS.Win32.Lanxue.a
+D:\code\Mal\0.9755342362318726.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.2494512130710882.exe is mal
+ episode 158 select training sample: DoS.Win32.DeepThroat
+D:\code\Mal\0.3261923204205851.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.15107975437557697.exe is mal
+ episode 159 select training sample: DoS.Win32.Lanxue.b
+D:\code\Mal\0.270833313706515.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.9898845531416038.exe is mal
+ episode 160 select training sample: DoS.Win32.DK-ToyBox.21.b
+D:\code\Mal\0.7572416901935035.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.034506880863116374.exe is mal
+ episode 161 select training sample: DoS.Win32.Aleph.a
+D:\code\Mal\0.7290380827175913.exe is mal
+D:\code\Mal\0.3749492367574252.exe is mal
+D:\code\Mal\0.3202470466730789.exe is mal
+D:\code\Mal\0.17558819799307057.exe is mal
+D:\code\Mal\0.3307698730096079.exe is mal
+D:\code\Mal\0.2930705108275654.exe is mal
+D:\code\Mal\0.35405950519257967.exe is mal
+D:\code\Mal\0.34993965062603916.exe is mal
+D:\code\Mal\0.7924491803416589.exe is mal
+D:\code\Mal\0.07945728613087433.exe is mal
+D:\code\Mal\0.9434276191535668.exe is mal
+ episode 162 select training sample: DoS.Win32.Hucsyn.02
+D:\code\Mal\0.8074148678641703.exe is mal
+D:\code\Mal\0.8032325944345633.exe is mal
+D:\code\Mal\0.5820053556283594.exe is mal
+D:\code\Mal\0.9621454679006081.exe is mal
+D:\code\Mal\0.7009037531334016.exe is mal
+D:\code\Mal\0.8568092621727561.exe is mal
+D:\code\Mal\0.5725081217838194.exe is mal
+D:\code\Mal\0.4133312651067097.exe is mal
+D:\code\Mal\0.0698401462417284.exe is mal
+D:\code\Mal\0.4838832038619745.exe is mal
+D:\code\Mal\0.48321033820419157.exe is mal
+ episode 163 select training sample: DoS.Win32.Lanxie.100
+D:\code\Mal\0.7396303094601276.exe is mal
+D:\code\Mal\0.6858490407390279.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.6325902555316887.exe is mal
+ episode 164 select training sample: DoS.Win32.Aftpkill
+D:\code\Mal\0.04012415562831795.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.6254266244906185.exe is mal
+ episode 165 select training sample: DoS.Win32.Delf.g
+D:\code\Mal\0.5273256354041073.exe is mal
+D:\code\Mal\0.7616942708442074.exe is mal
+D:\code\Mal\0.7230850508817811.exe is mal
+D:\code\Mal\0.8561644180864474.exe is mal
+D:\code\Mal\0.23209572586121052.exe is mal
+D:\code\Mal\0.3868418825413862.exe is mal
+D:\code\Mal\0.7528461373704177.exe is mal
+D:\code\Mal\0.2524966586622339.exe is mal
+D:\code\Mal\0.7495883079382902.exe is mal
+D:\code\Mal\0.9150580582327135.exe is mal
+D:\code\Mal\0.8397452770898424.exe is mal
+ episode 166 select training sample: DoS.Win32.Opdos
+D:\code\Mal\0.009044469514165598.exe is mal
+D:\code\Mal\0.5877534987374446.exe is mal
+D:\code\Mal\0.026641824389224134.exe is mal
+D:\code\Mal\0.43985111559398016.exe is mal
+D:\code\Mal\0.07894317806218876.exe is mal
+D:\code\Mal\0.9180136862150571.exe is mal
+D:\code\Mal\0.5708530459261362.exe is mal
+D:\code\Mal\0.04853940883659458.exe is mal
+D:\code\Mal\0.8246065052829766.exe is mal
+D:\code\Mal\0.44745648059880183.exe is mal
+D:\code\Mal\0.2545986437971298.exe is mal
+ episode 167 select training sample: DoS.Win32.Opdos
+D:\code\Mal\0.9468240662996538.exe is mal
+D:\code\Mal\0.5251974716910688.exe is mal
+D:\code\Mal\0.8395196783305174.exe is mal
+D:\code\Mal\0.2643540340459094.exe is mal
+D:\code\Mal\0.7368538926382738.exe is mal
+D:\code\Mal\0.10854782157938314.exe is mal
+D:\code\Mal\0.984366734004815.exe is mal
+D:\code\Mal\0.37215238824480423.exe is mal
+D:\code\Mal\0.09120813938334571.exe is mal
+D:\code\Mal\0.20153050565782027.exe is mal
+D:\code\Mal\0.8547879869620532.exe is mal
+ episode 168 select training sample: DoS.Win32.Delf.g
+D:\code\Mal\0.1253620893066708.exe is mal
+D:\code\Mal\0.9994871847359801.exe is mal
+D:\code\Mal\0.5496947797131231.exe is mal
+D:\code\Mal\0.09080450301535048.exe is mal
+D:\code\Mal\0.24175882044035424.exe is mal
+D:\code\Mal\0.7870193991319857.exe is mal
+D:\code\Mal\0.8398360190490461.exe is mal
+D:\code\Mal\0.18667750335522837.exe is mal
+D:\code\Mal\0.0907242844868289.exe is mal
+D:\code\Mal\0.921013670574964.exe is mal
+D:\code\Mal\0.8911331659065505.exe is mal
+ episode 169 select training sample: DoS.Win32.SkyfireNuker
+D:\code\Mal\0.2046949452370853.exe is mal
+D:\code\Mal\0.676972631253509.exe is mal
+D:\code\Mal\0.3345904384043942.exe is benign
+successfully evaded after 3 actions!
+D:\code\Mal\0.39115109324722164.exe is mal
+ episode 170 select training sample: DoS.Win32.Delf.b
+D:\code\Mal\0.023845016889619153.exe is mal
+D:\code\Mal\0.2942637389824071.exe is mal
+D:\code\Mal\0.46529433597749503.exe is mal
+D:\code\Mal\0.9356927240473364.exe is mal
+D:\code\Mal\0.7521579733383092.exe is mal
+D:\code\Mal\0.27498604116360825.exe is mal
+D:\code\Mal\0.8446105779970989.exe is mal
+D:\code\Mal\0.2781663002579492.exe is mal
+D:\code\Mal\0.8147417670130309.exe is mal
+D:\code\Mal\0.5599727193660633.exe is mal
+D:\code\Mal\0.6833225900774994.exe is mal
+ episode 171 select training sample: DoS.Win32.Nenet
+D:\code\Mal\0.8672108964330832.exe is mal
+D:\code\Mal\0.16375789108465888.exe is mal
+D:\code\Mal\0.46065611704417575.exe is mal
+D:\code\Mal\0.5666320495089099.exe is mal
+D:\code\Mal\0.6959005152491832.exe is mal
+D:\code\Mal\0.5468748991980314.exe is mal
+D:\code\Mal\0.7780521765108918.exe is mal
+D:\code\Mal\0.8561316734511828.exe is mal
+D:\code\Mal\0.7953664062249006.exe is mal
+D:\code\Mal\0.8630892886236311.exe is mal
+D:\code\Mal\0.5934382538246341.exe is mal
+ episode 172 select training sample: DoS.Win32.DBomb.31
+D:\code\Mal\0.5364096659482112.exe is mal
+D:\code\Mal\0.288701784895704.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.21358514240811566.exe is mal
+ episode 173 select training sample: DoS.Win32.LamerToy.008
+D:\code\Mal\0.7860265035209025.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.16892435014076557.exe is mal
+ episode 174 select training sample: DoS.Win32.Panther.m2
+D:\code\Mal\0.8619062740856773.exe is mal
+D:\code\Mal\0.7538332056654222.exe is mal
+D:\code\Mal\0.14514329447103602.exe is mal
+D:\code\Mal\0.7713904009250316.exe is mal
+D:\code\Mal\0.7180877761296031.exe is mal
+D:\code\Mal\0.2510016774413203.exe is mal
+D:\code\Mal\0.11615839238183001.exe is mal
+D:\code\Mal\0.23863206938126835.exe is mal
+D:\code\Mal\0.2272175110468554.exe is mal
+D:\code\Mal\0.5372479850349149.exe is mal
+D:\code\Mal\0.10799397684121337.exe is mal
+ episode 175 select training sample: DoS.Win32.Bind
+D:\code\Mal\0.1797425202101457.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.8386434105629647.exe is mal
+ episode 176 select training sample: DoS.Win32.Mk3.10
+D:\code\Mal\0.9991311866513863.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.0401838025033322.exe is mal
+ episode 177 select training sample: DoS.Win32.Lanxue.b
+D:\code\Mal\0.4852352735088664.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.12218657310268588.exe is mal
+ episode 178 select training sample: DoS.Win32.Ras.11
+D:\code\Mal\0.876617086112553.exe is mal
+D:\code\Mal\0.43292103759240996.exe is mal
+D:\code\Mal\0.34986223830382424.exe is mal
+D:\code\Mal\0.7836491189674902.exe is mal
+D:\code\Mal\0.6846399905587917.exe is mal
+D:\code\Mal\0.9296027974769067.exe is mal
+D:\code\Mal\0.35534429388071465.exe is mal
+D:\code\Mal\0.7410244854605882.exe is mal
+D:\code\Mal\0.3113243972507189.exe is mal
+D:\code\Mal\0.996158917748496.exe is mal
+D:\code\Mal\0.2556023591087554.exe is mal
+ episode 179 select training sample: DoS.Win32.Bonk.a
+D:\code\Mal\0.5243026679487617.exe is mal
+D:\code\Mal\0.08359035074857435.exe is mal
+D:\code\Mal\0.5006598494453974.exe is mal
+D:\code\Mal\0.4679443085136523.exe is mal
+D:\code\Mal\0.05834301406194742.exe is mal
+D:\code\Mal\0.25492737306609525.exe is mal
+D:\code\Mal\0.8685123510621549.exe is mal
+D:\code\Mal\0.6941673298293513.exe is mal
+D:\code\Mal\0.267355401816172.exe is mal
+D:\code\Mal\0.857440547888282.exe is mal
+D:\code\Mal\0.33663861239198545.exe is mal
+ episode 180 select training sample: DoS.Win32.ARPKiller.12
+D:\code\Mal\0.5434932221126274.exe is mal
+D:\code\Mal\0.5303241876909581.exe is mal
+D:\code\Mal\0.8807111654876335.exe is benign
+successfully evaded after 3 actions!
+D:\code\Mal\0.7998615407251125.exe is mal
+ episode 181 select training sample: DoS.Win32.Lanxue.a
+D:\code\Mal\0.14428996646419745.exe is mal
+D:\code\Mal\0.7196596429703563.exe is mal
+D:\code\Mal\0.6051959423923997.exe is mal
+D:\code\Mal\0.06328764311559099.exe is benign
+successfully evaded after 4 actions!
+D:\code\Mal\0.7555305170820492.exe is mal
+ episode 182 select training sample: DoS.Win32.DK-ToyBox.21.b
+D:\code\Mal\0.30241237754301353.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.6700625919712732.exe is mal
+ episode 183 select training sample: DoS.Win32.Bonk.a
+D:\code\Mal\0.6960617103054517.exe is mal
+D:\code\Mal\0.5520172298502639.exe is mal
+D:\code\Mal\0.10689523034542459.exe is mal
+D:\code\Mal\0.06550285371133635.exe is mal
+D:\code\Mal\0.9116120699507302.exe is mal
+D:\code\Mal\0.4687574887037975.exe is mal
+D:\code\Mal\0.752062578961455.exe is mal
+D:\code\Mal\0.8687118353912961.exe is mal
+D:\code\Mal\0.8651016395298498.exe is mal
+D:\code\Mal\0.11456739077349842.exe is mal
+D:\code\Mal\0.8530115466627473.exe is mal
+ episode 184 select training sample: DoS.Win32.RandomSpoof
+D:\code\Mal\0.7236481270207448.exe is mal
+D:\code\Mal\0.9804499741871575.exe is mal
+D:\code\Mal\0.4383577384190649.exe is mal
+D:\code\Mal\0.9015305159846834.exe is mal
+D:\code\Mal\0.1729738034071321.exe is mal
+D:\code\Mal\0.7045208305535641.exe is mal
+D:\code\Mal\0.6656437535316576.exe is mal
+D:\code\Mal\0.6220796913824901.exe is mal
+D:\code\Mal\0.44743067138225034.exe is mal
+D:\code\Mal\0.8254956804423659.exe is mal
+D:\code\Mal\0.6323133333353437.exe is mal
+ episode 185 select training sample: DoS.Win32.Flash
+D:\code\Mal\0.984714093469729.exe is mal
+D:\code\Mal\0.4364064476825029.exe is mal
+D:\code\Mal\0.9996043628598908.exe is mal
+D:\code\Mal\0.7550848553655114.exe is mal
+D:\code\Mal\0.3100474875362238.exe is mal
+D:\code\Mal\0.7121038197869806.exe is mal
+D:\code\Mal\0.22024440110793253.exe is mal
+D:\code\Mal\0.6203927483432667.exe is mal
+D:\code\Mal\0.3807724216436382.exe is mal
+D:\code\Mal\0.8732494234252868.exe is mal
+D:\code\Mal\0.26013829063188576.exe is mal
+ episode 186 select training sample: DoS.Win32.Kod.b
+D:\code\Mal\0.2738834092586472.exe is mal
+D:\code\Mal\0.7016349154282375.exe is mal
+D:\code\Mal\0.4043575834185039.exe is mal
+D:\code\Mal\0.10242428058499153.exe is mal
+D:\code\Mal\0.6240003971214709.exe is mal
+D:\code\Mal\0.39462096420611725.exe is mal
+D:\code\Mal\0.6785216929628584.exe is mal
+D:\code\Mal\0.8680902601641527.exe is mal
+D:\code\Mal\0.37785672627414135.exe is mal
+D:\code\Mal\0.9099849363766791.exe is mal
+D:\code\Mal\0.8486103476213853.exe is mal
+ episode 187 select training sample: DoS.Win32.Lanxue.100.a
+D:\code\Mal\0.3025763385080519.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.02579184639199328.exe is mal
+ episode 188 select training sample: DoS.Win32.Fedup.20
+D:\code\Mal\0.1641280227267795.exe is mal
+D:\code\Mal\0.413723556509736.exe is mal
+D:\code\Mal\0.5740261741575098.exe is mal
+D:\code\Mal\0.8524329495578975.exe is mal
+D:\code\Mal\0.7122782686128969.exe is mal
+D:\code\Mal\0.8972316786734267.exe is mal
+D:\code\Mal\0.7156985030521105.exe is mal
+D:\code\Mal\0.6131411438672931.exe is mal
+D:\code\Mal\0.14418983594550305.exe is mal
+D:\code\Mal\0.05755381046389363.exe is mal
+D:\code\Mal\0.17103487315624277.exe is mal
+ episode 189 select training sample: DoS.Win32.Lanxue.100.b
+D:\code\Mal\0.10631053820069658.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.6426882091323827.exe is mal
+ episode 190 select training sample: DoS.Win32.Beer
+D:\code\Mal\0.8620896431420392.exe is mal
+D:\code\Mal\0.420359509170237.exe is mal
+D:\code\Mal\0.513753850507051.exe is mal
+D:\code\Mal\0.4481833385919052.exe is mal
+D:\code\Mal\0.5737322326259109.exe is mal
+D:\code\Mal\0.7221490177394766.exe is mal
+D:\code\Mal\0.2932970360336885.exe is mal
+D:\code\Mal\0.7735742095939653.exe is mal
+D:\code\Mal\0.5503086210496742.exe is mal
+D:\code\Mal\0.37088685624079054.exe is mal
+D:\code\Mal\0.3329168379784909.exe is mal
+ episode 191 select training sample: DoS.Win32.DBomb.31
+D:\code\Mal\0.11158886506712817.exe is mal
+D:\code\Mal\0.7829057426385548.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.33672403327571376.exe is mal
+ episode 192 select training sample: DoS.Win32.SkyfireNuker
+D:\code\Mal\0.32021669875212144.exe is mal
+D:\code\Mal\0.786059282949273.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.8598027676061075.exe is mal
+ episode 193 select training sample: DoS.Win32.Awak.10
+D:\code\Mal\0.15423753232455362.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.01752351831370258.exe is mal
+ episode 194 select training sample: DoS.Win32.Lanxie.100
+D:\code\Mal\0.018616524890089692.exe is mal
+D:\code\Mal\0.09216479777430886.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.4974520813869454.exe is mal
+ episode 195 select training sample: DoS.Win32.Panther.m1
+D:\code\Mal\0.8149050748187914.exe is mal
+D:\code\Mal\0.6997632332532403.exe is mal
+D:\code\Mal\0.9533008055562342.exe is mal
+D:\code\Mal\0.7432534041982773.exe is mal
+D:\code\Mal\0.08292857343723625.exe is mal
+D:\code\Mal\0.9445831441121689.exe is mal
+D:\code\Mal\0.9664045212560972.exe is mal
+D:\code\Mal\0.3967647326543122.exe is mal
+D:\code\Mal\0.9123019710662453.exe is mal
+D:\code\Mal\0.3275808347303557.exe is mal
+D:\code\Mal\0.2923136150159613.exe is mal
+ episode 196 select training sample: DoS.Win32.Fedup.20
+D:\code\Mal\0.049160564050669486.exe is mal
+D:\code\Mal\0.5017909490090415.exe is mal
+D:\code\Mal\0.15924808808043533.exe is mal
+D:\code\Mal\0.7082181096753077.exe is mal
+D:\code\Mal\0.054644188121299564.exe is mal
+D:\code\Mal\0.3723050084520819.exe is mal
+D:\code\Mal\0.24177314510355719.exe is mal
+D:\code\Mal\0.3692823526539656.exe is mal
+D:\code\Mal\0.22703526126471618.exe is mal
+D:\code\Mal\0.45483463115516476.exe is mal
+D:\code\Mal\0.47966648008868773.exe is mal
+ episode 197 select training sample: DoS.Win32.RandomSpoof
+D:\code\Mal\0.39783333019269274.exe is mal
+D:\code\Mal\0.10722613908230427.exe is mal
+D:\code\Mal\0.26918030917934854.exe is mal
+D:\code\Mal\0.4157681983009288.exe is mal
+D:\code\Mal\0.9437268705491499.exe is mal
+D:\code\Mal\0.4897890195537915.exe is mal
+D:\code\Mal\0.12410588884813778.exe is mal
+D:\code\Mal\0.5390657921090354.exe is mal
+D:\code\Mal\0.1580083023748179.exe is mal
+D:\code\Mal\0.17612908946575945.exe is mal
+D:\code\Mal\0.652569450370587.exe is mal
+ episode 198 select training sample: DoS.Win32.DeepThroat
+D:\code\Mal\0.21357274027997597.exe is mal
+D:\code\Mal\0.9632856934546951.exe is mal
+D:\code\Mal\0.5547735112557604.exe is mal
+D:\code\Mal\0.6357500848936161.exe is benign
+successfully evaded after 4 actions!
+D:\code\Mal\0.9145158892778137.exe is mal
+ episode 199 select training sample: DoS.Win32.ARPKiller.13
+D:\code\Mal\0.435586081360815.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.9876270894582118.exe is mal
+ episode 200 select training sample: DoS.Win32.Kaliber
+D:\code\Mal\0.6557653037647373.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.2911941285895897.exe is mal
+ episode 201 select training sample: DoS.Win32.Killwin
+D:\code\Mal\0.2931753945611132.exe is mal
+D:\code\Mal\0.9923346707108393.exe is mal
+D:\code\Mal\0.735209562197654.exe is mal
+D:\code\Mal\0.0793315637012112.exe is mal
+D:\code\Mal\0.6455911466710602.exe is mal
+D:\code\Mal\0.9567974982828121.exe is mal
+D:\code\Mal\0.5217913933141899.exe is mal
+D:\code\Mal\0.09532299607259853.exe is mal
+D:\code\Mal\0.4094642901140484.exe is mal
+D:\code\Mal\0.6445550000950931.exe is mal
+D:\code\Mal\0.9410889673605131.exe is mal
+ episode 202 select training sample: DoS.Win32.LamerToy.008
+D:\code\Mal\0.4960722210125328.exe is mal
+D:\code\Mal\0.24787631163650392.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.34839379536905135.exe is mal
+ episode 203 select training sample: DoS.Win32.Kod.b
+D:\code\Mal\0.7891002857718143.exe is mal
+D:\code\Mal\0.7454280185995432.exe is mal
+D:\code\Mal\0.2324539166477828.exe is mal
+D:\code\Mal\0.3569426749279787.exe is mal
+D:\code\Mal\0.8249033703829021.exe is mal
+D:\code\Mal\0.49412448910980533.exe is mal
+D:\code\Mal\0.7712702570876286.exe is mal
+D:\code\Mal\0.9596064003847438.exe is mal
+D:\code\Mal\0.45050842031986893.exe is mal
+D:\code\Mal\0.8409240800225406.exe is mal
+D:\code\Mal\0.5298769699502086.exe is mal
+ episode 204 select training sample: DoS.Win32.Kod.b
+D:\code\Mal\0.4492667918391803.exe is mal
+D:\code\Mal\0.2794169737033566.exe is mal
+D:\code\Mal\0.3133519082889059.exe is mal
+D:\code\Mal\0.5810404947701834.exe is mal
+D:\code\Mal\0.6677840901412634.exe is mal
+D:\code\Mal\0.35790374918161005.exe is mal
+D:\code\Mal\0.8526455769926327.exe is mal
+D:\code\Mal\0.8081915398186685.exe is mal
+D:\code\Mal\0.39757835515805096.exe is mal
+D:\code\Mal\0.5055438276143702.exe is mal
+D:\code\Mal\0.15710322921188558.exe is mal
+ episode 205 select training sample: DoS.Win32.ARPKiller.13
+D:\code\Mal\0.6726706213368623.exe is mal
+D:\code\Mal\0.7358778070284463.exe is benign
+successfully evaded after 2 actions!
+D:\code\Mal\0.9966523190835793.exe is mal
+ episode 206 select training sample: DoS.Win32.HTTP.Bombarder
+D:\code\Mal\0.6032886764053611.exe is mal
+D:\code\Mal\0.6040422449783172.exe is mal
+D:\code\Mal\0.8428374048815158.exe is mal
+D:\code\Mal\0.4724094851445899.exe is mal
+D:\code\Mal\0.9098571616273313.exe is mal
+D:\code\Mal\0.8169383917918054.exe is mal
+D:\code\Mal\0.6913882933404809.exe is mal
+D:\code\Mal\0.7629500077019988.exe is mal
+D:\code\Mal\0.47374196237850963.exe is mal
+D:\code\Mal\0.9234846182957398.exe is mal
+D:\code\Mal\0.316551473378308.exe is mal
+ episode 207 select training sample: DoS.Win32.Lanxue.b
+D:\code\Mal\0.9698253058962352.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.3022009219472208.exe is mal
+ episode 208 select training sample: DoS.Win32.Agent.m
+D:\code\Mal\0.8568300539131277.exe is mal
+D:\code\Mal\0.7716866826170229.exe is mal
+D:\code\Mal\0.8881732531343688.exe is mal
+D:\code\Mal\0.7299338682097715.exe is mal
+D:\code\Mal\0.4170707785900737.exe is mal
+D:\code\Mal\0.507508906981642.exe is mal
+D:\code\Mal\0.03844375105128317.exe is mal
+D:\code\Mal\0.37540800801961116.exe is mal
+D:\code\Mal\0.9135178633480474.exe is mal
+D:\code\Mal\0.11952030375654621.exe is mal
+D:\code\Mal\0.9041538955409961.exe is mal
+ episode 209 select training sample: DoS.Win32.Frozen
+D:\code\Mal\0.5126443171027749.exe is mal
+D:\code\Mal\0.9892816242049737.exe is mal
+D:\code\Mal\0.8327089528524297.exe is mal
+D:\code\Mal\0.10977703600631039.exe is mal
+D:\code\Mal\0.7686666465611752.exe is mal
+D:\code\Mal\0.5635433948435399.exe is mal
+D:\code\Mal\0.027044695805026553.exe is mal
+D:\code\Mal\0.4951913242344783.exe is mal
+D:\code\Mal\0.13297960147391874.exe is mal
+D:\code\Mal\0.8808350040752341.exe is mal
+D:\code\Mal\0.25793547905024095.exe is mal
+ episode 210 select training sample: DoS.Win32.Lanxue.100.a
+D:\code\Mal\0.5305432836828077.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.4675283692179134.exe is mal
+ episode 211 select training sample: DoS.Win32.AhBomb
+D:\code\Mal\0.9178827162501841.exe is mal
+D:\code\Mal\0.8103470328299566.exe is mal
+D:\code\Mal\0.8488230017827746.exe is benign
+successfully evaded after 3 actions!
+D:\code\Mal\0.03525689748473826.exe is mal
+ episode 212 select training sample: DoS.Win32.Delf.g
+D:\code\Mal\0.7025316800873483.exe is mal
+D:\code\Mal\0.44714344360192115.exe is mal
+D:\code\Mal\0.6448649093235662.exe is mal
+D:\code\Mal\0.9680986754695347.exe is mal
+D:\code\Mal\0.4522575631250664.exe is mal
+D:\code\Mal\0.4445587043527317.exe is mal
+D:\code\Mal\0.3852794774410665.exe is mal
+D:\code\Mal\0.19478929827561509.exe is mal
+D:\code\Mal\0.10917363368655897.exe is mal
+D:\code\Mal\0.5459762935285245.exe is mal
+D:\code\Mal\0.1975949538651942.exe is mal
+ episode 213 select training sample: DoS.Win32.Jolt2
+D:\code\Mal\0.127645857441954.exe is mal
+D:\code\Mal\0.32869041739264515.exe is mal
+D:\code\Mal\0.023128940768804895.exe is mal
+D:\code\Mal\0.1523697548148868.exe is mal
+D:\code\Mal\0.13223604129207756.exe is mal
+D:\code\Mal\0.5690305278641047.exe is mal
+D:\code\Mal\0.31579654753917275.exe is mal
+D:\code\Mal\0.4778145023762346.exe is mal
+D:\code\Mal\0.4018261415529132.exe is mal
+D:\code\Mal\0.6819729153241398.exe is mal
+D:\code\Mal\0.103047117067537.exe is mal
+ episode 214 select training sample: DoS.Win32.LamerToy.008
+D:\code\Mal\0.9622982205462063.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.23537129583191096.exe is mal
+ episode 215 select training sample: DoS.Win32.SkyfireNuker
+D:\code\Mal\0.31110106523199055.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.8306113426924484.exe is mal
+ episode 216 select training sample: DoS.Win32.Daily
+D:\code\Mal\0.9330826121431857.exe is mal
+D:\code\Mal\0.08672825833385955.exe is mal
+D:\code\Mal\0.1364255541526045.exe is mal
+D:\code\Mal\0.576523280450565.exe is mal
+D:\code\Mal\0.47708795941760396.exe is mal
+D:\code\Mal\0.250069004072194.exe is mal
+D:\code\Mal\0.4443519486609855.exe is mal
+D:\code\Mal\0.9238043129924741.exe is mal
+D:\code\Mal\0.695531206268172.exe is mal
+D:\code\Mal\0.595805532164448.exe is mal
+D:\code\Mal\0.5261870846045049.exe is mal
+ episode 217 select training sample: DoS.Win32.Frozen
+D:\code\Mal\0.4668177226236059.exe is mal
+D:\code\Mal\0.7418682585785569.exe is mal
+D:\code\Mal\0.41339523873978445.exe is mal
+D:\code\Mal\0.17571849337546486.exe is mal
+D:\code\Mal\0.38686756413865897.exe is mal
+D:\code\Mal\0.7062716816236754.exe is mal
+D:\code\Mal\0.7476308768810206.exe is mal
+D:\code\Mal\0.7113621657095879.exe is mal
+D:\code\Mal\0.8403163647483096.exe is mal
+D:\code\Mal\0.8552985802562878.exe is mal
+D:\code\Mal\0.8484687861764175.exe is mal
+ episode 218 select training sample: DoS.Win32.Panther.m1
+D:\code\Mal\0.27233216631003365.exe is mal
+D:\code\Mal\0.9904535499934073.exe is mal
+D:\code\Mal\0.410468832175643.exe is mal
+D:\code\Mal\0.08685636150122233.exe is mal
+D:\code\Mal\0.5903383644489828.exe is mal
+D:\code\Mal\0.5027339517169479.exe is mal
+D:\code\Mal\0.8998883125570298.exe is mal
+D:\code\Mal\0.17807487332475136.exe is mal
+D:\code\Mal\0.5391877113822386.exe is mal
+D:\code\Mal\0.24690447962620277.exe is mal
+D:\code\Mal\0.49513754173736635.exe is mal
+ episode 219 select training sample: DoS.Win32.Bind
+D:\code\Mal\0.6108429805096369.exe is benign
+successfully evaded after 1 actions!
+D:\code\Mal\0.10862320596368236.exe is mal
+ episode 220 select training sample: DoS.Win32.GhostDog
+D:\code\Mal\0.024755863741171558.exe is mal
+D:\code\Mal\0.2432777111292913.exe is mal
+D:\code\Mal\0.49914193192097533.exe is mal
+D:\code\Mal\0.9972060020725102.exe is mal
+D:\code\Mal\0.6416973192524277.exe is mal
+D:\code\Mal\0.9863604411250785.exe is mal
+D:\code\Mal\0.5216788658907021.exe is mal
+D:\code\Mal\0.90326527811414.exe is mal
+D:\code\Mal\0.6199480090704161.exe is mal
+D:\code\Mal\0.009070658919811514.exe is mal
+D:\code\Mal\0.19568545906364265.exe is mal
+ episode 221 select training sample: DoS.Win32.Misoska.a
+D:\code\Mal\0.8592103288135439.exe is mal
+D:\code\Mal\0.26237395067609537.exe is mal
+D:\code\Mal\0.6789585156467536.exe is mal
+D:\code\Mal\0.3540805083429154.exe is mal
+D:\code\Mal\0.47798035717794896.exe is mal
+D:\code\Mal\0.17898260785032138.exe is mal
+D:\code\Mal\0.19325766252599175.exe is mal
+D:\code\Mal\0.7829668303898673.exe is mal
+D:\code\Mal\0.8921357106934316.exe is mal
+D:\code\Mal\0.5011448491427518.exe is mal
+D:\code\Mal\0.5994071423274291.exe is mal
+ episode 222 select training sample: DoS.Win32.Aleph.a
+D:\code\Mal\0.9186809513207826.exe is mal
+D:\code\Mal\0.15747613401449378.exe is mal
+D:\code\Mal\0.6767048806442173.exe is mal
+D:\code\Mal\0.43090451377945715.exe is mal
+D:\code\Mal\0.29469039036326006.exe is mal
+D:\code\Mal\0.8705319318435298.exe is mal
+D:\code\Mal\0.31145331016449074.exe is mal
+D:\code\Mal\0.10582335257816455.exe is mal
+D:\code\Mal\0.7074466041920254.exe is mal
+D:\code\Mal\0.1741350916192944.exe is mal
+D:\code\Mal\0.752098068534269.exe is mal
+ episode 223 select training sample: DoS.Win32.Bind
+D:\code\Mal\0.3927505029172077.exe is mal
+D:\code\Mal\0.14546711287539582.exe is mal
+D:\code\Mal\0.8001470078789167.exe is mal
+D:\code\Mal\0.8882636299029637.exe is mal
+D:\code\Mal\0.23295801426305252.exe is mal
+D:\code\Mal\0.20034446869330447.exe is mal
+D:\code\Mal\0.9218052736904144.exe is mal
+D:\code\Mal\0.22609684613697312.exe is mal
+D:\code\Mal\0.4485611715690775.exe is mal
+D:\code\Mal\0.35049883843384166.exe is mal
+D:\code\Mal\0.3214777386905949.exe is mal
+ episode 224 select training sample: DoS.Win32.Panther.m1
+D:\code\Mal\0.1674204872826226.exe is mal
+D:\code\Mal\0.9582198818815353.exe is mal
+D:\code\Mal\0.6896891779564054.exe is mal
+D:\code\Mal\0.9087617324854589.exe is mal
+D:\code\Mal\0.1333792369978084.exe is mal
+D:\code\Mal\0.8538949343538964.exe is mal
+D:\code\Mal\0.17209210628337668.exe is mal
+D:\code\Mal\0.8945443916797474.exe is mal
+D:\code\Mal\0.1930314797267405.exe is mal
+D:\code\Mal\0.6656593118058737.exe is mal
+D:\code\Mal\0.5049911661862148.exe is mal
+ episode 225 select training sample: DoS.Win32.Lanxie.100
+D:\code\Mal\0.9445569740449665.exe is mal
+D:\code\Mal\0.2533959728848185.exe is mal
+D:\code\Mal\0.046999200073824965.exe is mal
+D:\code\Mal\0.30415248511581017.exe is mal
+D:\code\Mal\0.22716489267808648.exe is mal
+D:\code\Mal\0.1599424677536443.exe is mal
+D:\code\Mal\0.22461242091071987.exe is mal
+D:\code\Mal\0.687738540414627.exe is mal
+D:\code\Mal\0.16913486071394412.exe is mal
+D:\code\Mal\0.5024293215390908.exe is mal
+D:\code\Mal\0.18129945267333936.exe is mal
+ episode 226 select training sample: DoS.Win32.Hucsyn.04
+D:\code\Mal\0.744371470956806.exe is mal
+D:\code\Mal\0.03607356269543782.exe is mal
+D:\code\Mal\0.7383113777582444.exe is mal
+D:\code\Mal\0.9205835940039082.exe is mal
+D:\code\Mal\0.13532650636239796.exe is mal
+D:\code\Mal\0.8855397830262403.exe is mal
+D:\code\Mal\0.9477952939982752.exe is mal
+D:\code\Mal\0.6504940303864457.exe is mal
+D:\code\Mal\0.9079757207328772.exe is mal
+D:\code\Mal\0.272009316036658.exe is mal
+D:\code\Mal\0.6185210994327451.exe is mal
+ episode 227 select training sample: DoS.Win32.Killwin
+D:\code\Mal\0.378369822534369.exe is mal
+D:\code\Mal\0.015025771919729203.exe is mal
+D:\code\Mal\0.08781184498323147.exe is mal
+D:\code\Mal\0.9474971294503257.exe is mal
+D:\code\Mal\0.3392390174376815.exe is mal
+D:\code\Mal\0.2525941561690679.exe is mal
+D:\code\Mal\0.6658694474517943.exe is mal
+D:\code\Mal\0.2308506001248909.exe is mal
+D:\code\Mal\0.5745088315478639.exe is mal
+D:\code\Mal\0.8730645083502839.exe is mal
+D:\code\Mal\0.550179494262449.exe is mal
+ episode 228 select training sample: DoS.Win32.RandomSpoof
+D:\code\Mal\0.060293281022508305.exe is mal
+D:\code\Mal\0.5613040206286762.exe is mal
+D:\code\Mal\0.0826378310434106.exe is mal
+D:\code\Mal\0.768958640253123.exe is mal
+D:\code\Mal\0.30900731046925833.exe is mal
+D:\code\Mal\0.5018582606233559.exe is mal
+D:\code\Mal\0.03068499570123573.exe is mal
+D:\code\Mal\0.12805706917766613.exe is mal
+D:\code\Mal\0.4770350237911859.exe is mal
+D:\code\Mal\0.9495111375874931.exe is mal
+D:\code\Mal\0.15920903590005886.exe is mal
+ episode 229 select training sample: DoS.Win32.Lanxue.201
+D:\code\Mal\0.43751419827215876.exe is mal
+D:\code\Mal\0.39890141792311884.exe is mal
+D:\code\Mal\0.24710854538785343.exe is mal
+D:\code\Mal\0.02718079133304785.exe is mal
+D:\code\Mal\0.4457366899186741.exe is mal
+D:\code\Mal\0.7318849656522814.exe is mal
+D:\code\Mal\0.8637265337996656.exe is mal
+D:\code\Mal\0.1311264621111089.exe is mal
+D:\code\Mal\0.8195040680995459.exe is mal
+D:\code\Mal\0.7046642906978156.exe is mal
+D:\code\Mal\0.5924070985904133.exe is mal
+ episode 230 select training sample: DoS.Win32.Delf.g
+D:\code\Mal\0.5793424722299401.exe is mal
+D:\code\Mal\0.4961679368743114.exe is mal
+D:\code\Mal\0.43428406726690716.exe is mal
+D:\code\Mal\0.1662710433408623.exe is mal
+D:\code\Mal\0.6525996733247524.exe is mal
+D:\code\Mal\0.9239599625809407.exe is mal
+D:\code\Mal\0.7165905017311722.exe is mal
+D:\code\Mal\0.8081431196883294.exe is mal
+D:\code\Mal\0.988645509281839.exe is mal
+D:\code\Mal\0.06701317853297739.exe is mal
+D:\code\Mal\0.4480258805560885.exe is mal
+ episode 231 select training sample: DoS.Win32.Misoska.a
+D:\code\Mal\0.8602892462801924.exe is mal
+D:\code\Mal\0.5449346300321692.exe is mal
+D:\code\Mal\0.6652852280211834.exe is mal
+D:\code\Mal\0.4393507660428163.exe is mal
+D:\code\Mal\0.8371183291934752.exe is mal
+D:\code\Mal\0.05584656106569985.exe is mal
+D:\code\Mal\0.08722823991946127.exe is mal
+D:\code\Mal\0.6741100534984963.exe is mal
+D:\code\Mal\0.07830652905180968.exe is mal
+D:\code\Mal\0.6489244285142295.exe is mal
+D:\code\Mal\0.6438769110122051.exe is mal
+ episode 232 select training sample: DoS.Win32.Jolt2
+D:\code\Mal\0.11548248927997906.exe is mal
+D:\code\Mal\0.46571795869338306.exe is mal
+D:\code\Mal\0.7785277852747402.exe is mal
+D:\code\Mal\0.04911087160887284.exe is mal
+D:\code\Mal\0.8272654537810754.exe is mal
+D:\code\Mal\0.12879820184874913.exe is mal
+D:\code\Mal\0.2024010028750286.exe is mal
+D:\code\Mal\0.20703180092289697.exe is mal
+D:\code\Mal\0.5347479574164266.exe is mal
+D:\code\Mal\0.3209894521146015.exe is mal
+D:\code\Mal\0.304190631981922.exe is mal
+ episode 233 select training sample: DoS.Win32.Awak.10
+D:\code\Mal\0.9457462190747384.exe is mal
+D:\code\Mal\0.530558081171251.exe is mal
+D:\code\Mal\0.06185357852485651.exe is mal
+D:\code\Mal\0.17381734954401495.exe is mal
+D:\code\Mal\0.3301251094627917.exe is mal
+D:\code\Mal\0.5729897840859306.exe is mal
+D:\code\Mal\0.14595955782719228.exe is mal
+D:\code\Mal\0.0688114270785195.exe is mal
+D:\code\Mal\0.3575489355752639.exe is mal
+D:\code\Mal\0.2710555472909455.exe is mal
+D:\code\Mal\0.7864458625040254.exe is mal
+ episode 234 select training sample: DoS.Win32.Jolt2
+D:\code\Mal\0.12956190191798034.exe is mal
+D:\code\Mal\0.7848725419693102.exe is mal
+D:\code\Mal\0.8224118693322421.exe is mal
+D:\code\Mal\0.6475756797881562.exe is mal
+D:\code\Mal\0.017788573021105814.exe is mal
+D:\code\Mal\0.294957237022906.exe is mal
+D:\code\Mal\0.9000566509453362.exe is mal
+D:\code\Mal\0.12164021326476604.exe is mal
+D:\code\Mal\0.8507374973239941.exe is mal
+D:\code\Mal\0.03425618942219033.exe is mal
+D:\code\Mal\0.1933113102275833.exe is mal
+ episode 235 select training sample: DoS.Win32.Delf.h
+D:\code\Mal\0.5679043958623072.exe is mal
+D:\code\Mal\0.3658223538468014.exe is mal
+D:\code\Mal\0.403201824275086.exe is mal
+D:\code\Mal\0.645715349568194.exe is mal
+D:\code\Mal\0.5301439765748107.exe is mal
+D:\code\Mal\0.8704506414912079.exe is mal
+D:\code\Mal\0.593526415946569.exe is mal
+D:\code\Mal\0.47513374377471773.exe is mal
+D:\code\Mal\0.7878669041946393.exe is mal
+D:\code\Mal\0.6243910792501498.exe is mal
+D:\code\Mal\0.16770326397288748.exe is mal
+ episode 236 select training sample: DoS.Win32.Lanxue.101
+D:\code\Mal\0.26953588235835846.exe is mal
+D:\code\Mal\0.7159582211209001.exe is mal
+D:\code\Mal\0.5291133632636544.exe is mal
+D:\code\Mal\0.8034712308263562.exe is mal
+D:\code\Mal\0.8007943303689216.exe is mal
+D:\code\Mal\0.5214935191884743.exe is mal
+D:\code\Mal\0.41937466621223785.exe is mal
+D:\code\Mal\0.4312776764616819.exe is mal
+D:\code\Mal\0.5366100841763768.exe is mal
+D:\code\Mal\0.8927659215440795.exe is mal
+D:\code\Mal\0.7837811300156028.exe is mal
+ episode 237 select training sample: DoS.Win32.Flash
+D:\code\Mal\0.13667734658656117.exe is mal
+D:\code\Mal\0.5107582303288655.exe is mal
+D:\code\Mal\0.4340410154964791.exe is mal
+D:\code\Mal\0.1889562301449329.exe is mal
+D:\code\Mal\0.3077780232117333.exe is mal
+D:\code\Mal\0.7546644033339562.exe is mal
+D:\code\Mal\0.42213831153754033.exe is mal
+D:\code\Mal\0.2614826400841642.exe is mal
+D:\code\Mal\0.07641570346049886.exe is mal
+D:\code\Mal\0.8547822660894029.exe is mal
+D:\code\Mal\0.5035404742818365.exe is mal
+ episode 238 select training sample: DoS.Win32.Beer
+D:\code\Mal\0.4913661891358627.exe is mal
+D:\code\Mal\0.8069247561890945.exe is mal
+D:\code\Mal\0.3390766805920379.exe is mal
+D:\code\Mal\0.3081021570601342.exe is mal
+D:\code\Mal\0.7537447213621185.exe is mal
+D:\code\Mal\0.4718450016627641.exe is mal
+D:\code\Mal\0.8340289275808519.exe is mal
+D:\code\Mal\0.9452650531085163.exe is mal
+D:\code\Mal\0.4186625879148246.exe is mal
+D:\code\Mal\0.20056046228379154.exe is mal
+D:\code\Mal\0.21884359974799616.exe is mal
+ episode 239 select training sample: DoS.Win32.Lanxue.201
+D:\code\Mal\0.5988798284096809.exe is mal
+D:\code\Mal\0.09702488280996113.exe is mal
+D:\code\Mal\0.8768467914274253.exe is mal
+D:\code\Mal\0.13280498539147956.exe is mal
+D:\code\Mal\0.2883149950855377.exe is mal
+D:\code\Mal\0.80779329525719.exe is mal
+D:\code\Mal\0.23314827227259116.exe is mal
+D:\code\Mal\0.3719285375168164.exe is mal
+D:\code\Mal\0.6371937214772173.exe is mal
+D:\code\Mal\0.46116703075374965.exe is mal
+D:\code\Mal\0.20118471865277188.exe is mal
+ episode 240 select training sample: DoS.Win32.Jolt2
+D:\code\Mal\0.06687345640650455.exe is mal
+D:\code\Mal\0.6829808472681642.exe is mal
+D:\code\Mal\0.5346078667210707.exe is mal
+D:\code\Mal\0.5407233150767824.exe is mal
+D:\code\Mal\0.4840727345268159.exe is mal
+D:\code\Mal\0.21845824809211878.exe is mal
+D:\code\Mal\0.1946781507025117.exe is mal
+D:\code\Mal\0.1120292227364732.exe is mal
+D:\code\Mal\0.8528911477104789.exe is mal
+D:\code\Mal\0.732809791560648.exe is mal
+D:\code\Mal\0.8679158584946881.exe is mal
+ episode 241 select training sample: DoS.Win32.Fedup.20
+D:\code\Mal\0.6018161592658297.exe is mal
+D:\code\Mal\0.7053106308338875.exe is mal
+D:\code\Mal\0.8362523803957737.exe is mal
+D:\code\Mal\0.5507219135792941.exe is mal
+D:\code\Mal\0.5554841659708893.exe is mal
+D:\code\Mal\0.515931857159757.exe is mal
+D:\code\Mal\0.3397329960612948.exe is mal
+D:\code\Mal\0.3011101005965884.exe is mal
+D:\code\Mal\0.46453796132960123.exe is mal
+D:\code\Mal\0.050988934987818646.exe is mal
+D:\code\Mal\0.657824719799387.exe is mal
+ episode 242 select training sample: DoS.Win32.Nenet
+D:\code\Mal\0.055789498425544815.exe is mal
+D:\code\Mal\0.5624592496072719.exe is mal
+D:\code\Mal\0.29688793644987066.exe is mal
+D:\code\Mal\0.03114680904684486.exe is mal
+D:\code\Mal\0.17472064216758576.exe is mal
+D:\code\Mal\0.7553922156366126.exe is mal
+D:\code\Mal\0.9290284930517176.exe is mal
+D:\code\Mal\0.5150740969820856.exe is mal
+D:\code\Mal\0.03814776788743379.exe is mal
+D:\code\Mal\0.9654839083212405.exe is mal
+D:\code\Mal\0.06697815751975655.exe is mal
+ episode 243 select training sample: DoS.Win32.Ataker.a
+D:\code\Mal\0.16587438624757878.exe is mal
+D:\code\Mal\0.11396628865452163.exe is mal
+D:\code\Mal\0.8298435909953861.exe is mal
+D:\code\Mal\0.6485978843398336.exe is mal
+D:\code\Mal\0.8273259484503047.exe is mal
+D:\code\Mal\0.24913538029255677.exe is mal
+D:\code\Mal\0.6152907537216677.exe is mal
+D:\code\Mal\0.8869221412522419.exe is mal
+D:\code\Mal\0.015972344832873686.exe is mal
+D:\code\Mal\0.32593727605512146.exe is mal
+D:\code\Mal\0.4606155875803989.exe is mal
+ episode 244 select training sample: DoS.Win32.Hucsyn.04
+D:\code\Mal\0.5913608908958606.exe is mal
+D:\code\Mal\0.2517095460222103.exe is mal
+D:\code\Mal\0.9481867580089386.exe is mal
+D:\code\Mal\0.9873086189333408.exe is mal
+D:\code\Mal\0.42560858403976154.exe is mal
+D:\code\Mal\0.003316837161938202.exe is mal
+D:\code\Mal\0.08682471061933927.exe is mal
+D:\code\Mal\0.7316435218860631.exe is mal
+D:\code\Mal\0.17515235477812452.exe is mal
+D:\code\Mal\0.04425832039319044.exe is mal
+D:\code\Mal\0.4010497924776275.exe is mal
+ episode 245 select training sample: DoS.Win32.Opdos
+D:\code\Mal\0.3694546997858461.exe is mal
+D:\code\Mal\0.1824822441451004.exe is mal
+D:\code\Mal\0.23891649485904332.exe is mal
+D:\code\Mal\0.31639031345052326.exe is mal
+D:\code\Mal\0.6163139207557167.exe is mal
+D:\code\Mal\0.9120054999069547.exe is mal
+D:\code\Mal\0.15511209113028812.exe is mal
+D:\code\Mal\0.06025237805054029.exe is mal
+D:\code\Mal\0.9773729577095317.exe is mal
+D:\code\Mal\0.4109313663454659.exe is mal
+D:\code\Mal\0.21830731986736052.exe is mal
+ episode 246 select training sample: DoS.Win32.Daily
+D:\code\Mal\0.6036853080024396.exe is mal
+D:\code\Mal\0.7652959995467505.exe is mal
+D:\code\Mal\0.49695643846596294.exe is mal
+D:\code\Mal\0.7454931843877213.exe is mal
+D:\code\Mal\0.011001080273930874.exe is mal
+D:\code\Mal\0.8709282535232158.exe is mal
+D:\code\Mal\0.46855104205983344.exe is mal
+D:\code\Mal\0.029037724743972038.exe is mal
+D:\code\Mal\0.20463171938981006.exe is mal
+D:\code\Mal\0.4946183675713077.exe is mal
+D:\code\Mal\0.9952157792209646.exe is mal
+ episode 247 select training sample: DoS.Win32.DK-ToyBox.21.b
+D:\code\Mal\0.6761207553929158.exe is mal
+D:\code\Mal\0.7579989586827354.exe is mal
+D:\code\Mal\0.7267879671333191.exe is mal
+D:\code\Mal\0.5702520716353754.exe is mal
+D:\code\Mal\0.5042987262936935.exe is mal
+D:\code\Mal\0.06830794515684258.exe is mal
+D:\code\Mal\0.44723384173453573.exe is mal
+D:\code\Mal\0.255294939933823.exe is mal
+D:\code\Mal\0.47643452545171083.exe is mal
+D:\code\Mal\0.05240367718235739.exe is mal
+D:\code\Mal\0.5104653538500139.exe is mal
+ episode 248 select training sample: DoS.Win32.Nenet
+D:\code\Mal\0.9743336709440903.exe is mal
+D:\code\Mal\0.41219269021061666.exe is mal
+D:\code\Mal\0.2174460001229367.exe is mal
+D:\code\Mal\0.08282408951208198.exe is mal
+D:\code\Mal\0.2839824648403029.exe is mal
+D:\code\Mal\0.6686496582512014.exe is mal
+D:\code\Mal\0.68980717246921.exe is mal
+D:\code\Mal\0.10825094403072355.exe is mal
+D:\code\Mal\0.7384322013307046.exe is mal
+D:\code\Mal\0.4047870930773134.exe is mal
+D:\code\Mal\0.2768557736573857.exe is mal
+ episode 249 select training sample: DoS.Win32.Aftpkill
+D:\code\Mal\0.3567742990348156.exe is mal
+D:\code\Mal\0.41220400909866084.exe is mal
+D:\code\Mal\0.12607083668336594.exe is mal
+D:\code\Mal\0.23697643762615028.exe is mal
+D:\code\Mal\0.5793507904553388.exe is mal
+D:\code\Mal\0.15826053992958056.exe is mal
+D:\code\Mal\0.14327734673105175.exe is mal
+D:\code\Mal\0.9436042349325154.exe is mal
+D:\code\Mal\0.40801156123358173.exe is mal
+D:\code\Mal\0.21866960770555544.exe is mal
+D:\code\Mal\0.18424993999313555.exe is mal
+ episode 250 select training sample: DoS.Win32.Mk3.10
+D:\code\Mal\0.22848841766299832.exe is mal
+D:\code\Mal\0.49833573579946855.exe is mal
+D:\code\Mal\0.929619493787081.exe is mal
+D:\code\Mal\0.3156056640946975.exe is mal
+D:\code\Mal\0.12562997932000253.exe is mal
+D:\code\Mal\0.7491137447381306.exe is mal
+D:\code\Mal\0.45722802888607195.exe is mal
+D:\code\Mal\0.5241705259847443.exe is mal
+D:\code\Mal\0.2179984260506218.exe is mal
+D:\code\Mal\0.09757777867721606.exe is mal
