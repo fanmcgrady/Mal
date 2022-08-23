@@ -132,7 +132,7 @@ def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print("Using device {}....".format(device))
     dqn = DQN(device)
-    episodes = 400
+    episodes = 1000
     print("Collecting Experience....")
     reward_list = []
     for i in range(episodes):
