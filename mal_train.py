@@ -6,9 +6,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import gym_malware
 
-import gym_malware.envs.utils.interface as interface
-from gym_malware.envs.malware_env import MalwareEnv
 from config import *
 # hyper-parameters
 
@@ -117,10 +116,10 @@ class DQN():
 def test_agent(dqn, test_episodes):
     test_reward_list = []
     for i in range(test_episodes):
-        state = env._reset()
+        state = env_test.reset()
         while True:
             action = dqn.choose_action(state, is_eval=True)
-            next_state, reward, done, info = env._step(action)
+            next_state, reward, done, info = env_test.step(action)
             if done:
                 break
             state = next_state
@@ -133,19 +132,20 @@ def test_agent(dqn, test_episodes):
 
 
 def main():
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    # device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "cpu"
     print("Using device {}....".format(device))
     dqn = DQN(device)
     episodes = 600
     print("Collecting Experience....")
     reward_list = []
     for i in range(episodes):
-        state = env._reset()
+        state = env.reset()
         ep_reward = 0
         while True:
             # env.render()
             action = dqn.choose_action(state)
-            next_state, reward, done, info = env._step(action)
+            next_state, reward, done, info = env.step(action)
             dqn.store_transition(state, action, reward, next_state)
             if dqn.memory_counter >= MEMORY_CAPACITY:
                 dqn.learn()
