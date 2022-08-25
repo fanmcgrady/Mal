@@ -20,6 +20,7 @@ from sklearn.feature_extraction import FeatureHasher
 
 from gym_malware.envs.utils import interface
 
+
 # 解决lief binary兼容性
 def _sum(list, condition):
     sum = 0
@@ -40,6 +41,7 @@ def _convert(list, condition):
 
     return result
 
+
 class FeatureType(object):
     '''Base class from which each feature type may inherit'''
 
@@ -58,6 +60,84 @@ class FeatureType(object):
     def __repr__(self):
         return '{}({})'.format(self.name, self.dim)
 
+
+class ByteHistogram(FeatureType):
+    ''' Byte histogram (normalized to sum to unity) over the entire binary file.'''
+
+    def __init__(self):
+        super().__init__()
+        self.dim = 1 + 256
+        self.name = 'ByteHistogram'
+
+    def __call__(self, bytez):
+        h = np.bincount(np.frombuffer(bytez, dtype=np.uint8), minlength=256)  # 计算每个数字出现的次数
+
+        res = np.concatenate([
+            [h.sum()],  # total size of the byte stream
+            h.astype(self.dtype).flatten() / h.sum(),  # normalized the histogram
+        ])
+
+        # TODO: print("ByteHistogram length: ", res.size)
+
+        return np.concatenate([
+            [h.sum()],  # total size of the byte stream
+            h.astype(self.dtype).flatten() / h.sum(),  # normalized the histogram
+        ])
+
+
+class ByteEntropyHistogram(FeatureType):
+    ''' 2d byte/entropy histogram based roughly on (Saxe and Berlin, 2015).
+    This roughly approximates the joint probability of byte value and local entropy.
+    See Section 2.1.1 in https://arxiv.org/pdf/1508.03096.pdf for more info.
+    '''
+
+    def __init__(self, step=1024, window=2048):
+        super().__init__()
+        self.dim = 256
+        self.name = 'ByteEntropyHistogram'
+        self.window = window
+        self.step = step
+
+    def _entropy_bin_counts(self, block):
+        # coarse histogram, 16 bytes per bin
+        c = np.bincount(block >> 4, minlength=16)  # 16-bin histogram
+        p = c.astype(np.float32) / self.window
+        wh = np.where(c)[0]  # If only condition is given, return condition.nonzero() 返回非0元素的index.
+
+        H = np.sum(-p[wh] * np.log2(
+            p[wh])) * 2  # * x2 b.c. we reduced information by half: 256 bins (8 bits) to 16 bins (4 bits)
+        # 统计熵值总和
+
+        Hbin = int(H * 2)  # up to 16 bins (max entropy is 8 bits)
+        if Hbin == 16:  # handle entropy = 8.0 bits
+            Hbin = 15
+
+        return Hbin, c  # 返回熵值总和 + 统计数目
+
+    def __call__(self, bytez):
+        output = np.zeros((16, 16), dtype=np.int)
+        a = np.frombuffer(bytez, dtype=np.uint8)
+        if a.shape[0] < self.window:
+            Hbin, c = self._entropy_bin_counts(a)
+            output[Hbin, :] += c
+        else:
+            # strided trick from here: http://www.rigtorp.se/2011/01/01/rolling-statistics-numpy.html
+            shape = a.shape[:-1] + (a.shape[-1] - self.window + 1, self.window)
+            strides = a.strides + (a.strides[-1],)
+            blocks = np.lib.stride_tricks.as_strided(
+                a, shape=shape, strides=strides)[::self.step, :]  # 滑动窗口
+
+            # from the blocks, compute histogram
+            for block in blocks:
+                Hbin, c = self._entropy_bin_counts(block)
+                output[Hbin, :] += c  # 把每次的bitcount值加起来
+
+        res = output.flatten().astype(self.dtype)
+        # TODO: print("ByteEntropyHistogram length: ", res.size)
+
+        return output.flatten().astype(self.dtype)
+
+
 class SectionInfo(FeatureType):
     '''Information about section names, sizes and entropy.  Uses hashing trick
     to summarize all this section info into a feature vector.
@@ -66,7 +146,7 @@ class SectionInfo(FeatureType):
     def __init__(self):
         super().__init__()
         # sum of the vector sizes comprising this feature
-        self.dim = 0
+        self.dim = 5 + 50 + 50 + 50 + 50 + 50
         self.name = 'SectionInfo'
 
     def __call__(self, binary):
@@ -119,7 +199,22 @@ class SectionInfo(FeatureType):
 
         # let's dump all this info into a single vector
         res = np.concatenate([
-            np.atleast_2d(np.asarray(general, dtype=self.dtype)),   # View inputs as arrays with at least two dimensions.
+            np.atleast_2d(np.asarray(general, dtype=self.dtype)),  # View inputs as arrays with at least two dimensions.
+            FeatureHasher(50, input_type="pair", dtype=self.dtype).transform(
+                [section_sizes]).toarray(),
+            FeatureHasher(50, input_type="pair", dtype=self.dtype).transform(
+                [section_entropy]).toarray(),
+            FeatureHasher(50, input_type="pair", dtype=self.dtype).transform(
+                [section_vsize]).toarray(),
+            FeatureHasher(50, input_type="string", dtype=self.dtype).transform(
+                [entry_name]).toarray(),
+            FeatureHasher(50, input_type="string", dtype=self.dtype).transform([entry_characteristics]).toarray()
+        ], axis=-1).flatten().astype(self.dtype)
+        # TODO: print("SectionInfo length: ", res.size)
+        # TODO: print('section: ', res)
+
+        return np.concatenate([
+            np.atleast_2d(np.asarray(general, dtype=self.dtype)),
             FeatureHasher(50, input_type="pair", dtype=self.dtype).transform(
                 [section_sizes]).toarray(),
             FeatureHasher(50, input_type="pair", dtype=self.dtype).transform(
@@ -131,8 +226,6 @@ class SectionInfo(FeatureType):
             FeatureHasher(50, input_type="string", dtype=self.dtype).transform([entry_characteristics]).toarray()
         ], axis=-1).flatten().astype(self.dtype)
 
-        self.dim = len(res)
-        return res
 
 class ImportsInfo(FeatureType):
     '''Information about imported libraries and functions from the 
@@ -142,7 +235,7 @@ class ImportsInfo(FeatureType):
 
     def __init__(self):
         super().__init__()
-        self.dim = 0
+        self.dim = 256 + 1024
         self.name = 'ImportsInfo'
 
     def __call__(self, binary):
@@ -152,8 +245,9 @@ class ImportsInfo(FeatureType):
         # imports = [lib.name.lower() + ':' +
         #            e.name for lib in binary.imports for e in lib.entries]
         imports = [binary.imports[j].name.lower() + ':' +
-                   binary.imports[j].entries[i].name for j in range(len(binary.imports)) for i in range(len(binary.imports[j].entries))]
-        #TODO: print('libraries: ', libraries.__len__())
+                   binary.imports[j].entries[i].name for j in range(len(binary.imports)) for i in
+                   range(len(binary.imports[j].entries))]
+        # TODO: print('libraries: ', libraries.__len__())
         # TODO: print('imports: ', imports.__len__())
 
         # two separate elements: libraries (alone) and fully-qualified names of imported functions
@@ -164,8 +258,16 @@ class ImportsInfo(FeatureType):
                 [imports]).toarray()
         ], axis=-1).flatten().astype(self.dtype)
 
-        self.dim = len(res)
-        return res
+        # TODO: print("ImportsInfo length: ", res.size)
+        # TODO: np.set_printoptions(threshold=1e6)
+        # TODO: print("imports: ", res)
+
+        return np.concatenate([
+            FeatureHasher(256, input_type="string", dtype=self.dtype).transform(
+                [libraries]).toarray(),
+            FeatureHasher(1024, input_type="string", dtype=self.dtype).transform(
+                [imports]).toarray()
+        ], axis=-1).flatten().astype(self.dtype)
 
 
 class ExportsInfo(FeatureType):
@@ -175,15 +277,16 @@ class ExportsInfo(FeatureType):
 
     def __init__(self):
         super().__init__()
-        self.dim = 0
+        self.dim = 128
         self.name = 'ExportsInfo'
 
     def __call__(self, binary):
         res = FeatureHasher(128, input_type="string", dtype=self.dtype).transform(
             [binary.exported_functions]).toarray().flatten().astype(self.dtype)
+        # TODO: print("ExportsInfo length: ", res.size)
 
-        self.dim = len(res)
-        return res
+        return FeatureHasher(128, input_type="string", dtype=self.dtype).transform(
+            [binary.exported_functions]).toarray().flatten().astype(self.dtype)
 
 
 class GeneralFileInfo(FeatureType):
@@ -194,7 +297,7 @@ class GeneralFileInfo(FeatureType):
         self.dim = 0
         self.name = 'GeneralFileInfo'
 
-    def __call__(self, binary):     # 基本信息
+    def __call__(self, binary):  # 基本信息
         res = np.asarray([
             # binary.virtual_size,
             binary.has_debug,
@@ -206,6 +309,9 @@ class GeneralFileInfo(FeatureType):
             # binary.has_tls,
             # len(binary.symbols),
         ]).flatten().astype(self.dtype)
+
+        # TODO: print('GeneralFileInfo length: ', res.size)
+        # TODO: print('general: ', res)
 
         self.dim = len(res)
         return res
@@ -245,8 +351,33 @@ class HeaderFileInfo(FeatureType):
             [[binary.optional_header.sizeof_heap_commit]],
         ], axis=-1).flatten().astype(self.dtype)
 
-        self.dim = len(res)
-        return res
+        # print("HeaderFileInfo length: ", res.size)
+        # print("header", res)
+
+        return np.concatenate([
+            [[binary.header.time_date_stamps]],
+            FeatureHasher(10, input_type="string", dtype=self.dtype).transform(
+                [[str(binary.header.machine)]]).toarray(),
+            FeatureHasher(10, input_type="string", dtype=self.dtype).transform(
+                [[str(c) for c in binary.header.characteristics_list]]).toarray(),
+            FeatureHasher(10, input_type="string", dtype=self.dtype).transform(
+                [[str(binary.optional_header.subsystem)]]).toarray(),
+            FeatureHasher(10, input_type="string", dtype=self.dtype).transform(
+                [[str(c) for c in binary.optional_header.dll_characteristics_lists]]).toarray(),
+            FeatureHasher(10, input_type="string", dtype=self.dtype).transform(
+                [[str(binary.optional_header.magic)]]).toarray(),
+            [[binary.optional_header.major_image_version]],
+            [[binary.optional_header.minor_image_version]],
+            [[binary.optional_header.major_linker_version]],
+            [[binary.optional_header.minor_linker_version]],
+            [[binary.optional_header.major_operating_system_version]],
+            [[binary.optional_header.minor_operating_system_version]],
+            [[binary.optional_header.major_subsystem_version]],
+            [[binary.optional_header.minor_subsystem_version]],
+            [[binary.optional_header.sizeof_code]],
+            [[binary.optional_header.sizeof_headers]],
+            [[binary.optional_header.sizeof_heap_commit]],
+        ], axis=-1).flatten().astype(self.dtype)
 
 
 class StringExtractor(FeatureType):
@@ -254,7 +385,7 @@ class StringExtractor(FeatureType):
 
     def __init__(self):
         super().__init__()
-        self.dim = 0
+        self.dim = 1 + 1 + 1 + 96 + 1 + 1 + 1 + 1
         self.name = 'StringExtractor'
         # all consecutive runs of 0x20 - 0x7f that are 5+ characters
         self._allstrings = re.compile(b'[\x20-\x7f]{5,}')
@@ -272,9 +403,9 @@ class StringExtractor(FeatureType):
         if allstrings:
             # statistics about strings:
             string_lengths = [len(s) for s in allstrings]
-            avlength = sum(string_lengths) / len(string_lengths)   # 平均长度
+            avlength = sum(string_lengths) / len(string_lengths)  # 平均长度
             # map printable characters 0x20 - 0x7f to an int array consisting of 0-95, inclusive
-            as_shifted_string = [b - ord(b'\x20')      # ord 返回对应的 ASCII 数值，或者 Unicode 数值
+            as_shifted_string = [b - ord(b'\x20')  # ord 返回对应的 ASCII 数值，或者 Unicode 数值
                                  for b in b''.join(allstrings)]
             c = np.bincount(as_shifted_string, minlength=96)  # histogram count
             # distribution of characters in printable strings
@@ -285,7 +416,6 @@ class StringExtractor(FeatureType):
             avlength = 0
             p = np.zeros((96,), dtype=np.float32)
             H = 0
-
 
         res = np.concatenate([
             [[len(allstrings)]],  # 满足5+可打印字符串的长度
@@ -298,8 +428,19 @@ class StringExtractor(FeatureType):
             [[len(self._mz.findall(bytez))]]
         ], axis=-1).flatten().astype(self.dtype)
 
-        self.dim = len(res)
-        return res
+        # TODO: print('StringExtractor length: ', res.size)
+
+        return np.concatenate([
+            [[len(allstrings)]],
+            [[avlength]],
+            [p.tolist()],
+            [[H]],
+            [[len(self._paths.findall(bytez))]],
+            [[len(self._urls.findall(bytez))]],
+            [[len(self._registry.findall(bytez))]],
+            [[len(self._mz.findall(bytez))]]
+        ], axis=-1).flatten().astype(self.dtype)
+
 
 class PEFeatureExtractor(object):
     ''' Extract useful features from a PE file, and return as a vector
@@ -323,7 +464,6 @@ class PEFeatureExtractor(object):
         ]
         self.dim = sum(o.dim for o in self.raw_features) + \
                    sum(o.dim for o in self.parsed_features)
-
 
     def extract(self, bytez):
         # feature vectors that require only raw bytez
