@@ -1,6 +1,7 @@
 from config import *
 from tqdm import tqdm
 from gym_malware.envs.utils.reward import ClamAV
+
 module_path = os.path.split(os.path.abspath(sys.modules[__name__].__file__))[0]
 sample_dir_path = module_path + r"\gym_malware\envs\utils\samples"
 ca = ClamAV()
