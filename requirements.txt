@@ -5,3 +5,4 @@ lief
 # torch
 # torchvision
 matplotlib
+tqdm
