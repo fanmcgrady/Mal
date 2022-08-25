@@ -1,5 +1,6 @@
 import math
 
+import gym
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
@@ -20,7 +21,9 @@ EPS_DECAY = 200
 MEMORY_CAPACITY = 2000
 Q_NETWORK_ITERATION = 100
 
-env = MalwareEnv(sha256list=interface.get_samples())
+env = gym.make('malware-v0')
+env_test = gym.make('malware-test-v0')
+# env = MalwareEnv(sha256list=interface.get_samples())
 NUM_ACTIONS = env.action_space.n
 NUM_STATES = env.observation_space.shape[0]
 ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample.shape
@@ -162,4 +165,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    print("Start....")
+    # main()
