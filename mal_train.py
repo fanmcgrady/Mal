@@ -17,7 +17,7 @@ GAMMA = 0.90
 EPS_START = 0.9
 EPS_END = 0.05
 EPS_DECAY = 200
-MEMORY_CAPACITY = 1000
+MEMORY_CAPACITY = 2000
 Q_NETWORK_ITERATION = 100
 
 env = MalwareEnv(sha256list=interface.get_samples())
@@ -84,6 +84,7 @@ class DQN():
         self.learn_step_counter += 1
 
         # sample batch from memory
+        # sample batch from memory
         sample_index = np.random.choice(MEMORY_CAPACITY, BATCH_SIZE)
         batch_memory = self.memory[sample_index, :]
         batch_state = torch.FloatTensor(batch_memory[:, :NUM_STATES]).to(self.device)
@@ -132,7 +133,7 @@ def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print("Using device {}....".format(device))
     dqn = DQN(device)
-    episodes = 1000
+    episodes = 600
     print("Collecting Experience....")
     reward_list = []
     for i in range(episodes):
