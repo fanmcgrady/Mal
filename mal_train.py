@@ -133,7 +133,7 @@ def main():
     # device = "cpu"
     print("Using device {}....".format(device))
     dqn = DQN(device)
-    episodes = 3
+    episodes = 500
     print("Collecting Experience....")
     reward_list = []
     for i in range(episodes):
