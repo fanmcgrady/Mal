@@ -132,8 +132,8 @@ def test_agent(dqn, test_episodes):
 
 
 def main():
-    # device = "cuda" if torch.cuda.is_available() else "cpu"
-    device = "cpu"
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    # device = "cpu"
     print("Using device {}....".format(device))
     dqn = DQN(device)
     episodes = 600
