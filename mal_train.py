@@ -1,12 +1,12 @@
 import math
 
 import gym
-import matplotlib.pyplot as plt
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import gym_malware
+from line_profiler import LineProfiler
 
 from config import *
 # hyper-parameters
@@ -127,23 +127,19 @@ def test_agent(dqn, test_episodes):
         with open(LOG_PATH + r"\log.txt", "a+") as f:
             f.write("test episode: {} , the episode reward is {}\n".format(i, reward))
         test_reward_list.append(reward)
-    plt.plot(range(test_episodes), test_reward_list)
-    plt.show()
-
 
 def main():
-    # device = "cuda" if torch.cuda.is_available() else "cpu"
-    device = "cpu"
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    # device = "cpu"
     print("Using device {}....".format(device))
     dqn = DQN(device)
-    episodes = 600
+    episodes = 3
     print("Collecting Experience....")
     reward_list = []
     for i in range(episodes):
         state = env.reset()
         ep_reward = 0
         while True:
-            # env.render()
             action = dqn.choose_action(state)
             next_state, reward, done, info = env.step(action)
             dqn.store_transition(state, action, reward, next_state)
@@ -158,10 +154,7 @@ def main():
             state = next_state
         r = ep_reward
         reward_list.append(r)
-    plt.plot(range(episodes), reward_list)
-    plt.show()
-    plt.close()
-    test_agent(dqn, 30)
+    # test_agent(dqn, 30)
 
 
 if __name__ == '__main__':
