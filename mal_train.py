@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import gym_malware
-from line_profiler import LineProfiler
+# from line_profiler import LineProfiler
 
 from config import *
 # hyper-parameters
@@ -124,7 +124,7 @@ def test_agent(dqn, test_episodes):
                 break
             state = next_state
         print("test_episode: {} , the episode reward is {}".format(i, reward))
-        with open(LOG_PATH + r"\log.txt", "a+") as f:
+        with open(os.path.join(LOG_PATH, "log.txt"), "a+") as f:
             f.write("test episode: {} , the episode reward is {}\n".format(i, reward))
         test_reward_list.append(reward)
 
@@ -147,8 +147,9 @@ def main():
                 dqn.learn()
                 if done:
                     print("episode: {} , the episode reward is {}".format(i, reward))
-                    with open(LOG_PATH + r"\log.txt", "a+") as f:
-                        f.write("episode: {} , the episode reward is {}, epsilon is {}\n".format(i, reward, dqn.epsilon))
+                    with open(os.path.join(LOG_PATH, "log.txt"), "a+") as f:
+                        f.write(
+                            "episode: {} , the episode reward is {}, epsilon is {}\n".format(i, reward, dqn.epsilon))
             if done:
                 break
             state = next_state
