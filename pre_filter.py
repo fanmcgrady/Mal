@@ -9,6 +9,8 @@ ca = ClamAV()
 benign = 0
 for sample in os.listdir(sample_dir_path):
     sample_path = os.path.join(sample_dir_path, sample)
+    with open(sample_path, "r") as f:
+        print(f.read())
     if ca.scan(sample_path) == 0:
         benign += 1
         os.remove(sample_path)
