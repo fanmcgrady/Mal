@@ -8,9 +8,10 @@ ca = ClamAV()
 benign = 0
 samples = interface.get_samples()
 for sample in samples:
-    if ca.scan(sample) == 0:
+    sample_path = os.path.join(interface.SAMPLE_PATH, sample)
+    if ca.scan(sample_path) == 0:
         benign += 1
-        os.remove(sample)
+        os.remove(sample_path)
         with open(os.path.join(LOG_PATH, "preprocess_log.txt"), "a+") as f:
-            f.write("{}: delete {}\n".format(benign, sample))
+            f.write("{}: delete {}\n".format(benign, sample_path))
 print(benign)
