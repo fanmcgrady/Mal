@@ -146,10 +146,10 @@ def main():
             if dqn.memory_counter >= MEMORY_CAPACITY:
                 dqn.learn()
                 if done:
-                    print("episode: {} , the episode reward is {}".format(i, reward))
+                    print("episode: {} , the episode reward is {}".format(i+1, reward))
                     with open(os.path.join(LOG_PATH, "log.txt"), "a+") as f:
                         f.write(
-                            "episode: {} , the episode reward is {}, epsilon is {}\n".format(i, reward, dqn.epsilon))
+                            "episode: {} , the episode reward is {}, epsilon is {}\n".format(i+1, reward, dqn.epsilon))
             if done:
                 break
             state = next_state
