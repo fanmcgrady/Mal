@@ -1,0 +1,1238 @@
+---------------------------------------------------------------------------------------
+ episode 1 select training sample: DoS.Win32.Lanxue.a
+turns 1 : pad_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 2 select training sample: DoS.Win32.ARPKiller.12
+turns 1 : append_benign_binary_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 3 select training sample: DoS.Win32.Bonk.a
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_section_benign_data, detected as mal
+turns 3 : modify_timestamp, detected as mal
+turns 4 : append_benign_binary_overlay, detected as benign
+successfully evaded after 4 actions!
+---------------------------------------------------------------------------------------
+ episode 4 select training sample: DoS.Win32.DBomb.21
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 5 select training sample: DoS.Win32.VB.et
+turns 1 : add_imports, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : break_optional_header_checksum, detected as mal
+turns 6 : upx_unpack, detected as mal
+turns 7 : add_section_benign_data, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : modify_timestamp, detected as mal
+turns 10 : add_strings_to_overlay, detected as mal
+---------------------------------------------------------------------------------------
+ episode 6 select training sample: DoS.Win32.VB.iw
+turns 1 : break_optional_header_checksum, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : rename_section, detected as mal
+turns 4 : pad_overlay, detected as mal
+turns 5 : append_benign_binary_overlay, detected as benign
+successfully evaded after 5 actions!
+---------------------------------------------------------------------------------------
+ episode 7 select training sample: DoS.Win32.XScript.03
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 8 select training sample: DoS.Win32.Lanxue.b
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 9 select training sample: DoS.Win32.Delf.h
+turns 1 : append_benign_data_overlay, detected as mal
+turns 2 : append_benign_data_overlay, detected as mal
+turns 3 : append_benign_data_overlay, detected as mal
+turns 4 : modify_optional_header, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : pad_overlay, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : modify_timestamp, detected as mal
+turns 9 : break_optional_header_checksum, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 10 actions!
+---------------------------------------------------------------------------------------
+ episode 10 select training sample: DoS.Win32.Wako
+turns 1 : rename_section, detected as mal
+turns 2 : modify_optional_header, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : append_benign_binary_overlay, detected as benign
+successfully evaded after 4 actions!
+---------------------------------------------------------------------------------------
+ episode 11 select training sample: DoS.Win32.VB.bg
+turns 1 : modify_machine_type, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : add_section_strings, detected as mal
+turns 4 : modify_machine_type, detected as mal
+turns 5 : add_section_strings, detected as mal
+turns 6 : pad_overlay, detected as mal
+turns 7 : modify_optional_header, detected as mal
+turns 8 : modify_timestamp, detected as mal
+turns 9 : modify_machine_type, detected as mal
+turns 10 : append_benign_binary_overlay, detected as benign
+successfully evaded after 10 actions!
+---------------------------------------------------------------------------------------
+ episode 12 select training sample: DoS.Win32.Delf.b
+turns 1 : add_section_strings, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : remove_debug, detected as mal
+turns 4 : add_imports, detected as mal
+turns 5 : append_benign_binary_overlay, detected as benign
+successfully evaded after 5 actions!
+---------------------------------------------------------------------------------------
+ episode 13 select training sample: DoS.Win32.VB.dl
+turns 1 : append_benign_binary_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 14 select training sample: DoS.Win32.Vaite.10
+turns 1 : pad_overlay, detected as mal
+turns 2 : add_strings_to_overlay, detected as mal
+turns 3 : rename_section, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : add_strings_to_overlay, detected as mal
+turns 6 : add_imports, detected as mal
+turns 7 : modify_timestamp, detected as mal
+turns 8 : modify_timestamp, detected as mal
+turns 9 : upx_unpack, detected as mal
+turns 10 : add_strings_to_overlay, detected as mal
+---------------------------------------------------------------------------------------
+ episode 15 select training sample: DoS.Win32.Killwin
+turns 1 : modify_machine_type, detected as mal
+turns 2 : upx_unpack, detected as mal
+turns 3 : modify_machine_type, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : modify_optional_header, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : add_section_strings, detected as mal
+turns 8 : modify_machine_type, detected as mal
+turns 9 : append_benign_data_overlay, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 16 select training sample: DoS.Win32.Synte.j
+turns 1 : remove_debug, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : add_section_strings, detected as mal
+turns 4 : rename_section, detected as mal
+turns 5 : pad_overlay, detected as mal
+turns 6 : append_benign_binary_overlay, detected as benign
+successfully evaded after 6 actions!
+---------------------------------------------------------------------------------------
+ episode 17 select training sample: DoS.Win32.Synte.a
+turns 1 : add_section_strings, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : append_benign_binary_overlay, detected as benign
+successfully evaded after 3 actions!
+---------------------------------------------------------------------------------------
+ episode 18 select training sample: DoS.Win32.VB.cf
+turns 1 : add_section_strings, detected as mal
+turns 2 : append_benign_binary_overlay, detected as benign
+successfully evaded after 2 actions!
+---------------------------------------------------------------------------------------
+ episode 19 select training sample: DoS.Win32.VB.cg
+turns 1 : break_optional_header_checksum, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : add_section_benign_data, detected as mal
+turns 4 : modify_machine_type, detected as mal
+turns 5 : upx_unpack, detected as mal
+turns 6 : remove_debug, detected as mal
+turns 7 : append_benign_binary_overlay, detected as benign
+successfully evaded after 7 actions!
+---------------------------------------------------------------------------------------
+ episode 20 select training sample: DoS.Win32.Pnbug
+turns 1 : add_section_benign_data, detected as mal
+turns 2 : add_section_strings, detected as mal
+turns 3 : break_optional_header_checksum, detected as mal
+turns 4 : modify_timestamp, detected as mal
+turns 5 : append_benign_binary_overlay, detected as benign
+successfully evaded after 5 actions!
+---------------------------------------------------------------------------------------
+ episode 21 select training sample: DoS.Win32.VB.bj
+turns 1 : remove_debug, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : modify_machine_type, detected as mal
+turns 4 : upx_unpack, detected as mal
+turns 5 : add_section_strings, detected as mal
+turns 6 : append_benign_data_overlay, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : modify_machine_type, detected as mal
+turns 9 : append_benign_data_overlay, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 22 select training sample: DoS.Win32.Nenet
+turns 1 : append_benign_binary_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 23 select training sample: DoS.Win32.VB.cu
+turns 1 : upx_pack, detected as mal
+turns 2 : modify_machine_type, detected as mal
+turns 3 : add_section_strings, detected as mal
+turns 4 : upx_unpack, detected as mal
+turns 5 : modify_machine_type, detected as mal
+turns 6 : add_strings_to_overlay, detected as mal
+turns 7 : upx_pack, detected as mal
+turns 8 : modify_optional_header, detected as mal
+turns 9 : add_strings_to_overlay, detected as mal
+turns 10 : add_section_strings, detected as mal
+---------------------------------------------------------------------------------------
+ episode 24 select training sample: DoS.Win32.Misoska.a
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 2 actions!
+---------------------------------------------------------------------------------------
+ episode 25 select training sample: DoS.Win32.VB.az
+turns 1 : add_imports, detected as mal
+turns 2 : modify_machine_type, detected as mal
+turns 3 : modify_timestamp, detected as mal
+turns 4 : modify_optional_header, detected as mal
+turns 5 : rename_section, detected as mal
+turns 6 : modify_timestamp, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : upx_pack, detected as mal
+turns 9 : add_strings_to_overlay, detected as mal
+turns 10 : append_benign_binary_overlay, detected as benign
+successfully evaded after 10 actions!
+---------------------------------------------------------------------------------------
+ episode 26 select training sample: DoS.Win32.Agent.m
+turns 1 : append_benign_binary_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 27 select training sample: DoS.Win32.Fedup.20
+turns 1 : add_section_benign_data, detected as mal
+turns 2 : rename_section, detected as mal
+turns 3 : break_optional_header_checksum, detected as mal
+turns 4 : add_strings_to_overlay, detected as mal
+turns 5 : remove_debug, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : add_strings_to_overlay, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : remove_debug, detected as mal
+---------------------------------------------------------------------------------------
+ episode 28 select training sample: DoS.Win32.VB.ep
+turns 1 : upx_unpack, detected as mal
+turns 2 : upx_pack, detected as benign
+successfully evaded after 2 actions!
+---------------------------------------------------------------------------------------
+ episode 29 select training sample: DoS.Win32.GhostDog
+turns 1 : add_strings_to_overlay, detected as mal
+turns 2 : modify_machine_type, detected as mal
+turns 3 : append_benign_data_overlay, detected as mal
+turns 4 : append_benign_binary_overlay, detected as benign
+successfully evaded after 4 actions!
+---------------------------------------------------------------------------------------
+ episode 30 select training sample: DoS.Win32.DK-ToyBox.21.b
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 31 select training sample: DoS.Win32.VB.cq
+turns 1 : add_section_benign_data, detected as mal
+turns 2 : break_optional_header_checksum, detected as mal
+turns 3 : add_imports, detected as mal
+turns 4 : modify_machine_type, detected as mal
+turns 5 : append_benign_data_overlay, detected as mal
+turns 6 : upx_pack, detected as mal
+turns 7 : add_strings_to_overlay, detected as mal
+turns 8 : pad_overlay, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 32 select training sample: DoS.Win32.Hucsyn.02
+turns 1 : modify_optional_header, detected as mal
+turns 2 : modify_optional_header, detected as mal
+turns 3 : rename_section, detected as mal
+turns 4 : upx_unpack, detected as mal
+turns 5 : upx_pack, detected as mal
+turns 6 : add_strings_to_overlay, detected as mal
+turns 7 : add_imports, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 8 actions!
+---------------------------------------------------------------------------------------
+ episode 33 select training sample: DoS.Win32.VB.ar
+turns 1 : upx_pack, detected as mal
+turns 2 : break_optional_header_checksum, detected as mal
+turns 3 : break_optional_header_checksum, detected as mal
+turns 4 : add_strings_to_overlay, detected as mal
+turns 5 : remove_debug, detected as mal
+turns 6 : add_strings_to_overlay, detected as mal
+turns 7 : upx_pack, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 34 select training sample: DoS.Win32.Kod.b
+turns 1 : modify_optional_header, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : add_section_strings, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : add_section_strings, detected as mal
+turns 7 : upx_unpack, detected as mal
+turns 8 : upx_unpack, detected as mal
+turns 9 : modify_timestamp, detected as mal
+turns 10 : remove_debug, detected as mal
+---------------------------------------------------------------------------------------
+ episode 35 select training sample: DoS.Win32.Lanxue.200
+turns 1 : upx_pack, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 36 select training sample: DoS.Win32.Lanxue.d
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 37 select training sample: DoS.Win32.Aftpkill
+turns 1 : modify_optional_header, detected as mal
+turns 2 : modify_optional_header, detected as benign
+successfully evaded after 2 actions!
+---------------------------------------------------------------------------------------
+ episode 38 select training sample: DoS.Win32.Aleph.a
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : remove_debug, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : add_section_benign_data, detected as mal
+turns 6 : add_imports, detected as mal
+turns 7 : add_section_benign_data, detected as mal
+turns 8 : add_section_strings, detected as mal
+turns 9 : modify_timestamp, detected as mal
+turns 10 : rename_section, detected as mal
+---------------------------------------------------------------------------------------
+ episode 39 select training sample: DoS.Win32.LamerToy.008
+turns 1 : add_section_strings, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 40 select training sample: DoS.Win32.VB.dn
+turns 1 : break_optional_header_checksum, detected as mal
+turns 2 : pad_overlay, detected as mal
+turns 3 : rename_section, detected as mal
+turns 4 : break_optional_header_checksum, detected as mal
+turns 5 : add_section_strings, detected as mal
+turns 6 : upx_pack, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : break_optional_header_checksum, detected as mal
+turns 9 : add_section_benign_data, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 41 select training sample: DoS.Win32.VB.cs
+turns 1 : break_optional_header_checksum, detected as mal
+turns 2 : remove_debug, detected as mal
+turns 3 : rename_section, detected as mal
+turns 4 : append_benign_binary_overlay, detected as benign
+successfully evaded after 4 actions!
+---------------------------------------------------------------------------------------
+ episode 42 select training sample: DoS.Win32.DBomb.11
+turns 1 : rename_section, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 43 select training sample: DoS.Win32.VB.ag
+turns 1 : append_benign_binary_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 44 select training sample: DoS.Win32.DBomb.31
+turns 1 : add_imports, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 45 select training sample: DoS.Win32.Xpupnp
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : upx_pack, detected as benign
+successfully evaded after 3 actions!
+---------------------------------------------------------------------------------------
+ episode 46 select training sample: DoS.Win32.Hucsyn.04
+turns 1 : pad_overlay, detected as mal
+turns 2 : rename_section, detected as mal
+turns 3 : upx_unpack, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : break_optional_header_checksum, detected as mal
+turns 6 : modify_machine_type, detected as mal
+turns 7 : pad_overlay, detected as mal
+turns 8 : upx_unpack, detected as mal
+turns 9 : upx_unpack, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 47 select training sample: DoS.Win32.VB.ek
+turns 1 : add_imports, detected as mal
+turns 2 : break_optional_header_checksum, detected as mal
+turns 3 : add_section_benign_data, detected as mal
+turns 4 : remove_debug, detected as mal
+turns 5 : add_section_benign_data, detected as mal
+turns 6 : append_benign_data_overlay, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : remove_debug, detected as mal
+turns 9 : add_strings_to_overlay, detected as mal
+turns 10 : modify_timestamp, detected as mal
+---------------------------------------------------------------------------------------
+ episode 48 select training sample: DoS.Win32.Flash
+turns 1 : modify_machine_type, detected as mal
+turns 2 : upx_unpack, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : upx_pack, detected as mal
+turns 5 : remove_debug, detected as mal
+turns 6 : append_benign_data_overlay, detected as mal
+turns 7 : break_optional_header_checksum, detected as mal
+turns 8 : modify_machine_type, detected as mal
+turns 9 : add_strings_to_overlay, detected as mal
+turns 10 : add_imports, detected as mal
+---------------------------------------------------------------------------------------
+ episode 49 select training sample: DoS.Win32.VB.dh
+turns 1 : pad_overlay, detected as mal
+turns 2 : modify_machine_type, detected as mal
+turns 3 : add_section_benign_data, detected as mal
+turns 4 : upx_unpack, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : upx_unpack, detected as mal
+turns 7 : rename_section, detected as mal
+turns 8 : break_optional_header_checksum, detected as mal
+turns 9 : modify_optional_header, detected as mal
+turns 10 : append_benign_binary_overlay, detected as benign
+successfully evaded after 10 actions!
+---------------------------------------------------------------------------------------
+ episode 50 select training sample: DoS.Win32.Mk3.10
+turns 1 : add_imports, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 51 select training sample: DoS.Win32.VB.db
+turns 1 : upx_unpack, detected as mal
+turns 2 : modify_machine_type, detected as mal
+turns 3 : append_benign_binary_overlay, detected as benign
+successfully evaded after 3 actions!
+---------------------------------------------------------------------------------------
+ episode 52 select training sample: DoS.Win32.VB.bq
+turns 1 : add_strings_to_overlay, detected as mal
+turns 2 : modify_timestamp, detected as mal
+turns 3 : upx_unpack, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : break_optional_header_checksum, detected as mal
+turns 6 : break_optional_header_checksum, detected as mal
+turns 7 : add_strings_to_overlay, detected as mal
+turns 8 : pad_overlay, detected as mal
+turns 9 : modify_timestamp, detected as mal
+turns 10 : add_imports, detected as mal
+---------------------------------------------------------------------------------------
+ episode 53 select training sample: DoS.Win32.Panther.m2
+turns 1 : pad_overlay, detected as mal
+turns 2 : add_section_strings, detected as mal
+turns 3 : upx_pack, detected as benign
+successfully evaded after 3 actions!
+---------------------------------------------------------------------------------------
+ episode 54 select training sample: DoS.Win32.ScrAwaked
+turns 1 : add_imports, detected as mal
+turns 2 : modify_machine_type, detected as mal
+turns 3 : modify_machine_type, detected as mal
+turns 4 : remove_debug, detected as mal
+turns 5 : append_benign_data_overlay, detected as mal
+turns 6 : append_benign_binary_overlay, detected as benign
+successfully evaded after 6 actions!
+---------------------------------------------------------------------------------------
+ episode 55 select training sample: DoS.Win32.VB.fh
+turns 1 : append_benign_binary_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 56 select training sample: DoS.Win32.Jolt2
+turns 1 : upx_unpack, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : upx_pack, detected as mal
+turns 4 : modify_timestamp, detected as mal
+turns 5 : add_strings_to_overlay, detected as mal
+turns 6 : break_optional_header_checksum, detected as mal
+turns 7 : rename_section, detected as mal
+turns 8 : rename_section, detected as mal
+turns 9 : modify_optional_header, detected as mal
+turns 10 : add_section_benign_data, detected as mal
+---------------------------------------------------------------------------------------
+ episode 57 select training sample: DoS.Win32.VB.bh
+turns 1 : add_imports, detected as mal
+turns 2 : add_strings_to_overlay, detected as mal
+turns 3 : upx_pack, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : break_optional_header_checksum, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : upx_pack, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : modify_optional_header, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 58 select training sample: DoS.Win32.SkyfireNuker
+turns 1 : pad_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 59 select training sample: DoS.Win32.Kaliber
+turns 1 : modify_machine_type, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 60 select training sample: DoS.Win32.SynFlood.e
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : break_optional_header_checksum, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : break_optional_header_checksum, detected as mal
+turns 6 : modify_timestamp, detected as mal
+turns 7 : add_strings_to_overlay, detected as mal
+turns 8 : modify_machine_type, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : append_benign_binary_overlay, detected as benign
+successfully evaded after 10 actions!
+---------------------------------------------------------------------------------------
+ episode 61 select training sample: DoS.Win32.VB.df
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : modify_optional_header, detected as mal
+turns 4 : modify_timestamp, detected as mal
+turns 5 : modify_optional_header, detected as mal
+turns 6 : modify_optional_header, detected as mal
+turns 7 : append_benign_binary_overlay, detected as benign
+successfully evaded after 7 actions!
+---------------------------------------------------------------------------------------
+ episode 62 select training sample: DoS.Win32.DeepThroat
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 63 select training sample: DoS.Win32.VB.cv
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : remove_debug, detected as mal
+turns 4 : modify_machine_type, detected as mal
+turns 5 : add_strings_to_overlay, detected as mal
+turns 6 : upx_unpack, detected as mal
+turns 7 : upx_pack, detected as mal
+turns 8 : rename_section, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : add_imports, detected as mal
+---------------------------------------------------------------------------------------
+ episode 64 select training sample: DoS.Win32.VB.cl
+turns 1 : rename_section, detected as mal
+turns 2 : add_section_benign_data, detected as mal
+turns 3 : remove_debug, detected as mal
+turns 4 : modify_optional_header, detected as mal
+turns 5 : remove_debug, detected as mal
+turns 6 : add_imports, detected as mal
+turns 7 : upx_pack, detected as mal
+turns 8 : modify_timestamp, detected as mal
+turns 9 : modify_optional_header, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 65 select training sample: DoS.Win32.VB.em
+turns 1 : add_section_benign_data, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : rename_section, detected as mal
+turns 4 : modify_machine_type, detected as mal
+turns 5 : append_benign_binary_overlay, detected as benign
+successfully evaded after 5 actions!
+---------------------------------------------------------------------------------------
+ episode 66 select training sample: DoS.Win32.Misoska.c
+turns 1 : add_section_strings, detected as mal
+turns 2 : append_benign_binary_overlay, detected as benign
+successfully evaded after 2 actions!
+---------------------------------------------------------------------------------------
+ episode 67 select training sample: DoS.Win32.Bind
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 68 select training sample: DoS.Win32.Lanxue.201
+turns 1 : rename_section, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 69 select training sample: DoS.Win32.Lanxie.100
+turns 1 : rename_section, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 70 select training sample: DoS.Win32.WinGateCrash
+turns 1 : upx_pack, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 71 select training sample: DoS.Win32.Synte.l
+turns 1 : append_benign_data_overlay, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : modify_machine_type, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : append_benign_binary_overlay, detected as benign
+successfully evaded after 5 actions!
+---------------------------------------------------------------------------------------
+ episode 72 select training sample: DoS.Win32.VB.at
+turns 1 : add_section_benign_data, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : modify_machine_type, detected as mal
+turns 4 : upx_pack, detected as mal
+turns 5 : append_benign_binary_overlay, detected as benign
+successfully evaded after 5 actions!
+---------------------------------------------------------------------------------------
+ episode 73 select training sample: DoS.Win32.VB.bp
+turns 1 : upx_pack, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : modify_timestamp, detected as mal
+turns 5 : pad_overlay, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : pad_overlay, detected as mal
+turns 8 : add_strings_to_overlay, detected as mal
+turns 9 : rename_section, detected as mal
+turns 10 : add_imports, detected as mal
+---------------------------------------------------------------------------------------
+ episode 74 select training sample: DoS.Win32.Panther.m1
+turns 1 : append_benign_binary_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 75 select training sample: DoS.Win32.VB.ey
+turns 1 : upx_pack, detected as mal
+turns 2 : append_benign_data_overlay, detected as mal
+turns 3 : add_strings_to_overlay, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : modify_machine_type, detected as mal
+turns 7 : add_strings_to_overlay, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : append_benign_data_overlay, detected as mal
+turns 10 : add_section_strings, detected as mal
+---------------------------------------------------------------------------------------
+ episode 76 select training sample: DoS.Win32.PortTerminator
+turns 1 : add_imports, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : remove_debug, detected as mal
+turns 5 : rename_section, detected as mal
+turns 6 : add_section_benign_data, detected as mal
+turns 7 : remove_debug, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : append_benign_binary_overlay, detected as benign
+successfully evaded after 9 actions!
+---------------------------------------------------------------------------------------
+ episode 77 select training sample: DoS.Win32.Lanxue.c
+turns 1 : pad_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 78 select training sample: DoS.Win32.Beer
+turns 1 : add_imports, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : rename_section, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : upx_pack, detected as benign
+successfully evaded after 6 actions!
+---------------------------------------------------------------------------------------
+ episode 79 select training sample: DoS.Win32.Adonai.01
+turns 1 : modify_machine_type, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 80 select training sample: DoS.Win32.Tmosdos
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : upx_pack, detected as mal
+turns 4 : pad_overlay, detected as mal
+turns 5 : add_section_benign_data, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : add_imports, detected as mal
+turns 10 : pad_overlay, detected as mal
+---------------------------------------------------------------------------------------
+ episode 81 select training sample: DoS.Win32.Wreck
+turns 1 : modify_optional_header, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 82 select training sample: DoS.Win32.Lanxue.100.b
+turns 1 : rename_section, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 83 select training sample: DoS.Win32.Nemesy
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_section_benign_data, detected as mal
+turns 3 : append_benign_binary_overlay, detected as benign
+successfully evaded after 3 actions!
+---------------------------------------------------------------------------------------
+ episode 84 select training sample: DoS.Win32.PoD
+turns 1 : modify_timestamp, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 85 select training sample: DoS.Win32.Lanxue.100.a
+turns 1 : pad_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 86 select training sample: DoS.Win32.Frozen
+turns 1 : upx_pack, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 87 select training sample: DoS.Win32.VB.an
+turns 1 : upx_pack, detected as mal
+turns 2 : remove_debug, detected as mal
+turns 3 : modify_optional_header, detected as mal
+turns 4 : append_benign_data_overlay, detected as mal
+turns 5 : modify_optional_header, detected as mal
+turns 6 : pad_overlay, detected as mal
+turns 7 : break_optional_header_checksum, detected as mal
+turns 8 : break_optional_header_checksum, detected as mal
+turns 9 : append_benign_binary_overlay, detected as benign
+successfully evaded after 9 actions!
+---------------------------------------------------------------------------------------
+ episode 88 select training sample: DoS.Win32.HTTP.Bombarder
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : pad_overlay, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 4 actions!
+---------------------------------------------------------------------------------------
+ episode 89 select training sample: DoS.Win32.Angeldos
+turns 1 : rename_section, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 90 select training sample: DoS.Win32.VB.bz
+turns 1 : break_optional_header_checksum, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : add_section_benign_data, detected as mal
+turns 5 : append_benign_data_overlay, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : add_strings_to_overlay, detected as mal
+turns 10 : upx_unpack, detected as mal
+---------------------------------------------------------------------------------------
+ episode 91 select training sample: DoS.Win32.Ras.11
+turns 1 : modify_machine_type, detected as mal
+turns 2 : modify_machine_type, detected as mal
+turns 3 : rename_section, detected as mal
+turns 4 : add_strings_to_overlay, detected as mal
+turns 5 : append_benign_data_overlay, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : upx_unpack, detected as mal
+turns 8 : append_benign_binary_overlay, detected as benign
+successfully evaded after 8 actions!
+---------------------------------------------------------------------------------------
+ episode 92 select training sample: DoS.Win32.VB.bf
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : add_section_strings, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : pad_overlay, detected as mal
+turns 6 : upx_pack, detected as mal
+turns 7 : modify_optional_header, detected as mal
+turns 8 : modify_machine_type, detected as mal
+turns 9 : add_section_strings, detected as mal
+turns 10 : add_imports, detected as mal
+---------------------------------------------------------------------------------------
+ episode 93 select training sample: DoS.Win32.KillCerb
+turns 1 : append_benign_binary_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 94 select training sample: DoS.Win32.RandomSpoof
+turns 1 : modify_optional_header, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : modify_machine_type, detected as mal
+turns 4 : modify_optional_header, detected as mal
+turns 5 : upx_pack, detected as mal
+turns 6 : upx_pack, detected as mal
+turns 7 : upx_pack, detected as mal
+turns 8 : upx_pack, detected as mal
+turns 9 : break_optional_header_checksum, detected as mal
+turns 10 : add_strings_to_overlay, detected as mal
+---------------------------------------------------------------------------------------
+ episode 95 select training sample: DoS.Win32.Awak.10
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 96 select training sample: DoS.Win32.Ataker.a
+turns 1 : add_strings_to_overlay, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : rename_section, detected as mal
+turns 4 : append_benign_binary_overlay, detected as benign
+successfully evaded after 4 actions!
+---------------------------------------------------------------------------------------
+ episode 97 select training sample: DoS.Win32.Delf.g
+turns 1 : upx_unpack, detected as mal
+turns 2 : append_benign_data_overlay, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 4 actions!
+---------------------------------------------------------------------------------------
+ episode 98 select training sample: DoS.Win32.Misoska.PackBuild.06b
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 99 select training sample: DoS.Win32.Drdos
+turns 1 : remove_debug, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 100 select training sample: DoS.Win32.VB.da
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : modify_optional_header, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : break_optional_header_checksum, detected as mal
+turns 6 : add_section_strings, detected as mal
+turns 7 : upx_unpack, detected as mal
+turns 8 : modify_optional_header, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : modify_optional_header, detected as mal
+---------------------------------------------------------------------------------------
+ episode 101 select training sample: DoS.Win32.AhBomb
+turns 1 : remove_debug, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 2 actions!
+---------------------------------------------------------------------------------------
+ episode 102 select training sample: DoS.Win32.ARPKiller.13
+turns 1 : add_section_benign_data, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 103 select training sample: DoS.Win32.Daily
+turns 1 : upx_unpack, detected as mal
+turns 2 : append_benign_data_overlay, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : pad_overlay, detected as mal
+turns 5 : add_strings_to_overlay, detected as mal
+turns 6 : remove_debug, detected as mal
+turns 7 : remove_debug, detected as mal
+turns 8 : append_benign_data_overlay, detected as mal
+turns 9 : add_section_strings, detected as mal
+turns 10 : pad_overlay, detected as mal
+---------------------------------------------------------------------------------------
+ episode 104 select training sample: DoS.Win32.Lanxue.101
+turns 1 : rename_section, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 105 select training sample: DoS.Win32.VB.bn
+turns 1 : add_imports, detected as mal
+turns 2 : break_optional_header_checksum, detected as mal
+turns 3 : upx_pack, detected as mal
+turns 4 : pad_overlay, detected as mal
+turns 5 : add_strings_to_overlay, detected as mal
+turns 6 : append_benign_binary_overlay, detected as benign
+successfully evaded after 6 actions!
+---------------------------------------------------------------------------------------
+ episode 106 select training sample: DoS.Win32.Lanxue.a
+turns 1 : modify_optional_header, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 107 select training sample: DoS.Win32.ARPKiller.12
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 108 select training sample: DoS.Win32.Bonk.a
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : add_section_strings, detected as mal
+turns 5 : upx_pack, detected as mal
+turns 6 : modify_machine_type, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : break_optional_header_checksum, detected as mal
+turns 10 : append_benign_data_overlay, detected as mal
+---------------------------------------------------------------------------------------
+ episode 109 select training sample: DoS.Win32.DBomb.21
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 110 select training sample: DoS.Win32.VB.et
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : modify_optional_header, detected as mal
+turns 3 : break_optional_header_checksum, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : remove_debug, detected as mal
+turns 6 : upx_unpack, detected as mal
+turns 7 : modify_machine_type, detected as mal
+turns 8 : add_section_benign_data, detected as mal
+turns 9 : add_strings_to_overlay, detected as mal
+turns 10 : rename_section, detected as mal
+---------------------------------------------------------------------------------------
+ episode 111 select training sample: DoS.Win32.VB.iw
+turns 1 : remove_debug, detected as mal
+turns 2 : pad_overlay, detected as mal
+turns 3 : add_section_strings, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : add_strings_to_overlay, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : append_benign_binary_overlay, detected as benign
+successfully evaded after 7 actions!
+---------------------------------------------------------------------------------------
+ episode 112 select training sample: DoS.Win32.XScript.03
+turns 1 : modify_machine_type, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 113 select training sample: DoS.Win32.Lanxue.b
+turns 1 : upx_pack, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 114 select training sample: DoS.Win32.Delf.h
+turns 1 : modify_optional_header, detected as mal
+turns 2 : modify_timestamp, detected as mal
+turns 3 : add_section_strings, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : add_section_benign_data, detected as mal
+turns 7 : add_section_strings, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : modify_timestamp, detected as mal
+turns 10 : append_benign_binary_overlay, detected as benign
+successfully evaded after 10 actions!
+---------------------------------------------------------------------------------------
+ episode 115 select training sample: DoS.Win32.Wako
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : pad_overlay, detected as mal
+turns 3 : remove_debug, detected as mal
+turns 4 : pad_overlay, detected as mal
+turns 5 : add_section_benign_data, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : modify_timestamp, detected as mal
+turns 9 : append_benign_binary_overlay, detected as benign
+successfully evaded after 9 actions!
+---------------------------------------------------------------------------------------
+ episode 116 select training sample: DoS.Win32.VB.bg
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_strings_to_overlay, detected as mal
+turns 3 : modify_optional_header, detected as mal
+turns 4 : modify_timestamp, detected as mal
+turns 5 : add_section_strings, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : upx_unpack, detected as mal
+turns 8 : upx_unpack, detected as mal
+turns 9 : break_optional_header_checksum, detected as mal
+turns 10 : append_benign_binary_overlay, detected as benign
+successfully evaded after 10 actions!
+---------------------------------------------------------------------------------------
+ episode 117 select training sample: DoS.Win32.Delf.b
+turns 1 : pad_overlay, detected as mal
+turns 2 : upx_pack, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : add_section_benign_data, detected as mal
+turns 5 : remove_debug, detected as mal
+turns 6 : upx_pack, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : modify_optional_header, detected as mal
+---------------------------------------------------------------------------------------
+ episode 118 select training sample: DoS.Win32.VB.dl
+turns 1 : add_imports, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : modify_timestamp, detected as mal
+turns 4 : modify_optional_header, detected as mal
+turns 5 : rename_section, detected as mal
+turns 6 : pad_overlay, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : append_benign_binary_overlay, detected as benign
+successfully evaded after 8 actions!
+---------------------------------------------------------------------------------------
+ episode 119 select training sample: DoS.Win32.Vaite.10
+turns 1 : remove_debug, detected as mal
+turns 2 : pad_overlay, detected as mal
+turns 3 : add_section_benign_data, detected as mal
+turns 4 : append_benign_data_overlay, detected as mal
+turns 5 : upx_unpack, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : upx_pack, detected as mal
+turns 8 : modify_machine_type, detected as mal
+turns 9 : append_benign_binary_overlay, detected as benign
+successfully evaded after 9 actions!
+---------------------------------------------------------------------------------------
+ episode 120 select training sample: DoS.Win32.Killwin
+turns 1 : break_optional_header_checksum, detected as mal
+turns 2 : upx_unpack, detected as mal
+turns 3 : break_optional_header_checksum, detected as mal
+turns 4 : add_section_benign_data, detected as mal
+turns 5 : upx_unpack, detected as mal
+turns 6 : add_section_benign_data, detected as mal
+turns 7 : rename_section, detected as mal
+turns 8 : modify_optional_header, detected as mal
+turns 9 : add_section_strings, detected as mal
+turns 10 : pad_overlay, detected as mal
+---------------------------------------------------------------------------------------
+ episode 121 select training sample: DoS.Win32.Synte.j
+turns 1 : add_section_strings, detected as mal
+turns 2 : modify_timestamp, detected as mal
+turns 3 : add_strings_to_overlay, detected as mal
+turns 4 : remove_debug, detected as mal
+turns 5 : modify_machine_type, detected as mal
+turns 6 : modify_machine_type, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : break_optional_header_checksum, detected as mal
+turns 9 : break_optional_header_checksum, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 122 select training sample: DoS.Win32.Synte.a
+turns 1 : remove_debug, detected as mal
+turns 2 : add_section_benign_data, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 3 actions!
+---------------------------------------------------------------------------------------
+ episode 123 select training sample: DoS.Win32.VB.cf
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : upx_pack, detected as mal
+turns 3 : add_section_benign_data, detected as mal
+turns 4 : modify_machine_type, detected as mal
+turns 5 : add_strings_to_overlay, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : pad_overlay, detected as mal
+turns 8 : modify_timestamp, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : modify_optional_header, detected as mal
+---------------------------------------------------------------------------------------
+ episode 124 select training sample: DoS.Win32.VB.cg
+turns 1 : add_section_strings, detected as mal
+turns 2 : add_strings_to_overlay, detected as mal
+turns 3 : append_benign_data_overlay, detected as mal
+turns 4 : add_imports, detected as mal
+turns 5 : upx_pack, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : add_strings_to_overlay, detected as mal
+turns 8 : break_optional_header_checksum, detected as mal
+turns 9 : modify_optional_header, detected as mal
+turns 10 : add_strings_to_overlay, detected as mal
+---------------------------------------------------------------------------------------
+ episode 125 select training sample: DoS.Win32.Pnbug
+turns 1 : add_section_benign_data, detected as mal
+turns 2 : add_section_strings, detected as mal
+turns 3 : append_benign_data_overlay, detected as mal
+turns 4 : upx_unpack, detected as mal
+turns 5 : add_imports, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : append_benign_binary_overlay, detected as benign
+successfully evaded after 7 actions!
+---------------------------------------------------------------------------------------
+ episode 126 select training sample: DoS.Win32.VB.bj
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : modify_timestamp, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : remove_debug, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : append_benign_data_overlay, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : add_section_strings, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 127 select training sample: DoS.Win32.Nenet
+turns 1 : add_section_strings, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : break_optional_header_checksum, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : append_benign_data_overlay, detected as mal
+turns 7 : modify_optional_header, detected as mal
+turns 8 : append_benign_data_overlay, detected as mal
+turns 9 : add_strings_to_overlay, detected as mal
+turns 10 : add_section_strings, detected as mal
+---------------------------------------------------------------------------------------
+ episode 128 select training sample: DoS.Win32.VB.cu
+turns 1 : pad_overlay, detected as mal
+turns 2 : add_section_benign_data, detected as mal
+turns 3 : append_benign_data_overlay, detected as mal
+turns 4 : break_optional_header_checksum, detected as mal
+turns 5 : append_benign_data_overlay, detected as mal
+turns 6 : add_section_strings, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : remove_debug, detected as mal
+turns 9 : modify_optional_header, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 129 select training sample: DoS.Win32.Misoska.a
+turns 1 : add_strings_to_overlay, detected as mal
+turns 2 : modify_machine_type, detected as mal
+turns 3 : append_benign_data_overlay, detected as mal
+turns 4 : pad_overlay, detected as mal
+turns 5 : upx_unpack, detected as mal
+turns 6 : append_benign_binary_overlay, detected as benign
+successfully evaded after 6 actions!
+---------------------------------------------------------------------------------------
+ episode 130 select training sample: DoS.Win32.VB.az
+turns 1 : rename_section, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : add_imports, detected as mal
+turns 4 : upx_unpack, detected as mal
+turns 5 : modify_machine_type, detected as mal
+turns 6 : add_section_strings, detected as mal
+turns 7 : modify_optional_header, detected as mal
+turns 8 : upx_pack, detected as mal
+turns 9 : append_benign_binary_overlay, detected as benign
+successfully evaded after 9 actions!
+---------------------------------------------------------------------------------------
+ episode 131 select training sample: DoS.Win32.Agent.m
+turns 1 : add_section_strings, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 3 actions!
+---------------------------------------------------------------------------------------
+ episode 132 select training sample: DoS.Win32.Fedup.20
+turns 1 : modify_optional_header, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : pad_overlay, detected as mal
+turns 4 : add_strings_to_overlay, detected as mal
+turns 5 : remove_debug, detected as mal
+turns 6 : append_benign_data_overlay, detected as mal
+turns 7 : add_section_benign_data, detected as mal
+turns 8 : add_strings_to_overlay, detected as mal
+turns 9 : add_imports, detected as mal
+turns 10 : upx_unpack, detected as mal
+---------------------------------------------------------------------------------------
+ episode 133 select training sample: DoS.Win32.VB.ep
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : upx_pack, detected as mal
+turns 3 : add_section_strings, detected as mal
+turns 4 : break_optional_header_checksum, detected as mal
+turns 5 : pad_overlay, detected as mal
+turns 6 : add_imports, detected as mal
+turns 7 : upx_unpack, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : append_benign_data_overlay, detected as mal
+turns 10 : break_optional_header_checksum, detected as mal
+---------------------------------------------------------------------------------------
+ episode 134 select training sample: DoS.Win32.GhostDog
+turns 1 : add_strings_to_overlay, detected as mal
+turns 2 : add_section_benign_data, detected as mal
+turns 3 : modify_optional_header, detected as mal
+turns 4 : upx_unpack, detected as mal
+turns 5 : append_benign_binary_overlay, detected as benign
+successfully evaded after 5 actions!
+---------------------------------------------------------------------------------------
+ episode 135 select training sample: DoS.Win32.DK-ToyBox.21.b
+turns 1 : add_imports, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 136 select training sample: DoS.Win32.VB.cq
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : modify_machine_type, detected as mal
+turns 3 : add_section_benign_data, detected as mal
+turns 4 : upx_pack, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : upx_pack, detected as mal
+turns 7 : upx_unpack, detected as mal
+turns 8 : add_imports, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : add_imports, detected as mal
+---------------------------------------------------------------------------------------
+ episode 137 select training sample: DoS.Win32.Hucsyn.02
+turns 1 : add_section_benign_data, detected as mal
+turns 2 : append_benign_binary_overlay, detected as benign
+successfully evaded after 2 actions!
+---------------------------------------------------------------------------------------
+ episode 138 select training sample: DoS.Win32.VB.ar
+turns 1 : modify_optional_header, detected as mal
+turns 2 : add_section_benign_data, detected as mal
+turns 3 : modify_machine_type, detected as mal
+turns 4 : modify_machine_type, detected as mal
+turns 5 : remove_debug, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : add_bytes_to_section_cave, detected as mal
+turns 8 : pad_overlay, detected as mal
+turns 9 : rename_section, detected as mal
+turns 10 : add_section_strings, detected as mal
+---------------------------------------------------------------------------------------
+ episode 139 select training sample: DoS.Win32.Kod.b
+turns 1 : modify_timestamp, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : add_section_strings, detected as mal
+turns 4 : modify_optional_header, detected as mal
+turns 5 : remove_debug, detected as mal
+turns 6 : modify_machine_type, detected as mal
+turns 7 : add_strings_to_overlay, detected as mal
+turns 8 : add_section_strings, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : add_section_strings, detected as mal
+---------------------------------------------------------------------------------------
+ episode 140 select training sample: DoS.Win32.Lanxue.200
+turns 1 : add_section_benign_data, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 141 select training sample: DoS.Win32.Lanxue.d
+turns 1 : append_benign_binary_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 142 select training sample: DoS.Win32.Aftpkill
+turns 1 : pad_overlay, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 143 select training sample: DoS.Win32.Aleph.a
+turns 1 : add_bytes_to_section_cave, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : rename_section, detected as mal
+turns 6 : upx_unpack, detected as mal
+turns 7 : break_optional_header_checksum, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : modify_timestamp, detected as mal
+turns 10 : break_optional_header_checksum, detected as mal
+---------------------------------------------------------------------------------------
+ episode 144 select training sample: DoS.Win32.LamerToy.008
+turns 1 : upx_pack, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 145 select training sample: DoS.Win32.VB.dn
+turns 1 : modify_optional_header, detected as mal
+turns 2 : add_imports, detected as mal
+turns 3 : add_section_benign_data, detected as mal
+turns 4 : add_strings_to_overlay, detected as mal
+turns 5 : append_benign_binary_overlay, detected as benign
+successfully evaded after 5 actions!
+---------------------------------------------------------------------------------------
+ episode 146 select training sample: DoS.Win32.VB.cs
+turns 1 : modify_machine_type, detected as mal
+turns 2 : append_benign_binary_overlay, detected as benign
+successfully evaded after 2 actions!
+---------------------------------------------------------------------------------------
+ episode 147 select training sample: DoS.Win32.DBomb.11
+turns 1 : remove_debug, detected as mal
+turns 2 : upx_unpack, detected as mal
+turns 3 : remove_debug, detected as mal
+turns 4 : add_strings_to_overlay, detected as benign
+successfully evaded after 4 actions!
+---------------------------------------------------------------------------------------
+ episode 148 select training sample: DoS.Win32.VB.ag
+turns 1 : modify_optional_header, detected as mal
+turns 2 : modify_optional_header, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : modify_machine_type, detected as mal
+turns 5 : add_bytes_to_section_cave, detected as mal
+turns 6 : break_optional_header_checksum, detected as mal
+turns 7 : upx_unpack, detected as mal
+turns 8 : break_optional_header_checksum, detected as mal
+turns 9 : add_bytes_to_section_cave, detected as mal
+turns 10 : add_bytes_to_section_cave, detected as mal
+---------------------------------------------------------------------------------------
+ episode 149 select training sample: DoS.Win32.DBomb.31
+turns 1 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 1 actions!
+---------------------------------------------------------------------------------------
+ episode 150 select training sample: DoS.Win32.Xpupnp
+turns 1 : append_benign_data_overlay, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : upx_unpack, detected as mal
+turns 4 : append_benign_data_overlay, detected as mal
+turns 5 : add_section_strings, detected as mal
+turns 6 : append_benign_data_overlay, detected as mal
+turns 7 : pad_overlay, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as benign
+successfully evaded after 8 actions!
+---------------------------------------------------------------------------------------
+ episode 151 select training sample: DoS.Win32.Hucsyn.04
+turns 1 : break_optional_header_checksum, detected as mal
+turns 2 : add_bytes_to_section_cave, detected as mal
+turns 3 : remove_debug, detected as mal
+turns 4 : modify_timestamp, detected as mal
+turns 5 : upx_pack, detected as mal
+turns 6 : rename_section, detected as mal
+turns 7 : modify_timestamp, detected as mal
+turns 8 : append_benign_binary_overlay, detected as benign
+successfully evaded after 8 actions!
+---------------------------------------------------------------------------------------
+ episode 152 select training sample: DoS.Win32.VB.ek
+turns 1 : modify_timestamp, detected as mal
+turns 2 : add_strings_to_overlay, detected as mal
+turns 3 : add_bytes_to_section_cave, detected as mal
+turns 4 : add_bytes_to_section_cave, detected as mal
+turns 5 : add_section_benign_data, detected as mal
+turns 6 : add_bytes_to_section_cave, detected as mal
+turns 7 : modify_optional_header, detected as mal
+turns 8 : add_bytes_to_section_cave, detected as mal
+turns 9 : modify_machine_type, detected as mal
+turns 10 : append_benign_binary_overlay, detected as benign
+successfully evaded after 10 actions!
+---------------------------------------------------------------------------------------
+ episode 153 select training sample: DoS.Win32.Flash
+turns 1 : remove_debug, detected as mal
+tu
