@@ -157,14 +157,14 @@ def main():
             state = next_state
         r = ep_reward
         reward_list.append(r)
-        if i%500 == 0:
-            model_name = "model_{}.pth".format(i)
-            model_pth = os.path.join(MODEL_PATH, model_name)
-            torch.save(dqn, model_pth)
-
-    model_name = "model_2000.pth"
-    model_pth = os.path.join(MODEL_PATH, model_name)
-    test_agent(model_pth, 500)
+    #     if i!=0 and i%500 == 0:
+    #         model_name = "model_{}.pth".format(i)
+    #         model_pth = os.path.join(MODEL_PATH, model_name)
+    #         torch.save(dqn, model_pth)
+    #
+    # model_name = "model_2000.pth"
+    # model_pth = os.path.join(MODEL_PATH, model_name)
+    # test_agent(model_pth, 500)
 
 
 if __name__ == '__main__':
