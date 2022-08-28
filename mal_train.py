@@ -1,10 +1,10 @@
 import math
-
 import gym
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import argparse
 import gym_malware
 # from line_profiler import LineProfiler
 
@@ -131,11 +131,18 @@ def test_agent(model_pth, test_episodes):
         test_reward_list.append(reward)
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-eg', '--engine', choices=['clamav', 'kaspersky'])
+    parser.add_argument('-ep', '--episodes', type=int, default=1000)
+    parser.add_argument('-tep', '--test_episodes', type=int, default=300)
+    args = parser.parse_args()
+    engine = args.engine
+    episodes = args.episodes
+    test_episodes = args.test_episodes
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    # device = "cpu"
     print("Using device {}....".format(device))
     dqn = DQN(device)
-    episodes = 2000
     print("Collecting Experience....")
     reward_list = []
     for i in range(episodes):
@@ -157,14 +164,14 @@ def main():
             state = next_state
         r = ep_reward
         reward_list.append(r)
-    #     if i!=0 and i%500 == 0:
-    #         model_name = "model_{}.pth".format(i)
-    #         model_pth = os.path.join(MODEL_PATH, model_name)
-    #         torch.save(dqn, model_pth)
-    #
-    # model_name = "model_2000.pth"
-    # model_pth = os.path.join(MODEL_PATH, model_name)
-    # test_agent(model_pth, 500)
+        if i!=0 and i%500 == 0:
+            model_name = "model_{}.pth".format(i)
+            model_pth = os.path.join(MODEL_PATH, model_name)
+            torch.save(dqn, model_pth)
+
+    model_name = "model_2000.pth"
+    model_pth = os.path.join(MODEL_PATH, model_name)
+    test_agent(model_pth, test_episodes)
 
 
 if __name__ == '__main__':
