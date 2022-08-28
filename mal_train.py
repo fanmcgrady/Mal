@@ -157,7 +157,7 @@ def main():
             state = next_state
         r = ep_reward
         reward_list.append(r)
-        if episodes%500 == 0:
+        if i%500 == 0:
             model_name = "model_{}.pth".format(i)
             model_pth = os.path.join(MODEL_PATH, model_name)
             torch.save(dqn, model_pth)
