@@ -113,7 +113,9 @@ class DQN():
         self.optimizer.step()
 
 
-def test_agent(dqn, test_episodes):
+def test_agent(model_pth, test_episodes):
+    print("-----------------------------test-----------------------------")
+    dqn = torch.load(model_pth)
     test_reward_list = []
     for i in range(test_episodes):
         state = env_test.reset()
@@ -155,7 +157,14 @@ def main():
             state = next_state
         r = ep_reward
         reward_list.append(r)
-    # test_agent(dqn, 30)
+        if episodes%500 == 0:
+            model_name = "model_{}.pth".format(episodes)
+            model_pth = os.path.join(MODEL_PATH, model_name)
+            torch.save(dqn, model_pth)
+
+    model_name = "model_2000.pth"
+    model_pth = os.path.join(MODEL_PATH, model_name)
+    test_agent(model_pth, 500)
 
 
 if __name__ == '__main__':
