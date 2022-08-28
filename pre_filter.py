@@ -1,16 +1,14 @@
 import os
 from config import *
+from gym_malware.envs.utils import interface
 
 from gym_malware.envs.utils.reward import ClamAV
 
-module_path = os.path.split(os.path.abspath(sys.modules[__name__].__file__))[0]
-sample_dir_path = os.path.join(module_path, "gym_malware", "envs", "utils", "samples")
 ca = ClamAV()
 benign = 0
-for sample in os.listdir(sample_dir_path):
-    sample_path = os.path.join(sample_dir_path, sample)
-    with open(sample_path, "r") as f:
-        print(f.read())
+samples = interface.get_samples()
+for sample in samples:
+    sample_path = os.path.join(interface.SAMPLE_PATH, sample)
     if ca.scan(sample_path) == 0:
         benign += 1
         os.remove(sample_path)
