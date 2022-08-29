@@ -169,7 +169,7 @@ def main():
             model_pth = os.path.join(MODEL_PATH, model_name)
             torch.save(dqn, model_pth)
 
-    model_name = "model_2000.pth"
+    model_name = "model_{}.pth".format(episodes)
     model_pth = os.path.join(MODEL_PATH, model_name)
     test_agent(model_pth, test_episodes)
 
