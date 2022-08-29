@@ -18,7 +18,7 @@ GAMMA = 0.90
 EPS_START = 0.9
 EPS_END = 0.05
 EPS_DECAY = 200
-MEMORY_CAPACITY = 1000
+MEMORY_CAPACITY = 2000
 Q_NETWORK_ITERATION = 100
 
 env = gym.make('malware-v0')
@@ -116,7 +116,10 @@ class DQN():
 
 def test_agent(model_pth, test_episodes):
     print("-----------------------------test-----------------------------")
-    dqn = torch.load(model_pth)
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print("Using device {}....".format(device))
+    dqn = DQN(device)
+    dqn.eval_net.load_state_dict(torch.load(model_pth))
     test_reward_list = []
     for i in range(test_episodes):
         state = env_test.reset()
@@ -166,11 +169,10 @@ def main():
             state = next_state
         r = ep_reward
         reward_list.append(r)
-        if i!=0 and i%500 == 0:
-            model_name = "model_{}.pth".format(i)
+        if (i+1)%500 == 0:
+            model_name = "model_{}.pth".format(i+1)
             model_pth = os.path.join(MODEL_PATH, model_name)
-            torch.save(dqn, model_pth)
-
+            torch.save(dqn.eval_net.state_dict(), model_pth)
     model_name = "model_{}.pth".format(episodes)
     model_pth = os.path.join(MODEL_PATH, model_name)
     test_agent(model_pth, test_episodes)
