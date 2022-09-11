@@ -136,7 +136,7 @@ def test_agent(model_pth, test_episodes):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-eg', '--engine', choices=['clamav', 'kaspersky', 'fsecure'], default='fsecure')
+    parser.add_argument('-eg', '--engine', choices=['clamav', 'kaspersky', 'fsecure', 'mcafee'], default='fsecure')
     parser.add_argument('-ep', '--episodes', type=int, default=2000)
     parser.add_argument('-tep', '--test_episodes', type=int, default=500)
     args = parser.parse_args()
