@@ -24,4 +24,4 @@ uninstall-mcafee:	## uninstall McAfee VirusScan Command Line Scanner
 	rm -rf $(MCAFEE_INSTALL_DIR)
 
 # 命令
-/home/fangzhiyang/engines/mcafee/uvscan /home/fangzhiyang/engines/samples/VirTool.Win32.Hahor.a
+#/home/fangzhiyang/engines/mcafee/uvscan /home/fangzhiyang/engines/samples/VirTool.Win32.Hahor.a
