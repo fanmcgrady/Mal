@@ -161,20 +161,19 @@ def main():
                 if done:
                     print("episode: {} , the episode reward is {}".format(i+1, reward))
                     with open(os.path.join(LOG_PATH, "log.txt"), "a+") as f:
-                        f.write(
-                            "episode: {} , the episode reward is {}, epsilon is {}\n".format(i+1, reward, dqn.epsilon))
+                        f.write("episode: {} , the episode reward is {}, epsilon is {}\n".format(i+1, reward, dqn.epsilon))
             if done:
                 break
             state = next_state
         r = ep_reward
         reward_list.append(r)
-        if (i+1)%500 == 0:
-            model_name = "model_{}.pth".format(i+1)
-            model_pth = os.path.join(MODEL_PATH, model_name)
-            torch.save(dqn.eval_net.state_dict(), model_pth)
-    model_name = "model_{}.pth".format(episodes)
-    model_pth = os.path.join(MODEL_PATH, model_name)
-    test_agent(model_pth, test_episodes)
+    #     if (i+1)%500 == 0:
+    #         model_name = "model_{}.pth".format(i+1)
+    #         model_pth = os.path.join(MODEL_PATH, model_name)
+    #         torch.save(dqn.eval_net.state_dict(), model_pth)
+    # model_name = "model_{}.pth".format(episodes)
+    # model_pth = os.path.join(MODEL_PATH, model_name)
+    # test_agent(model_pth, test_episodes)
 
 
 if __name__ == '__main__':
