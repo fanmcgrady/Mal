@@ -167,13 +167,13 @@ def main():
             state = next_state
         r = ep_reward
         reward_list.append(r)
-    #     if (i+1)%500 == 0:
-    #         model_name = "model_{}.pth".format(i+1)
-    #         model_pth = os.path.join(MODEL_PATH, model_name)
-    #         torch.save(dqn.eval_net.state_dict(), model_pth)
-    # model_name = "model_{}.pth".format(episodes)
-    # model_pth = os.path.join(MODEL_PATH, model_name)
-    # test_agent(model_pth, test_episodes)
+        if (i+1)%50 == 0:
+            model_name = "model_{}.pth".format(i+1)
+            model_pth = os.path.join(MODEL_PATH, model_name)
+            torch.save(dqn.eval_net.state_dict(), model_pth)
+    model_name = "model_{}.pth".format(episodes)
+    model_pth = os.path.join(MODEL_PATH, model_name)
+    test_agent(model_pth, test_episodes)
 
 
 if __name__ == '__main__':
