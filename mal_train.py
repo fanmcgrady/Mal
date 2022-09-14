@@ -129,9 +129,9 @@ def test_agent(model_pth, test_episodes):
             if done:
                 break
             state = next_state
-        print("test_episode: {} , the episode reward is {}".format(i, reward))
+        print("test_episode: {} , the episode reward is {}".format(i+1, reward))
         with open(os.path.join(LOG_PATH, "log.txt"), "a+") as f:
-            f.write("test episode: {} , the episode reward is {}\n".format(i, reward))
+            f.write("test episode: {} , the episode reward is {}\n".format(i+1, reward))
         test_reward_list.append(reward)
 
 def main():
